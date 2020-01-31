@@ -201,6 +201,8 @@ All_bray$Metric <- "Beta"
 
 All_diversity <- rbind(All_alpha, All_bray)
 
+
+### figure 1 ###
 div <-
   ggplot(All_diversity, aes(x = Source, y = Score)) +
   geom_boxplot(width = 0.5, outlier.size = 0.5, size = 0.3, outlier.shape = 1, color = "black", fill = "grey90") +
@@ -226,7 +228,6 @@ div <-
 div
 
 #ggsave("./Plots/diversity.pdf", plot = div, device = "pdf", width = 3.1, height = 3, units = "in")
-# added details with keynote
 
 
 # save.image("./RData/Results1_env.RData")

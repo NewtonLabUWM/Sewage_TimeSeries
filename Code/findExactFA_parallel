@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# Aurash
+
+if [[ "$#" -lt 3 || $1 =~ ^-{1,2}h(elp)?$ ]]
+then
+	cat << EOF
+
+Usage: $0 num_jobs ref_FASTA query_FASTA(s)
+
+EOF
+	exit
+fi
+
+numJobs=$1
+shift
+
+if [[ ! $numJobs =~ ^[1-9][0-9]*$ ]]
+then
+	printf "\nERROR: num_jobs is not a positive integer: \"$numJobs\"\n\n"
+	exit
+fi
+
+refFA=$1
+shift
+
+parallel -j $numJobs "findExactFA $refFA {} > {.}.aln" ::: "$@"
+
+cat $(ls -1v *.aln) > all.aligned.txt
+

@@ -1,14 +1,12 @@
 ###########################################
 ### Prepare data for LaMartina et al., 2020
-### Lou LaMartina, finalized Jan 30, 2020
+### Lou LaMartina, finalized Feb 4, 2020
 ###########################################
+
 
 setwd("~/Desktop/TimeSeries_final")
 library(phyloseq)
 library(decontam)
-
-# run to load results:
-#load("./RData/TimeSeries_DataPrep_env.RData")
 
 
 
@@ -29,7 +27,7 @@ rownames(TimeSeries_counts) <- TimeSeries_counts$Sample_name
 TimeSeries_counts <- TimeSeries_counts[-1]
 
 
-# 73 WWTPs across the US
+# 72 WWTPs across the US
 Cities_counts <- read.csv("./RData/Cities_counts.csv")
 rownames(Cities_counts) <- Cities_counts$Sample_name
 Cities_counts <- Cities_counts[-1]
@@ -47,9 +45,8 @@ Neighborhood_counts <- Neighborhood_counts[-1]
 ### Human Microbiome Project
 # these are abundances of sequence IDs in each sample pulled from HMP
 
-# load abundance matrix of HMP sequence IDs by samples
-# very large, took me 9.496255 mins on a 2019 iMac with 8GB memory
-#HMP_sample_counts <- read.csv("./RData/HMP/HMP_sample_counts.csv")
+# load abundance matrix of HMP sequence IDs by samples (9.496255 mins)
+HMP_sample_counts <- read.csv("./RData/HMP_sample_counts.csv")
 rownames(HMP_sample_counts) <- HMP_sample_counts$SeqID
 
 
@@ -83,11 +80,12 @@ rownames(Neighborhood_info) <- Neighborhood_info$Sample_name
 
 # primer information - how what 16S region was amplified
 # (only want v3v5 because we used v4v5 in wastewater)
-HMP_primers <- read.csv("./RData/HMP/HMP_primers.csv")
+HMP_primers <- read.csv("./RData/HMP_primers.csv")
 rownames(HMP_primers) <- HMP_primers$SeqID
 
+
 # samples corresponding to which body sites
-HMP_bodysites <- read.csv("./RData/HMP/HMP_bodysite_info.csv")
+HMP_bodysites <- read.csv("./RData/HMP_bodysites.csv")
 rownames(HMP_bodysites) <- HMP_bodysites$Sample_name
 
 
@@ -110,7 +108,7 @@ Taxonomy_all <- Taxonomy_all[-1]
 ### HMP
 
 # assigned by uploading curated fasta to SILVAngs
-HMP_tax <- read.csv("./RData/HMP/HMP_tax_all.csv")
+HMP_tax <- read.csv("./RData/HMP_taxonomy.csv")
 rownames(HMP_tax) <- HMP_tax$SeqID
 
 
@@ -183,15 +181,23 @@ HMP_object <- phyloseq(otu_table(as.matrix(HMP_sample_counts), taxa_are_rows = T
 
 
 # load counts that have negative and mock samples (from dada2)
-TimeSeries_wMockNTC_counts <- readRDS("./RData/TimeSeries_wMockNTC.RData")
-TimeSeries_wMockNTC_taxa <- readRDS("./RData/TimeSeries_wMockNTC_tax.RData")
+TimeSeries_wMockNTC_counts <- read.csv("./RData/TimeSeries_wMockNTC.csv")
+rownames(TimeSeries_wMockNTC_counts) <- TimeSeries_wMockNTC_counts$Sample_name
+TimeSeries_wMockNTC_counts <- TimeSeries_wMockNTC_counts[-1]
+
+TimeSeries_wMockNTC_taxa <- read.csv("./RData/TimeSeries_wMockNTC_tax.csv")
+rownames(TimeSeries_wMockNTC_taxa) <- TimeSeries_wMockNTC_taxa$ASV
+TimeSeries_wMockNTC_taxa <- TimeSeries_wMockNTC_taxa[-1]
+
+
+# make sample info
 TimeSeries_wMockNTC_info <- data.frame(Sample_name = rownames(TimeSeries_wMockNTC_counts))
 rownames(TimeSeries_wMockNTC_info) <- TimeSeries_wMockNTC_info$Sample_name
 
 
 # make phyloseq object
-Decontam_object <- phyloseq(otu_table(TimeSeries_wMockNTC_counts, taxa_are_rows = F),
-                            tax_table(TimeSeries_wMockNTC_taxa),
+Decontam_object <- phyloseq(otu_table(as.matrix(TimeSeries_wMockNTC_counts), taxa_are_rows = FALSE),
+                            tax_table(as.matrix(TimeSeries_wMockNTC_taxa)),
                             sample_data(TimeSeries_wMockNTC_info))
 
 
@@ -248,8 +254,4 @@ HMP_object <- subset_taxa(HMP_object, taxa_sums(HMP_object) > 0)
 saveRDS(TimeSeries_object, "./RData/TimeSeries_phyloseq_object.RData")
 saveRDS(Cities_object, "./RData/Cities_phyloseq_object.RData")
 saveRDS(Neighborhood_object, "./RData/Neighborhood_phyloseq_object.RData")
-saveRDS(HMP_object, "./RData/HMP/HMP_phyloseq_object.RData")
-
-
-# and the entire environment
-#save.image("./RData/TimeSeries_DataPrep_env.RData")
+saveRDS(HMP_object, "./RData/HMP_phyloseq_object.RData")

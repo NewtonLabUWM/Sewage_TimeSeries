@@ -1,7 +1,7 @@
 ##########################################
 ### Results section analyzing seasonality
 ### of human vs environmental communities.
-### Lou LaMartina, finalized Jan 11, 2019
+### Lou LaMartina, finalized Feb 4, 2019
 ##########################################
 
 
@@ -15,7 +15,7 @@ library(reshape2)
 library(phyloseq)
 
 
-# load data (refer to TimeSeries_DataPrep.R)
+# load data (refer to TimeSeries1_DataPrep.R)
 TimeSeries_object <- readRDS("./RData/TimeSeries_phyloseq_object.RData")
 TimeSeries_info <- read.csv("./RData/TimeSeries_sample_info.csv")
 TimeSeries_info$Collection_date <- as.Date(TimeSeries_info$Collection_date, format = "%m/%d/%y")
@@ -28,12 +28,12 @@ Taxonomy_all <- read.csv("./RData/Taxonomy_all.csv")
 ddPCR_data <- read.csv("./RData/Flavo_Cloaci_HF183_ddPCR.csv")
 
 
-# human ASVs: how code on how this was made, go to Threshold_analysis.R
+# human ASVs (refer to TimeSeries2_Threshold.R)
 Final_human_ASVs <- readRDS("./RData/Final_human_ASVs.RData")
 
 
-# indicspecies results (see TimeSeries_indicspecies.R for code)
-indic_ASVs <- read.csv("./RData/indic_ASVs.csv")
+# indicspecies results (refer to TimeSeries5_Seasonal.R)
+indic_ASVs <- read.csv("./RData/Indicator_ASVs.csv")
 
 
 # subset the two treatment plants

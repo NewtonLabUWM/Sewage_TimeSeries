@@ -1,0 +1,58 @@
+#!/usr/bin/env perl
+# Aurash
+
+use strict;
+use warnings;
+use autodie;
+use integer;
+use feature 'say';
+
+if( scalar @ARGV == 0 || $ARGV[ 0 ] =~ m/^-{1,2}h(elp)?$/i )
+{
+	say "\nUsage: $0 asv_fasta\n";
+	exit;
+}
+
+my $file = $ARGV[ 0 ];
+my $outfile = $file; $outfile =~ s/(\.[^.]*)$/_ananke$1/;
+my ( $inFH, $outFH, $line, @seqIDs, $seq, $id, $freq );
+
+sub expandSeq
+{
+	foreach my $string ( @seqIDs )
+	{
+		( $id, $freq ) = split /=/, $string, 2;
+
+		next unless( $freq > 0 );
+
+		say $outFH ">${id}_${freq}\n$seq";
+	}
+}
+
+open $inFH, '<', $file;
+open $outFH, '>', $outfile;
+
+while( $line = <$inFH> )
+{
+	chomp $line;
+
+	if( ord $line == 62 )
+	{
+		expandSeq() if( defined $seq );
+
+		@seqIDs = split /\s+/, $line;
+
+		shift @seqIDs;
+
+		$seq = '';
+	}
+	else { $seq .= $line; }
+}
+
+expandSeq();
+
+close $inFH;
+close $outFH;
+
+say "\n$outfile written\n";
+

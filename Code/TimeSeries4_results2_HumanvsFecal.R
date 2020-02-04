@@ -1,9 +1,8 @@
 #########################################
 ### Results section comparing resident
 ### sewer and human fecal ASVs.
-### Lou LaMartina, finalized Jan 31, 2019
+### Lou LaMartina, finalized Feb 4, 2019
 #########################################
-
 
 
 setwd("~/Desktop/TimeSeries_final")
@@ -14,11 +13,11 @@ library(ggalluvial)
 library(reshape2)
 
 
-# load data (refer to TimeSeries_DataPrep.R)
+# load data (refer to TimeSeries1_DataPrep.R)
 TimeSeries_object <- readRDS("./RData/TimeSeries_phyloseq_object.RData")
 Cities_object <- readRDS("./RData/Cities_phyloseq_object.RData")
 Neighborhood_object <- readRDS("./RData/Neighborhood_phyloseq_object.RData")
-HMP_object <- readRDS("./RData/HMP/HMP_phyloseq_object.RData")
+HMP_object <- readRDS("./RData/HMP_phyloseq_object.RData")
 
 
 # subset to stool
@@ -29,9 +28,9 @@ Stool_counts_object <- subset_samples(HMP_object, Biome == "Stool")
 Stool_relabun_object <- transform_sample_counts(Stool_counts_object, function(x) x / sum(x))
 
 
-# human-associated ASVs (refer to TimeSeries_threshold.R)
+# human-associated ASVs (refer to TimeSeries2_Threshold.R)
 Final_human_ASVs <- readRDS("./RData/Final_human_ASVs.RData")
-Greatest_biome_sources <- readRDS("./RData/HMP/Greatest_biome_sources.RData")
+Greatest_biome_sources <- readRDS("./RData/Greatest_biome_sources.RData")
 
 
 # convert to relative abundance
@@ -372,7 +371,7 @@ sd <- aggregate(. ~ Source, sd, data = Mean_sources_inWWTP.m)
 ### figure 2D ###
 dots <- 
   ggplot(Mean_sources_inWWTP.m, aes(x = Source, y = Proportion, color = Source)) +
-  geom_jitter(size = 1.5, alpha = 0.5, shape = 1) +
+  geom_jitter(size = 1, alpha = 0.5, shape = 1) +
   theme_classic() +
   scale_x_discrete(limits = c("Sewer", "Stool", "Skin", "Oral", "Vaginal")) +
   scale_color_manual(values = brewer.pal(9, "Blues")[c(8:5,9)]) +
@@ -389,9 +388,5 @@ dots <-
 dots
 
 #ggsave("./Plots/dots.pdf", plot = dots, device = "pdf", width = 2.25, height = 1.9, units = "in")
-
-
-# save
-#save.image("./RData/Results2_env.RData")
 
 

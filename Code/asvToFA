@@ -1,0 +1,50 @@
+#!/usr/bin/env perl
+# Aurash
+
+use strict;
+use warnings;
+use autodie;
+use integer;
+use feature 'say';
+
+my $file = $ARGV[ 0 ] // die 'No input ASV table (in CSV format) provided';
+my $out = $file; $out =~ s/\.[^.]+$/.fasta/;
+my ( $fh, $lineCount, @fields, @seqs, $i );
+
+open $fh, '<', $file;
+
+while( my $line = <$fh> )
+{
+	$lineCount += 1;
+
+	chomp $line;
+
+	@fields = split /,/, $line;
+
+	for $i ( 1 .. $#fields )
+	{
+		if( $lineCount == 1 )
+		{
+			$seqs[ $i ]{ seq } = $fields[ $i ];
+		}
+		else
+		{
+			$seqs[ $i ]{ $fields[ 0 ] } = $fields[ $i ];
+		}
+	}
+}
+
+open $fh, '>', $out;
+
+for $i ( 1 .. $#seqs )
+{
+	print $fh ">$i";
+
+	print $fh " $_=$seqs[ $i ]{ $_ }" for
+	sort grep { $_ ne 'seq' } keys %{ $seqs[ $i ] };
+
+	say $fh "\n", $seqs[ $i ]{ seq };
+}
+
+close $fh;
+

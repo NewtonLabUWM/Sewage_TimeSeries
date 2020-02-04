@@ -1,0 +1,109 @@
+#!/usr/bin/env perl
+# Aurash
+
+use strict;
+use warnings;
+use autodie;
+use integer;
+use feature 'say';
+
+my $file = $ARGV[ 0 ] // die 'No HMPuniqFA result FASTA specified';
+my ( %ids, %sites, %subjects, %samples,
+	   @printSites, @printSubjects, @printSamples );
+
+sub readFA
+{
+	my ( $fh, $line, $id, $sites, $string, $key, $val,
+	     @subjects, @samples );
+
+	open $fh, '<', $file;
+
+	while( $line = <$fh> )
+	{
+		next unless( ord $line == 62 );
+
+		chomp $line;
+		substr $line, 0, 1, '';
+
+		$id = $line; $id =~ s/\s.*$//;
+
+		( $sites ) = $line =~ m/body_sites="([^"]+)"/;
+
+		foreach $string ( split /;/, $sites )
+		{
+			( $key, $val ) = split /:/, $string, 2;
+			$key = "\"$key\"";
+
+			$ids{ $id }{ sites }{ $key } = $val;
+
+			$sites{ $key } = undef unless( exists $sites{ $key } );
+		}
+
+		@subjects = $line =~ m/(subj[0-9]+="[0-9]+")/g;
+
+		foreach $string ( @subjects )
+		{
+			( $key, $val ) = split /=/, $string, 2;
+			$val =~ s/"//g;
+
+			$ids{ $id }{ subjects }{ $key } = $val;
+
+			$subjects{ $key } = undef unless( exists
+							  $subjects{ $key } );
+		}
+
+		@samples = $line =~ m/(smpl[0-9]+="[0-9]+")/g;
+
+		foreach $string ( @samples )
+		{
+			( $key, $val ) = split /=/, $string, 2;
+			$val =~ s/"//g;
+
+			$ids{ $id }{ samples }{ $key } = $val;
+
+			$samples{ $key } = undef unless( exists
+							 $samples{ $key } );
+		}
+	}
+
+	close $fh;
+}
+
+sub printMatrix
+{
+	my ( $suffix, $aref ) = @_;
+	my ( $id, $fh, @vals );
+	my @headers = @$aref;
+	my $outfile = $file; $outfile =~ s/\.[^.]*$/_${suffix}.counts/;
+
+	open $fh, '>', $outfile;
+
+	say $fh join( "\t", 'Sequence_ID', @headers );
+
+	foreach $id ( sort keys %ids )
+	{
+		@vals = @{ $ids{ $id }{ $suffix } }{ @headers };
+
+		$_ //= 0 for @vals;
+
+		say $fh join( "\t", $id, @vals );
+	}
+
+	close $fh;
+}
+
+sub main
+{
+	readFA();
+
+	@printSites = sort keys %sites;
+	@printSubjects = sort keys %subjects;
+	@printSamples = sort keys %samples;
+
+	printMatrix( 'sites', \@printSites );
+	printMatrix( 'subjects', \@printSubjects );
+	printMatrix( 'samples', \@printSamples );
+}
+
+main();
+

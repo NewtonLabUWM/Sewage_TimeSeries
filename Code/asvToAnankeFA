@@ -1,0 +1,58 @@
+#!/usr/bin/env perl
+# Aurash
+
+use strict;
+use warnings;
+use autodie;
+use integer;
+use feature 'say';
+
+if( scalar @ARGV == 0 || $ARGV[ 0 ] =~ m/^-{1,2}h(elp)?$/i )
+{
+	say "\nUsage: $0 ASV_file.csv\n";
+	exit;
+}
+
+my $file = $ARGV[ 0 ];
+
+die "'$file' is not a valid file" unless( -f $file );
+
+my $outfile = $file; $outfile =~ s/\.[^.]*$/_ananke.fasta/;
+my ( $fh, $lineCount, @fields, @seqs, $i );
+
+open $fh, '<', $file;
+
+while( my $line = <$fh> )
+{
+	chomp $line;
+
+	$lineCount += 1;
+
+	@fields = split /,/, $line;
+
+	for $i ( 1 .. $#fields )
+	{
+		if( $lineCount == 1 )
+		{
+			$seqs[ $i ]{ seq } = $fields[ $i ];
+		}
+		else
+		{
+			$seqs[ $i ]{ $fields[ 0 ] } = $fields[ $i ];
+		}
+	}
+}
+
+open $fh, '>', $outfile;
+
+for $i ( 1 .. $#seqs )
+{
+	say $fh ">${_}_$seqs[ $i ]{ $_ }\n$seqs[ $i ]{ seq }" for
+	sort grep { $_ ne 'seq' && $seqs[ $i ]{ $_ } > 0 }
+	keys %{ $seqs[ $i ] };
+}
+
+close $fh;
+
+say "\n$outfile written\n";
+

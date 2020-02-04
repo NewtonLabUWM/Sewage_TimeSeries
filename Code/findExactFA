@@ -1,0 +1,98 @@
+#!/usr/bin/env perl
+# Aurash
+
+use strict;
+use warnings;
+use autodie;
+use integer;
+use feature 'say';
+
+my ( $REF_FASTA, $QUERY_FASTA ) = @ARGV;
+my ( @refSeqs );
+
+sub readRefFA
+{
+	my ( $fh, $line, $id );
+
+	open $fh, '<', $REF_FASTA;
+
+	while( $line = <$fh> )
+	{
+		chomp $line;
+
+		if( ord $line == 62 )
+		{
+			substr $line, 0, 1, '';
+
+			( $id ) = split /\s+/, $line;
+
+			push @refSeqs, { id => $id };
+		}
+		else { $refSeqs[ -1 ]{ seq } .= $line; }
+	}
+
+	close $fh;
+}
+
+sub scanSeq
+{
+	my ( $id, $seq ) = @_;
+
+	foreach my $href ( @refSeqs )
+	{
+		if( index( $$href{ seq }, $seq ) > -1 )
+		{
+			say "$id => $$href{ id }";
+
+			return;
+		}
+	}
+}
+
+sub readQueryFA
+{
+	my ( $fh, $line, $id, $seq );
+
+	open $fh, '<', $QUERY_FASTA;
+
+	while( $line = <$fh> )
+	{
+		chomp $line;
+
+		if( ord $line == 62 )
+		{
+			scanSeq( $id, $seq ) if( $id );
+
+			substr $line, 0, 1, '';
+
+			( $id ) = split /\s+/, $line;
+
+			$seq = '';
+		}
+		else { $seq .= $line; }
+	}
+
+	scanSeq( $id, $seq );
+
+	close $fh;
+}
+
+sub main
+{
+	if( scalar @ARGV != 2 || $ARGV[ 0 ] =~ m/^-{1,2}h(elp)?$/i )
+	{
+		say "\nUsage: $0 ref_FASTA query_FASTA\n";
+		exit;
+	}
+
+	foreach my $file ( $REF_FASTA, $QUERY_FASTA )
+	{
+		die "'$file' is not a valid file" unless( -f $file );
+	}
+
+	readRefFA();
+	readQueryFA();
+}
+
+main();
+

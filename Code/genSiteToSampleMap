@@ -1,0 +1,49 @@
+#!/usr/bin/env perl
+# Aurash
+
+use strict;
+use warnings;
+use autodie;
+use integer;
+use feature 'say';
+
+my %sites;
+my $file = $ARGV[ 0 ] // die 'No input FASTA specified';
+my $outfile = $file; $outfile =~ s/\.[^.]+$/_siteToSamples.map/;
+my ( $fh, $line, $sample, $site );
+
+open $fh, '<', $file;
+
+while( $line = <$fh> )
+{
+	next unless( ord $line == 62 );
+
+	if( $line =~ m/sample=([0-9]+).*body_site=([^=]+)=/ )
+	{
+		( $sample, $site ) = ( $1, $2 );
+
+		$sample = "smpl$sample";
+
+		$site =~ s/\s+[^\s]+$//;
+
+		$sites{ $site }{ $sample } += 1;
+	}
+	else { next; }
+}
+
+open $fh, '>', $outfile;
+
+foreach $site ( sort keys %sites )
+{
+	say $fh $site;
+
+	foreach $sample ( sort { $sites{ $site }{ $b } <=>
+				 $sites{ $site }{ $a } || $a cmp $b }
+			  keys %{ $sites{ $site } } )
+	{
+		say $fh "\t$sample\t$sites{ $site }{ $sample }";
+	}
+}
+
+close $fh;
+

@@ -1,0 +1,136 @@
+#!/usr/bin/env perl
+# Aurash
+
+use strict;
+use warnings;
+use autodie;
+use integer;
+use feature 'say';
+
+my ( $file, %seqs );
+
+sub readFA
+{
+	my ( $fh, $line, @words, @finalWords, $seqID, %attrs,
+	     $site, $subject, $sample, $seq );
+	my @toDelete = qw( body_site subject sample );
+
+	open $fh, '<', $file;
+
+	while( $line = <$fh> )
+	{
+		chomp $line;
+
+		if( ord $line == 62 )
+		{
+			if( defined $seqID && length $seq > 49 &&
+			    $subject ne '' && $sample ne '' )
+			{
+				%{ $seqs{ $seq } } = %attrs unless(
+					exists $seqs{ $seq } );
+
+				$seqs{ $seq }{ freq } += 1;
+				$seqs{ $seq }{ sites }{ $site } += 1;
+				$seqs{ $seq }{ subjects }{ $subject } += 1;
+				$seqs{ $seq }{ samples }{ $sample } += 1;
+			}
+
+			substr $line, 0, 1, '';
+
+			@words = split /\s+/, $line;
+			@finalWords = ();
+
+			$seqID = shift @words;
+
+			index( $_, '=' ) == -1 ?
+				$finalWords[ -1 ] .= " $_" :
+				push @finalWords, ( split /=/, $_, 2 )
+				for @words;
+
+			%attrs = @finalWords;
+			$attrs{ seqID } = $seqID;
+
+			$site = $attrs{ body_site } // 'N/A';
+			$subject = $attrs{ subject } // '';
+			$sample = $attrs{ sample } // '';
+
+			delete @attrs{ @toDelete };
+
+			$seq = '';
+		}
+		else { $seq .= $line; }
+	}
+
+	if( length $seq > 49 && $subject ne '' && $sample ne '' )
+	{
+		%{ $seqs{ $seq } } = %attrs unless( exists $seqs{ $seq } );
+
+		$seqs{ $seq }{ freq } += 1;
+		$seqs{ $seq }{ sites }{ $site } += 1;
+		$seqs{ $seq }{ subjects }{ $subject } += 1;
+		$seqs{ $seq }{ samples }{ $sample } += 1;
+	}
+
+	close $fh;
+}
+
+sub printFA
+{
+	my $outfile = $file; $outfile =~ s/\.[^.]*$/_uniq.fasta/;
+	my ( $fh, $seq, @attrs, @sites, $sites, @subjects, @samples );
+
+	open $fh, '>', $outfile;
+
+	foreach $seq ( sort { $seqs{ $b }{ freq } <=> $seqs{ $a }{ freq } ||
+			      $seqs{ $a }{ seqID } cmp $seqs{ $b }{ seqID } }
+		       grep { $seqs{ $_ }{ freq } > 9 && scalar( keys
+			      %{ $seqs{ $_ }{ subjects } } ) > 1 && scalar(
+			      keys %{ $seqs{ $_ }{ samples } } ) > 1 }
+		       keys %seqs )
+	{
+		@attrs = map { "$_=\"$seqs{ $seq }{ $_ }\"" }
+			 sort grep { $_ ne 'sites' && $_ ne 'subjects' &&
+				     $_ ne 'samples' && $_ ne 'seqID' }
+			 keys %{ $seqs{ $seq } };
+
+		@sites = map { "$_:$seqs{ $seq }{ sites }{ $_ }" }
+			 sort { $seqs{ $seq }{ sites }{ $b } <=>
+				$seqs{ $seq }{ sites }{ $a } || $a cmp $b }
+			 keys %{ $seqs{ $seq }{ sites } };
+
+		$sites = 'body_sites="' . join( ';', @sites ) . '"';
+
+		@subjects = map { "subj$_=\"$seqs{ $seq }{ subjects }{ $_ }\"" }
+			    sort { $seqs{ $seq }{ subjects }{ $b } <=>
+				   $seqs{ $seq }{ subjects }{ $a } ||
+				   $a cmp $b }
+			    keys %{ $seqs{ $seq }{ subjects } };
+
+		@samples = map { "smpl$_=\"$seqs{ $seq }{ samples }{ $_ }\"" }
+			   sort { $seqs{ $seq }{ samples }{ $b } <=>
+				  $seqs{ $seq }{ samples }{ $a } || $a cmp $b }
+			   keys %{ $seqs{ $seq }{ samples } };
+
+		say $fh join( ' ', ">$seqs{ $seq }{ seqID }", @attrs, $sites,
+				   @subjects, @samples ), "\n$seq";
+	}
+
+	close $fh;
+}
+
+sub main
+{
+	if( scalar @ARGV != 1 || $ARGV[ 0 ] =~ m/^-{1,2}h(elp)?$/i )
+	{
+		say "\nUsage: $0 HMP_ref_DB.fasta\n";
+		exit;
+	}
+
+	$file = $ARGV[ 0 ];
+
+	readFA();
+	printFA();
+}
+
+main();
+

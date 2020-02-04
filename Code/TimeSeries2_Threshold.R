@@ -1,13 +1,11 @@
 #############################################
 ### Threshold to distinguish human-associated
 ### vs. sewer-associated ASVs
-### Lou LaMartina, finalized Jan 30, 2020
+### Lou LaMartina, finalized Feb 4, 2020
 #############################################
 
 
-###############
 ### PURPOSE ###
-###############
 
 # We aligned 16S rRNA v4v5 sequences from wastewater treatment plant 
 # influent datasets (71 cities, 5-year Milwaukee time series, and 
@@ -48,12 +46,9 @@ library(matrixStats)
 ### load data ###
 #################
 
-# (shortcut to threshold section)
-#load("./RData/HMP/TimeSeries_threshold_data.RData")
-
 
 # phyloseq objects
-HMP_object <- readRDS("./RData/HMP/HMP_phyloseq_object.RData") # 17.38879 secs
+HMP_object <- readRDS("./RData/HMP_phyloseq_object.RData") # 17.38879 secs
 TimeSeries_object <- readRDS("./RData/TimeSeries_phyloseq_object.RData")
 Cities_object <- readRDS("./RData/Cities_phyloseq_object.RData")
 
@@ -63,7 +58,7 @@ WWTP_object <- merge_phyloseq(TimeSeries_object, Cities_object)
 
 
 # load results of alignment - wastewater ASVs that perfectly matched HMP sequences
-HMP_align <- read.csv("./RData/HMP/HMP_alignments.csv")
+HMP_align <- read.csv("./RData/HMP_alignments.csv")
 
 
 # subset HMP align so it only has ASVs that are in the HMP object
@@ -115,7 +110,6 @@ WWTP_relabun_object <- transform_sample_counts(WWTP_object, function(x) x / sum(
 
 
 # subset to only sequences that were found in influent
-# (for some reason subset_taxa doesn't like working with lapply)
 Stool_relabun_object_aligned <- subset_taxa(HMP_relabun_objects.ls[["Stool"]], 
                                             taxa_names(HMP_relabun_objects.ls[["Stool"]]) %in% HMP_align$SeqID)
 
@@ -223,7 +217,7 @@ names(Shared_5pct_ASVs_dfs.ls) <- names(HMP_95pct.ls)
 # 2. subset to ones that were true
 for(i in Biomes){
   Shared_5pct_ASVs_dfs.ls[[i]] <- data.frame(Shared_5pct_ASVs_dfs.ls[[i]], minWW_gt_maxHMP =
-                                        as.logical((Shared_5pct_ASVs_dfs.ls[[i]][,2] > Shared_5pct_ASVs_dfs.ls[[i]][,3])))
+                                               as.logical((Shared_5pct_ASVs_dfs.ls[[i]][,2] > Shared_5pct_ASVs_dfs.ls[[i]][,3])))
   Shared_5pct_ASVs_dfs.ls[[i]] <- subset(Shared_5pct_ASVs_dfs.ls[[i]], Shared_5pct_ASVs_dfs.ls[[i]][,4] == TRUE)
 }
 
@@ -231,14 +225,14 @@ for(i in Biomes){
 # add HMP and wastewater means, and taxonomy
 for(i in Biomes){
   Shared_5pct_ASVs_dfs.ls[[i]] <- merge(merge(merge(Shared_5pct_ASVs_dfs.ls[[i]], HMP_aligned_means.ls[[i]], by = "ASV"),
-                                        WWTP_means, by = "ASV"),
+                                              WWTP_means, by = "ASV"),
                                         Taxonomy_all, by = "ASV")
 }
 
 
 # which are they?
 ReclassASVs_95pct <- unique(c(as.character(Shared_5pct_ASVs_dfs.ls[[1]]$ASV), as.character(Shared_5pct_ASVs_dfs.ls[[2]]$ASV),
-                       as.character(Shared_5pct_ASVs_dfs.ls[[3]]$ASV), as.character(Shared_5pct_ASVs_dfs.ls[[4]]$ASV)))
+                              as.character(Shared_5pct_ASVs_dfs.ls[[3]]$ASV), as.character(Shared_5pct_ASVs_dfs.ls[[4]]$ASV)))
 
 
 
@@ -269,7 +263,7 @@ WWTP_means_inReclass <- data.frame(WWTP = subset(WWTP_means, rownames(WWTP_means
 
 # combine them into one data frame
 Reclassed_95pcts.df <- merge(merge(merge(Reclassed_95pcts.ls[["Stool"]], Reclassed_95pcts.ls[["Skin"]], by = "ASV", all = TRUE),
-                             Reclassed_95pcts.ls[["Oral"]], by = "ASV", all = TRUE),
+                                   Reclassed_95pcts.ls[["Oral"]], by = "ASV", all = TRUE),
                              Reclassed_95pcts.ls[["Vaginal"]], by = "ASV", all = TRUE)
 colnames(Reclassed_95pcts.df)[2:5] <- Biomes
 
@@ -310,7 +304,7 @@ for(i in Biomes){
 
 # combine them in order to figure out which is the most
 HMP_means_all <- merge(merge(merge(HMP_aligned_means.ls[["Stool"]], HMP_aligned_means.ls[["Skin"]], by = "ASV", all = TRUE),
-                       HMP_aligned_means.ls[["Oral"]], by = "ASV", all = TRUE),
+                             HMP_aligned_means.ls[["Oral"]], by = "ASV", all = TRUE),
                        HMP_aligned_means.ls[["Vaginal"]], by = "ASV", all = TRUE)
 colnames(HMP_means_all)[2:5] <- Biomes
 
@@ -320,5 +314,5 @@ HMP_means_all$Greatest_source <- colnames(HMP_means_all)[apply(HMP_means_all, 1,
 
 
 # save
-#saveRDS(HMP_means_all, "./RData/HMP/Greatest_biome_sources.RData")
-#save.image("./RData/HMP/Threshold_env.RData")
+saveRDS(HMP_means_all, "./RData/Greatest_biome_sources.RData")
+

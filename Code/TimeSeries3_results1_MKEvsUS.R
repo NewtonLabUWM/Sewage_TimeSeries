@@ -1,9 +1,8 @@
 #########################################
 ### Results section comparing time series
 ### and US cities microbial communities.
-### Lou LaMartina, finalized Jan 30, 2020
+### Lou LaMartina, finalized Feb 4, 2020
 #########################################
-
 
 
 setwd("~/Desktop/TimeSeries_final")
@@ -13,16 +12,12 @@ library(vegan)
 library(reshape2)
 
 
-# load data (refer to TimeSeries_DataPrep.R)
+# load data (refer to TimeSeries1_DataPrep.R)
 TimeSeries_object <- readRDS("./RData/TimeSeries_phyloseq_object.RData")
 Cities_object <- readRDS("./RData/Cities_phyloseq_object.RData")
 Neighborhood_object <- readRDS("./RData/Neighborhood_phyloseq_object.RData")
 TimeSeries_info <- read.csv("./RData/TimeSeries_sample_info.csv")
 JI_info <- subset(TimeSeries_info, Treatment_plant == "Jones_Island")
-
-
-# human-associated ASVs (refer to TimeSeries_threshold.R)
-Final_human_ASVs <- readRDS("./RData/Final_human_ASVs.RData")
 
 
 # convert to relative abundance
@@ -228,6 +223,3 @@ div <-
 div
 
 #ggsave("./Plots/diversity.pdf", plot = div, device = "pdf", width = 3.1, height = 3, units = "in")
-
-
-# save.image("./RData/Results1_env.RData")

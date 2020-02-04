@@ -1,8 +1,7 @@
 #########################################
 ### Results section analyzing seasonality
-### Lou LaMartina, finalized Jan 31, 2019
+### Lou LaMartina, finalized Feb 4, 2019
 #########################################
-
 
 
 setwd("~/Desktop/TimeSeries_final")
@@ -14,14 +13,16 @@ library(RColorBrewer)
 library(indicspecies)
 
 
-# load data (refer to TimeSeries_DataPrep.R)
+# load data (refer to TimeSeries1_DataPrep.R)
 TimeSeries_object <- readRDS("./RData/TimeSeries_phyloseq_object.RData")
 TimeSeries_info <- read.csv("./RData/TimeSeries_sample_info.csv")
 TimeSeries_info$Collection_date <- as.Date(TimeSeries_info$Collection_date, format = "%m/%d/%y")
 rownames(TimeSeries_info) <- TimeSeries_info$Sample_name
-Final_human_ASVs <- readRDS("./RData/Final_human_ASVs.RData")
 Taxonomy_all <- read.csv("./RData/Taxonomy_all.csv")
 
+
+# human ASVs (refer to TimeSeries2_Threshold.R)
+Final_human_ASVs <- readRDS("./RData/Final_human_ASVs.RData")
 
 # subset the two treatment plants
 JI_object <- subset_samples(TimeSeries_object, Treatment_plant == "Jones_Island")

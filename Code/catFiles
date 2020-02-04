@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Aurash
+
+for file in SRS*.fsa
+do
+	cat $file >> HMP_all.fasta
+
+	rm $file
+
+	printf "Appended %s\n" $file
+done
+

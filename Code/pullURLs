@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Aurash
+
+while read line
+do
+	id=${line##*/}
+	id=${id%%.*}
+
+	wget -q $line
+
+	printf "Pulled $id\n"
+done < final_urls.list
+

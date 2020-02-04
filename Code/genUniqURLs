@@ -1,0 +1,28 @@
+#!/usr/bin/env perl
+# Aurash
+
+use strict;
+use warnings;
+use autodie;
+use integer;
+use feature 'say';
+
+my %ids;
+my $file = 'urls.list';
+my ( $fh, $line, $id );
+
+open $fh, '<', $file;
+
+while( $line = <$fh> )
+{
+	chomp $line;
+
+	$id = $line; $id =~ s/^.*\/|\..*$//g;
+
+	$ids{ $id } = $line unless( exists $ids{ $id } );
+}
+
+close $fh;
+
+say $ids{ $_ } for sort keys %ids;
+

@@ -13,12 +13,13 @@ library(vegan)
 library(usmap)
 
 
-# load data (refer to TimeSeries_DataPrep.R)
+# load data (refer to TimeSeries1_DataPrep.R)
 TimeSeries_object <- readRDS("./RData/TimeSeries_phyloseq_object.RData")
 Cities_object <- readRDS("./RData/Cities_phyloseq_object.RData")
 Cities_info <- read.csv("./RData/Cities_sample_info.csv")
 TimeSeries_info <- read.csv("./RData/TimeSeries_sample_info.csv")
 Neighborhood_info <- read.csv("./RData/Neighborhood_sample_info.csv")
+Cities_object <- subset_samples(Cities_object, City != "Reus")
 
 
 # convert to relative abundance
@@ -199,7 +200,7 @@ rownames(TS_northsouth_relabun) <- TS_northsouth_relabun$ASV
 TS_northsouth_relabun <- data.frame(t(TS_northsouth_relabun[-1]))
 
 
-# convert NA to zero
+# convert NA to zero (takes a minute)
 TS_northsouth_relabun[is.na(TS_northsouth_relabun)] <- 0
 
 

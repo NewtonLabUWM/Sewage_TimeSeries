@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Aurash
+
+# -evalue 0.01
+nohup time blastn -query ASV_TimeSeries.fasta -db HMP_refSeqs.fasta -out ASV_HMP.blastn -outfmt 6 -max_target_seqs 1 -num_threads 32 &
+

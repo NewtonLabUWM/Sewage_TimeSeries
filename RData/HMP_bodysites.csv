@@ -1,0 +1,4500 @@
+Sample_name,Body_site,Biome
+smpl700013596,Stool,Stool
+smpl700014956,Stool,Stool
+smpl700014968,Saliva,Oral
+smpl700014973,Tongue dorsum,Oral
+smpl700014976,Hard palate,Oral
+smpl700014979,Buccal mucosa,Oral
+smpl700014982,Attached/Keratinized gingiva,Oral
+smpl700014985,Palatine Tonsils,Oral
+smpl700014988,Throat,Oral
+smpl700014991,Supragingival plaque,Oral
+smpl700014994,Subgingival plaque,Oral
+smpl700014997,L_Retroauricular crease,Skin
+smpl700015000,R_Retroauricular crease,Skin
+smpl700015003,L_Antecubital fossa,Skin
+smpl700015006,R_Antecubital fossa,Skin
+smpl700015009,Anterior nares,Skin
+smpl700016012,Stool,Stool
+smpl700016029,Stool,Stool
+smpl700016059,Saliva,Oral
+smpl700016063,Tongue dorsum,Oral
+smpl700016065,Hard palate,Oral
+smpl700016067,Buccal mucosa,Oral
+smpl700016069,Attached/Keratinized gingiva,Oral
+smpl700016071,Palatine Tonsils,Oral
+smpl700016073,Throat,Oral
+smpl700016075,Supragingival plaque,Oral
+smpl700016077,Subgingival plaque,Oral
+smpl700016079,L_Retroauricular crease,Skin
+smpl700016081,R_Retroauricular crease,Skin
+smpl700016083,L_Antecubital fossa,Skin
+smpl700016085,R_Antecubital fossa,Skin
+smpl700016087,Anterior nares,Skin
+smpl700016214,Stool,Stool
+smpl700016235,Anterior nares,Skin
+smpl700016315,Saliva,Oral
+smpl700016319,Tongue dorsum,Oral
+smpl700016321,Hard palate,Oral
+smpl700016323,Buccal mucosa,Oral
+smpl700016325,Attached/Keratinized gingiva,Oral
+smpl700016327,Palatine Tonsils,Oral
+smpl700016329,Throat,Oral
+smpl700016331,Supragingival plaque,Oral
+smpl700016333,Subgingival plaque,Oral
+smpl700016335,L_Retroauricular crease,Skin
+smpl700016337,R_Retroauricular crease,Skin
+smpl700016339,L_Antecubital fossa,Skin
+smpl700016343,Anterior nares,Skin
+smpl700016387,Saliva,Oral
+smpl700016391,Tongue dorsum,Oral
+smpl700016393,Hard palate,Oral
+smpl700016395,Buccal mucosa,Oral
+smpl700016397,Attached/Keratinized gingiva,Oral
+smpl700016399,Palatine Tonsils,Oral
+smpl700016401,Throat,Oral
+smpl700016403,Supragingival plaque,Oral
+smpl700016405,Subgingival plaque,Oral
+smpl700016502,Vaginal introitus,Vaginal
+smpl700016504,Mid vagina,Vaginal
+smpl700016506,Posterior fornix,Vaginal
+smpl700016716,Stool,Stool
+smpl700016724,Saliva,Oral
+smpl700016728,Tongue dorsum,Oral
+smpl700016730,Hard palate,Oral
+smpl700016732,Buccal mucosa,Oral
+smpl700016734,Attached/Keratinized gingiva,Oral
+smpl700016736,Palatine Tonsils,Oral
+smpl700016738,Throat,Oral
+smpl700016740,Supragingival plaque,Oral
+smpl700016742,Subgingival plaque,Oral
+smpl700016744,L_Retroauricular crease,Skin
+smpl700016746,R_Retroauricular crease,Skin
+smpl700016748,L_Antecubital fossa,Skin
+smpl700016750,R_Antecubital fossa,Skin
+smpl700016752,Anterior nares,Skin
+smpl700016921,Stool,Stool
+smpl700016929,Saliva,Oral
+smpl700016933,Tongue dorsum,Oral
+smpl700016935,Hard palate,Oral
+smpl700016937,Buccal mucosa,Oral
+smpl700016939,Attached/Keratinized gingiva,Oral
+smpl700016941,Palatine Tonsils,Oral
+smpl700016944,Throat,Oral
+smpl700016946,Supragingival plaque,Oral
+smpl700016948,Subgingival plaque,Oral
+smpl700016958,Anterior nares,Skin
+smpl700021697,Tongue dorsum,Oral
+smpl700021699,Hard palate,Oral
+smpl700023001,Buccal mucosa,Oral
+smpl700023003,Attached/Keratinized gingiva,Oral
+smpl700023005,Palatine Tonsils,Oral
+smpl700023007,Throat,Oral
+smpl700023009,L_Retroauricular crease,Skin
+smpl700023011,R_Retroauricular crease,Skin
+smpl700023015,R_Antecubital fossa,Skin
+smpl700023019,Supragingival plaque,Oral
+smpl700023021,Subgingival plaque,Oral
+smpl700023023,Stool,Stool
+smpl700023076,Supragingival plaque,Oral
+smpl700023078,Subgingival plaque,Oral
+smpl700023080,Tongue dorsum,Oral
+smpl700023082,Hard palate,Oral
+smpl700023084,Buccal mucosa,Oral
+smpl700023086,Attached/Keratinized gingiva,Oral
+smpl700023088,Palatine Tonsils,Oral
+smpl700023090,Throat,Oral
+smpl700023096,Stool,Stool
+smpl700023098,Vaginal introitus,Vaginal
+smpl700023100,Mid vagina,Vaginal
+smpl700023102,Posterior fornix,Vaginal
+smpl700023104,L_Retroauricular crease,Skin
+smpl700023106,R_Retroauricular crease,Skin
+smpl700023110,R_Antecubital fossa,Skin
+smpl700023112,Anterior nares,Skin
+smpl700023190,L_Retroauricular crease,Skin
+smpl700023192,R_Retroauricular crease,Skin
+smpl700023194,L_Antecubital fossa,Skin
+smpl700023196,R_Antecubital fossa,Skin
+smpl700023198,Anterior nares,Skin
+smpl700023200,Vaginal introitus,Vaginal
+smpl700023202,Mid vagina,Vaginal
+smpl700023204,Posterior fornix,Vaginal
+smpl700023206,Supragingival plaque,Oral
+smpl700023208,Subgingival plaque,Oral
+smpl700023210,Saliva,Oral
+smpl700023214,Tongue dorsum,Oral
+smpl700023216,Hard palate,Oral
+smpl700023218,Buccal mucosa,Oral
+smpl700023220,Attached/Keratinized gingiva,Oral
+smpl700023222,Palatine Tonsils,Oral
+smpl700023224,Throat,Oral
+smpl700023226,Stool,Stool
+smpl700023400,Saliva,Oral
+smpl700023404,Tongue dorsum,Oral
+smpl700023406,Hard palate,Oral
+smpl700023410,Attached/Keratinized gingiva,Oral
+smpl700023412,Palatine Tonsils,Oral
+smpl700023414,Throat,Oral
+smpl700023416,Supragingival plaque,Oral
+smpl700023418,Subgingival plaque,Oral
+smpl700023424,R_Retroauricular crease,Skin
+smpl700023426,L_Antecubital fossa,Skin
+smpl700023428,R_Antecubital fossa,Skin
+smpl700023432,Vaginal introitus,Vaginal
+smpl700023434,Mid vagina,Vaginal
+smpl700023436,Posterior fornix,Vaginal
+smpl700023457,Saliva,Oral
+smpl700023461,Tongue dorsum,Oral
+smpl700023463,Hard palate,Oral
+smpl700023465,Buccal mucosa,Oral
+smpl700023467,Attached/Keratinized gingiva,Oral
+smpl700023469,Palatine Tonsils,Oral
+smpl700023471,Throat,Oral
+smpl700023473,Supragingival plaque,Oral
+smpl700023475,Subgingival plaque,Oral
+smpl700023477,Stool,Stool
+smpl700023479,L_Retroauricular crease,Skin
+smpl700023481,R_Retroauricular crease,Skin
+smpl700023485,R_Antecubital fossa,Skin
+smpl700023487,Anterior nares,Skin
+smpl700023489,Vaginal introitus,Vaginal
+smpl700023491,Mid vagina,Vaginal
+smpl700023493,Posterior fornix,Vaginal
+smpl700023605,Saliva,Oral
+smpl700023607,Tongue dorsum,Oral
+smpl700023609,Hard palate,Oral
+smpl700023611,Buccal mucosa,Oral
+smpl700023613,Attached/Keratinized gingiva,Oral
+smpl700023615,Palatine Tonsils,Oral
+smpl700023617,Throat,Oral
+smpl700023619,Supragingival plaque,Oral
+smpl700023621,Subgingival plaque,Oral
+smpl700023625,R_Retroauricular crease,Skin
+smpl700023627,L_Antecubital fossa,Skin
+smpl700023631,Anterior nares,Skin
+smpl700023633,Stool,Stool
+smpl700024151,R_Retroauricular crease,Skin
+smpl700024159,Vaginal introitus,Vaginal
+smpl700024161,Mid vagina,Vaginal
+smpl700024163,Posterior fornix,Vaginal
+smpl700024169,Tongue dorsum,Oral
+smpl700024171,Hard palate,Oral
+smpl700024173,Stool,Stool
+smpl700024175,Buccal mucosa,Oral
+smpl700024177,Attached/Keratinized gingiva,Oral
+smpl700024179,Palatine Tonsils,Oral
+smpl700024181,Throat,Oral
+smpl700024183,Supragingival plaque,Oral
+smpl700024185,Subgingival plaque,Oral
+smpl700024254,Stool,Stool
+smpl700024258,R_Retroauricular crease,Skin
+smpl700024260,L_Antecubital fossa,Skin
+smpl700024262,R_Antecubital fossa,Skin
+smpl700024264,Anterior nares,Skin
+smpl700024266,Vaginal introitus,Vaginal
+smpl700024268,Mid vagina,Vaginal
+smpl700024270,Posterior fornix,Vaginal
+smpl700024276,Tongue dorsum,Oral
+smpl700024278,Hard palate,Oral
+smpl700024280,Buccal mucosa,Oral
+smpl700024282,Attached/Keratinized gingiva,Oral
+smpl700024284,Palatine Tonsils,Oral
+smpl700024286,Throat,Oral
+smpl700024288,Supragingival plaque,Oral
+smpl700024290,Subgingival plaque,Oral
+smpl700024359,Saliva,Oral
+smpl700024363,Tongue dorsum,Oral
+smpl700024365,Hard palate,Oral
+smpl700024367,Buccal mucosa,Oral
+smpl700024369,Attached/Keratinized gingiva,Oral
+smpl700024371,Palatine Tonsils,Oral
+smpl700024373,Throat,Oral
+smpl700024375,Supragingival plaque,Oral
+smpl700024377,Subgingival plaque,Oral
+smpl700024379,Stool,Stool
+smpl700024391,Vaginal introitus,Vaginal
+smpl700024393,Mid vagina,Vaginal
+smpl700024395,Posterior fornix,Vaginal
+smpl700024809,Stool,Stool
+smpl700024811,Tongue dorsum,Oral
+smpl700024813,Hard palate,Oral
+smpl700024815,Buccal mucosa,Oral
+smpl700024817,Attached/Keratinized gingiva,Oral
+smpl700024819,Palatine Tonsils,Oral
+smpl700024821,Throat,Oral
+smpl700024823,Supragingival plaque,Oral
+smpl700024825,Subgingival plaque,Oral
+smpl700024827,Saliva,Oral
+smpl700024833,R_Retroauricular crease,Skin
+smpl700024839,Anterior nares,Skin
+smpl700024841,Vaginal introitus,Vaginal
+smpl700024843,Mid vagina,Vaginal
+smpl700024845,Posterior fornix,Vaginal
+smpl700032133,Stool,Stool
+smpl700032145,Saliva,Oral
+smpl700032151,Tongue dorsum,Oral
+smpl700032154,Hard palate,Oral
+smpl700032157,Buccal mucosa,Oral
+smpl700032160,Attached/Keratinized gingiva,Oral
+smpl700032163,Palatine Tonsils,Oral
+smpl700032166,Throat,Oral
+smpl700032169,Supragingival plaque,Oral
+smpl700032172,Subgingival plaque,Oral
+smpl700032175,L_Retroauricular crease,Skin
+smpl700032178,R_Retroauricular crease,Skin
+smpl700032181,L_Antecubital fossa,Skin
+smpl700032184,R_Antecubital fossa,Skin
+smpl700032187,Anterior nares,Skin
+smpl700032414,Stool,Stool
+smpl700032426,Saliva,Oral
+smpl700032432,Tongue dorsum,Oral
+smpl700032435,Hard palate,Oral
+smpl700032438,Buccal mucosa,Oral
+smpl700032441,Attached/Keratinized gingiva,Oral
+smpl700032444,Palatine Tonsils,Oral
+smpl700032447,Throat,Oral
+smpl700032450,Supragingival plaque,Oral
+smpl700032453,Subgingival plaque,Oral
+smpl700032456,L_Retroauricular crease,Skin
+smpl700032459,R_Retroauricular crease,Skin
+smpl700032462,L_Antecubital fossa,Skin
+smpl700032465,R_Antecubital fossa,Skin
+smpl700032468,Anterior nares,Skin
+smpl700032471,Vaginal introitus,Vaginal
+smpl700032474,Mid vagina,Vaginal
+smpl700032477,Posterior fornix,Vaginal
+smpl700032653,Saliva,Oral
+smpl700032657,Tongue dorsum,Oral
+smpl700032659,Hard palate,Oral
+smpl700032661,Buccal mucosa,Oral
+smpl700032663,Attached/Keratinized gingiva,Oral
+smpl700032665,Palatine Tonsils,Oral
+smpl700032669,Supragingival plaque,Oral
+smpl700032675,Mid vagina,Vaginal
+smpl700032677,Posterior fornix,Vaginal
+smpl700033202,Stool,Stool
+smpl700033214,Saliva,Oral
+smpl700033220,Tongue dorsum,Oral
+smpl700033223,Hard palate,Oral
+smpl700033226,Buccal mucosa,Oral
+smpl700033229,Attached/Keratinized gingiva,Oral
+smpl700033232,Palatine Tonsils,Oral
+smpl700033235,Throat,Oral
+smpl700033238,Supragingival plaque,Oral
+smpl700033241,Subgingival plaque,Oral
+smpl700033244,L_Retroauricular crease,Skin
+smpl700033247,R_Retroauricular crease,Skin
+smpl700033250,L_Antecubital fossa,Skin
+smpl700033253,R_Antecubital fossa,Skin
+smpl700033256,Anterior nares,Skin
+smpl700033438,Stool,Stool
+smpl700033450,Saliva,Oral
+smpl700033455,Tongue dorsum,Oral
+smpl700033459,Hard palate,Oral
+smpl700033462,Buccal mucosa,Oral
+smpl700033465,Attached/Keratinized gingiva,Oral
+smpl700033468,Palatine Tonsils,Oral
+smpl700033471,Throat,Oral
+smpl700033473,Supragingival plaque,Oral
+smpl700033477,Subgingival plaque,Oral
+smpl700033480,L_Retroauricular crease,Skin
+smpl700033483,R_Retroauricular crease,Skin
+smpl700033485,L_Antecubital fossa,Skin
+smpl700033489,R_Antecubital fossa,Skin
+smpl700033492,Anterior nares,Skin
+smpl700033495,Vaginal introitus,Vaginal
+smpl700033498,Mid vagina,Vaginal
+smpl700033501,Posterior fornix,Vaginal
+smpl700034051,Saliva,Oral
+smpl700034055,Tongue dorsum,Oral
+smpl700034057,Hard palate,Oral
+smpl700034059,Buccal mucosa,Oral
+smpl700034061,Attached/Keratinized gingiva,Oral
+smpl700034063,Palatine Tonsils,Oral
+smpl700034065,Throat,Oral
+smpl700034067,Supragingival plaque,Oral
+smpl700034069,Subgingival plaque,Oral
+smpl700034071,L_Retroauricular crease,Skin
+smpl700034073,R_Retroauricular crease,Skin
+smpl700034075,L_Antecubital fossa,Skin
+smpl700034077,R_Antecubital fossa,Skin
+smpl700034079,Anterior nares,Skin
+smpl700034100,Stool,Stool
+smpl700034108,Saliva,Oral
+smpl700034112,Tongue dorsum,Oral
+smpl700034114,Hard palate,Oral
+smpl700034116,Buccal mucosa,Oral
+smpl700034118,Attached/Keratinized gingiva,Oral
+smpl700034120,Palatine Tonsils,Oral
+smpl700034122,Throat,Oral
+smpl700034124,Supragingival plaque,Oral
+smpl700034126,Subgingival plaque,Oral
+smpl700034128,L_Retroauricular crease,Skin
+smpl700034130,R_Retroauricular crease,Skin
+smpl700034132,L_Antecubital fossa,Skin
+smpl700034134,R_Antecubital fossa,Skin
+smpl700034136,Anterior nares,Skin
+smpl700034641,Stool,Stool
+smpl700034649,Saliva,Oral
+smpl700034653,Tongue dorsum,Oral
+smpl700034655,Hard palate,Oral
+smpl700034657,Buccal mucosa,Oral
+smpl700034659,Attached/Keratinized gingiva,Oral
+smpl700034661,Palatine Tonsils,Oral
+smpl700034678,Throat,Oral
+smpl700034680,Supragingival plaque,Oral
+smpl700034682,Subgingival plaque,Oral
+smpl700034684,L_Retroauricular crease,Skin
+smpl700034686,R_Retroauricular crease,Skin
+smpl700034688,L_Antecubital fossa,Skin
+smpl700034690,R_Antecubital fossa,Skin
+smpl700034692,Anterior nares,Skin
+smpl700034857,Stool,Stool
+smpl700034865,Saliva,Oral
+smpl700034869,Tongue dorsum,Oral
+smpl700034871,Hard palate,Oral
+smpl700034873,Buccal mucosa,Oral
+smpl700034875,Attached/Keratinized gingiva,Oral
+smpl700034877,Palatine Tonsils,Oral
+smpl700034879,Throat,Oral
+smpl700034881,Supragingival plaque,Oral
+smpl700034883,Subgingival plaque,Oral
+smpl700034885,L_Retroauricular crease,Skin
+smpl700034887,R_Retroauricular crease,Skin
+smpl700034889,L_Antecubital fossa,Skin
+smpl700034891,R_Antecubital fossa,Skin
+smpl700034893,Anterior nares,Skin
+smpl700035176,Stool,Stool
+smpl700035184,Saliva,Oral
+smpl700035188,Tongue dorsum,Oral
+smpl700035190,Hard palate,Oral
+smpl700035196,Palatine Tonsils,Oral
+smpl700035198,Throat,Oral
+smpl700035204,L_Retroauricular crease,Skin
+smpl700035206,R_Retroauricular crease,Skin
+smpl700035210,R_Antecubital fossa,Skin
+smpl700035212,Anterior nares,Skin
+smpl700035256,Stool,Stool
+smpl700035264,Saliva,Oral
+smpl700035268,Tongue dorsum,Oral
+smpl700035270,Hard palate,Oral
+smpl700035272,Buccal mucosa,Oral
+smpl700035274,Attached/Keratinized gingiva,Oral
+smpl700035276,Palatine Tonsils,Oral
+smpl700035278,Throat,Oral
+smpl700035280,Supragingival plaque,Oral
+smpl700035282,Subgingival plaque,Oral
+smpl700035284,L_Retroauricular crease,Skin
+smpl700035286,R_Retroauricular crease,Skin
+smpl700035292,Anterior nares,Skin
+smpl700035321,Stool,Stool
+smpl700035329,Saliva,Oral
+smpl700035333,Tongue dorsum,Oral
+smpl700035335,Hard palate,Oral
+smpl700035337,Buccal mucosa,Oral
+smpl700035339,Attached/Keratinized gingiva,Oral
+smpl700035341,Palatine Tonsils,Oral
+smpl700035343,Throat,Oral
+smpl700035345,Supragingival plaque,Oral
+smpl700035347,Subgingival plaque,Oral
+smpl700035349,L_Retroauricular crease,Skin
+smpl700035351,R_Retroauricular crease,Skin
+smpl700035359,L_Retroauricular crease,Skin
+smpl700035361,R_Retroauricular crease,Skin
+smpl700035365,R_Antecubital fossa,Skin
+smpl700035367,Anterior nares,Skin
+smpl700035392,Stool,Stool
+smpl700035400,Stool,Stool
+smpl700035408,Saliva,Oral
+smpl700035412,Tongue dorsum,Oral
+smpl700035414,Hard palate,Oral
+smpl700035416,Buccal mucosa,Oral
+smpl700035418,Attached/Keratinized gingiva,Oral
+smpl700035420,Palatine Tonsils,Oral
+smpl700035422,Throat,Oral
+smpl700035424,Supragingival plaque,Oral
+smpl700035426,Subgingival plaque,Oral
+smpl700035428,L_Retroauricular crease,Skin
+smpl700035436,Anterior nares,Skin
+smpl700035594,Stool,Stool
+smpl700035605,Saliva,Oral
+smpl700035609,Tongue dorsum,Oral
+smpl700035611,Hard palate,Oral
+smpl700035613,Attached/Keratinized gingiva,Oral
+smpl700035615,Buccal mucosa,Oral
+smpl700035617,Palatine Tonsils,Oral
+smpl700035619,Throat,Oral
+smpl700035621,Supragingival plaque,Oral
+smpl700035623,Subgingival plaque,Oral
+smpl700035627,R_Retroauricular crease,Skin
+smpl700035629,L_Antecubital fossa,Skin
+smpl700035631,R_Antecubital fossa,Skin
+smpl700035633,Anterior nares,Skin
+smpl700035657,Stool,Stool
+smpl700035665,Saliva,Oral
+smpl700035669,Tongue dorsum,Oral
+smpl700035671,Hard palate,Oral
+smpl700035673,Buccal mucosa,Oral
+smpl700035675,Attached/Keratinized gingiva,Oral
+smpl700035677,Palatine Tonsils,Oral
+smpl700035679,Throat,Oral
+smpl700035681,Supragingival plaque,Oral
+smpl700035683,Subgingival plaque,Oral
+smpl700035685,L_Retroauricular crease,Skin
+smpl700035687,R_Retroauricular crease,Skin
+smpl700035689,L_Antecubital fossa,Skin
+smpl700035691,R_Antecubital fossa,Skin
+smpl700035693,Anterior nares,Skin
+smpl700035697,Mid vagina,Vaginal
+smpl700035953,Stool,Stool
+smpl700035961,Saliva,Oral
+smpl700035965,Tongue dorsum,Oral
+smpl700035967,Hard palate,Oral
+smpl700035969,Buccal mucosa,Oral
+smpl700035971,Attached/Keratinized gingiva,Oral
+smpl700035973,Palatine Tonsils,Oral
+smpl700035975,Throat,Oral
+smpl700035977,Supragingival plaque,Oral
+smpl700035979,Subgingival plaque,Oral
+smpl700035981,L_Retroauricular crease,Skin
+smpl700035983,R_Retroauricular crease,Skin
+smpl700035985,L_Antecubital fossa,Skin
+smpl700035987,R_Antecubital fossa,Skin
+smpl700035989,Anterior nares,Skin
+smpl700037010,Vaginal introitus,Vaginal
+smpl700037012,Mid vagina,Vaginal
+smpl700037014,Posterior fornix,Vaginal
+smpl700037018,L_Retroauricular crease,Skin
+smpl700037022,L_Antecubital fossa,Skin
+smpl700037024,R_Antecubital fossa,Skin
+smpl700037026,Stool,Stool
+smpl700037092,Saliva,Oral
+smpl700037118,R_Antecubital fossa,Skin
+smpl700037165,L_Retroauricular crease,Skin
+smpl700037167,R_Retroauricular crease,Skin
+smpl700037171,R_Antecubital fossa,Skin
+smpl700037325,L_Retroauricular crease,Skin
+smpl700037327,R_Retroauricular crease,Skin
+smpl700037331,R_Antecubital fossa,Skin
+smpl700037379,L_Retroauricular crease,Skin
+smpl700037381,R_Retroauricular crease,Skin
+smpl700037383,L_Antecubital fossa,Skin
+smpl700037385,R_Antecubital fossa,Skin
+smpl700037427,L_Retroauricular crease,Skin
+smpl700037429,R_Retroauricular crease,Skin
+smpl700037431,L_Antecubital fossa,Skin
+smpl700037433,R_Antecubital fossa,Skin
+smpl700037435,Anterior nares,Skin
+smpl700037651,L_Retroauricular crease,Skin
+smpl700037653,R_Retroauricular crease,Skin
+smpl700037773,Throat,Oral
+smpl700037779,L_Retroauricular crease,Skin
+smpl700037781,R_Retroauricular crease,Skin
+smpl700037918,L_Retroauricular crease,Skin
+smpl700037920,R_Retroauricular crease,Skin
+smpl700037922,L_Antecubital fossa,Skin
+smpl700037924,R_Antecubital fossa,Skin
+smpl700037969,L_Retroauricular crease,Skin
+smpl700037971,R_Retroauricular crease,Skin
+smpl700037977,Anterior nares,Skin
+smpl700037999,Throat,Oral
+smpl700038179,L_Retroauricular crease,Skin
+smpl700038211,Throat,Oral
+smpl700038306,L_Retroauricular crease,Skin
+smpl700038318,Mid vagina,Vaginal
+smpl700038322,Stool,Stool
+smpl700038500,Saliva,Oral
+smpl700038504,Tongue dorsum,Oral
+smpl700038506,Hard palate,Oral
+smpl700038508,Buccal mucosa,Oral
+smpl700038510,Attached/Keratinized gingiva,Oral
+smpl700038512,Palatine Tonsils,Oral
+smpl700038514,Throat,Oral
+smpl700038516,Supragingival plaque,Oral
+smpl700038518,Subgingival plaque,Oral
+smpl700038520,Stool,Stool
+smpl700038522,L_Retroauricular crease,Skin
+smpl700038524,R_Retroauricular crease,Skin
+smpl700038526,L_Antecubital fossa,Skin
+smpl700038530,Anterior nares,Skin
+smpl700038552,Tongue dorsum,Oral
+smpl700038554,Hard palate,Oral
+smpl700038556,Buccal mucosa,Oral
+smpl700038558,Attached/Keratinized gingiva,Oral
+smpl700038560,Palatine Tonsils,Oral
+smpl700038562,Throat,Oral
+smpl700038564,Supragingival plaque,Oral
+smpl700038566,Subgingival plaque,Oral
+smpl700038568,L_Retroauricular crease,Skin
+smpl700038570,R_Retroauricular crease,Skin
+smpl700038572,L_Antecubital fossa,Skin
+smpl700038574,R_Antecubital fossa,Skin
+smpl700038576,Anterior nares,Skin
+smpl700038578,Stool,Stool
+smpl700038708,Tongue dorsum,Oral
+smpl700038710,Hard palate,Oral
+smpl700038712,Buccal mucosa,Oral
+smpl700038714,Attached/Keratinized gingiva,Oral
+smpl700038716,Palatine Tonsils,Oral
+smpl700038720,Supragingival plaque,Oral
+smpl700038722,Subgingival plaque,Oral
+smpl700038724,L_Retroauricular crease,Skin
+smpl700038726,R_Retroauricular crease,Skin
+smpl700038728,L_Antecubital fossa,Skin
+smpl700038730,R_Antecubital fossa,Skin
+smpl700038734,Vaginal introitus,Vaginal
+smpl700038738,Posterior fornix,Vaginal
+smpl700038740,Stool,Stool
+smpl700038924,Tongue dorsum,Oral
+smpl700038926,Hard palate,Oral
+smpl700038928,Buccal mucosa,Oral
+smpl700038930,Attached/Keratinized gingiva,Oral
+smpl700038932,Palatine Tonsils,Oral
+smpl700038934,Throat,Oral
+smpl700038936,Supragingival plaque,Oral
+smpl700038938,Subgingival plaque,Oral
+smpl700038940,L_Retroauricular crease,Skin
+smpl700038942,R_Retroauricular crease,Skin
+smpl700038948,Anterior nares,Skin
+smpl700038950,Stool,Stool
+smpl700038968,L_Retroauricular crease,Skin
+smpl700038970,R_Retroauricular crease,Skin
+smpl700038972,L_Antecubital fossa,Skin
+smpl700038974,R_Antecubital fossa,Skin
+smpl700038976,Anterior nares,Skin
+smpl700038978,Stool,Stool
+smpl700038980,Saliva,Oral
+smpl700038984,Tongue dorsum,Oral
+smpl700038986,Hard palate,Oral
+smpl700038988,Buccal mucosa,Oral
+smpl700038990,Attached/Keratinized gingiva,Oral
+smpl700038992,Palatine Tonsils,Oral
+smpl700038994,Throat,Oral
+smpl700038996,Supragingival plaque,Oral
+smpl700038998,Subgingival plaque,Oral
+smpl700095429,Stool,Stool
+smpl700095437,Saliva,Oral
+smpl700095441,Tongue dorsum,Oral
+smpl700095443,Hard palate,Oral
+smpl700095445,Buccal mucosa,Oral
+smpl700095447,Attached/Keratinized gingiva,Oral
+smpl700095449,Palatine Tonsils,Oral
+smpl700095451,Throat,Oral
+smpl700095453,Supragingival plaque,Oral
+smpl700095455,Subgingival plaque,Oral
+smpl700095457,L_Retroauricular crease,Skin
+smpl700095459,R_Retroauricular crease,Skin
+smpl700095461,L_Antecubital fossa,Skin
+smpl700095463,R_Antecubital fossa,Skin
+smpl700095465,Anterior nares,Skin
+smpl700095543,Stool,Stool
+smpl700095551,Saliva,Oral
+smpl700095555,Tongue dorsum,Oral
+smpl700095557,Hard palate,Oral
+smpl700095559,Buccal mucosa,Oral
+smpl700095561,Attached/Keratinized gingiva,Oral
+smpl700095563,Palatine Tonsils,Oral
+smpl700095565,Throat,Oral
+smpl700095567,Supragingival plaque,Oral
+smpl700095569,Subgingival plaque,Oral
+smpl700095571,L_Retroauricular crease,Skin
+smpl700095575,L_Antecubital fossa,Skin
+smpl700095577,R_Antecubital fossa,Skin
+smpl700095579,Anterior nares,Skin
+smpl700095736,Stool,Stool
+smpl700095744,Saliva,Oral
+smpl700095748,Tongue dorsum,Oral
+smpl700095750,Hard palate,Oral
+smpl700095752,Buccal mucosa,Oral
+smpl700095754,Attached/Keratinized gingiva,Oral
+smpl700095756,Palatine Tonsils,Oral
+smpl700095758,Throat,Oral
+smpl700095760,Supragingival plaque,Oral
+smpl700095762,Subgingival plaque,Oral
+smpl700095764,L_Retroauricular crease,Skin
+smpl700095766,R_Retroauricular crease,Skin
+smpl700095768,L_Antecubital fossa,Skin
+smpl700095770,R_Antecubital fossa,Skin
+smpl700095772,Anterior nares,Skin
+smpl700095793,Stool,Stool
+smpl700095801,Saliva,Oral
+smpl700095809,Buccal mucosa,Oral
+smpl700095811,Attached/Keratinized gingiva,Oral
+smpl700095813,Palatine Tonsils,Oral
+smpl700095815,Throat,Oral
+smpl700095817,Supragingival plaque,Oral
+smpl700095819,Subgingival plaque,Oral
+smpl700095823,R_Retroauricular crease,Skin
+smpl700095850,Stool,Stool
+smpl700095858,Saliva,Oral
+smpl700095862,Tongue dorsum,Oral
+smpl700095864,Hard palate,Oral
+smpl700095866,Buccal mucosa,Oral
+smpl700095870,Palatine Tonsils,Oral
+smpl700095872,Throat,Oral
+smpl700095874,Supragingival plaque,Oral
+smpl700095876,Subgingival plaque,Oral
+smpl700095880,R_Retroauricular crease,Skin
+smpl700095882,L_Antecubital fossa,Skin
+smpl700095884,R_Antecubital fossa,Skin
+smpl700095886,Anterior nares,Skin
+smpl700095975,Stool,Stool
+smpl700095983,Saliva,Oral
+smpl700095987,Tongue dorsum,Oral
+smpl700095989,Hard palate,Oral
+smpl700095993,Attached/Keratinized gingiva,Oral
+smpl700095995,Palatine Tonsils,Oral
+smpl700095997,Throat,Oral
+smpl700096001,Subgingival plaque,Oral
+smpl700096011,Anterior nares,Skin
+smpl700096066,Stool,Stool
+smpl700096074,Saliva,Oral
+smpl700096078,Tongue dorsum,Oral
+smpl700096080,Hard palate,Oral
+smpl700096082,Buccal mucosa,Oral
+smpl700096086,Palatine Tonsils,Oral
+smpl700096088,Throat,Oral
+smpl700096090,Supragingival plaque,Oral
+smpl700096092,Subgingival plaque,Oral
+smpl700096096,R_Retroauricular crease,Skin
+smpl700096123,Stool,Stool
+smpl700096131,Saliva,Oral
+smpl700096135,Tongue dorsum,Oral
+smpl700096137,Hard palate,Oral
+smpl700096139,Buccal mucosa,Oral
+smpl700096141,Attached/Keratinized gingiva,Oral
+smpl700096143,Palatine Tonsils,Oral
+smpl700096145,Throat,Oral
+smpl700096147,Supragingival plaque,Oral
+smpl700096149,Subgingival plaque,Oral
+smpl700096153,R_Retroauricular crease,Skin
+smpl700096180,Stool,Stool
+smpl700096188,Saliva,Oral
+smpl700096192,Tongue dorsum,Oral
+smpl700096194,Hard palate,Oral
+smpl700096196,Buccal mucosa,Oral
+smpl700096198,Attached/Keratinized gingiva,Oral
+smpl700096200,Palatine Tonsils,Oral
+smpl700096202,Throat,Oral
+smpl700096204,Supragingival plaque,Oral
+smpl700096206,Subgingival plaque,Oral
+smpl700096210,R_Retroauricular crease,Skin
+smpl700096214,R_Antecubital fossa,Skin
+smpl700096216,Anterior nares,Skin
+smpl700096285,Stool,Stool
+smpl700096293,Saliva,Oral
+smpl700096297,Tongue dorsum,Oral
+smpl700096301,Buccal mucosa,Oral
+smpl700096303,Attached/Keratinized gingiva,Oral
+smpl700096305,Palatine Tonsils,Oral
+smpl700096307,Throat,Oral
+smpl700096309,Supragingival plaque,Oral
+smpl700096311,Subgingival plaque,Oral
+smpl700096437,Stool,Stool
+smpl700096445,Saliva,Oral
+smpl700096449,Tongue dorsum,Oral
+smpl700096451,Hard palate,Oral
+smpl700096453,Buccal mucosa,Oral
+smpl700096457,Palatine Tonsils,Oral
+smpl700096459,Throat,Oral
+smpl700096461,Supragingival plaque,Oral
+smpl700096463,Subgingival plaque,Oral
+smpl700096467,R_Retroauricular crease,Skin
+smpl700096473,Anterior nares,Skin
+smpl700096530,Stool,Stool
+smpl700096538,Saliva,Oral
+smpl700096542,Tongue dorsum,Oral
+smpl700096544,Hard palate,Oral
+smpl700096546,Buccal mucosa,Oral
+smpl700096548,Attached/Keratinized gingiva,Oral
+smpl700096550,Palatine Tonsils,Oral
+smpl700096552,Throat,Oral
+smpl700096554,Supragingival plaque,Oral
+smpl700096556,Subgingival plaque,Oral
+smpl700096558,L_Retroauricular crease,Skin
+smpl700096560,R_Retroauricular crease,Skin
+smpl700096612,Stool,Stool
+smpl700096620,Saliva,Oral
+smpl700096624,Tongue dorsum,Oral
+smpl700096628,Buccal mucosa,Oral
+smpl700096632,Palatine Tonsils,Oral
+smpl700096634,Throat,Oral
+smpl700096636,Supragingival plaque,Oral
+smpl700096638,Subgingival plaque,Oral
+smpl700096640,L_Retroauricular crease,Skin
+smpl700096642,R_Retroauricular crease,Skin
+smpl700096650,Vaginal introitus,Vaginal
+smpl700096652,Mid vagina,Vaginal
+smpl700096656,Stool,Stool
+smpl700096664,Saliva,Oral
+smpl700096668,Tongue dorsum,Oral
+smpl700096672,Buccal mucosa,Oral
+smpl700096674,Attached/Keratinized gingiva,Oral
+smpl700096676,Palatine Tonsils,Oral
+smpl700096678,Throat,Oral
+smpl700096680,Supragingival plaque,Oral
+smpl700096682,Subgingival plaque,Oral
+smpl700096692,Anterior nares,Skin
+smpl700096722,Stool,Stool
+smpl700096730,Saliva,Oral
+smpl700096734,Tongue dorsum,Oral
+smpl700096736,Hard palate,Oral
+smpl700096738,Buccal mucosa,Oral
+smpl700096740,Attached/Keratinized gingiva,Oral
+smpl700096742,Palatine Tonsils,Oral
+smpl700096744,Throat,Oral
+smpl700096746,Supragingival plaque,Oral
+smpl700096748,Subgingival plaque,Oral
+smpl700096760,Vaginal introitus,Vaginal
+smpl700096762,Mid vagina,Vaginal
+smpl700096887,Stool,Stool
+smpl700096895,Saliva,Oral
+smpl700096899,Tongue dorsum,Oral
+smpl700096901,Hard palate,Oral
+smpl700096903,Buccal mucosa,Oral
+smpl700096905,Attached/Keratinized gingiva,Oral
+smpl700096907,Palatine Tonsils,Oral
+smpl700096909,Throat,Oral
+smpl700096911,Supragingival plaque,Oral
+smpl700096913,Subgingival plaque,Oral
+smpl700096915,L_Retroauricular crease,Skin
+smpl700096917,R_Retroauricular crease,Skin
+smpl700096923,Anterior nares,Skin
+smpl700096925,Vaginal introitus,Vaginal
+smpl700096962,Stool,Stool
+smpl700096970,Saliva,Oral
+smpl700096974,Tongue dorsum,Oral
+smpl700096976,Hard palate,Oral
+smpl700096978,Buccal mucosa,Oral
+smpl700096980,Attached/Keratinized gingiva,Oral
+smpl700096982,Palatine Tonsils,Oral
+smpl700096984,Throat,Oral
+smpl700096986,Supragingival plaque,Oral
+smpl700096988,Subgingival plaque,Oral
+smpl700096992,R_Retroauricular crease,Skin
+smpl700096998,Anterior nares,Skin
+smpl700097022,Stool,Stool
+smpl700097030,Saliva,Oral
+smpl700097034,Tongue dorsum,Oral
+smpl700097036,Hard palate,Oral
+smpl700097040,Attached/Keratinized gingiva,Oral
+smpl700097042,Palatine Tonsils,Oral
+smpl700097044,Throat,Oral
+smpl700097046,Supragingival plaque,Oral
+smpl700097048,Subgingival plaque,Oral
+smpl700097054,L_Antecubital fossa,Skin
+smpl700097060,Vaginal introitus,Vaginal
+smpl700097064,Posterior fornix,Vaginal
+smpl700097135,Stool,Stool
+smpl700097143,Saliva,Oral
+smpl700097147,Tongue dorsum,Oral
+smpl700097149,Hard palate,Oral
+smpl700097151,Buccal mucosa,Oral
+smpl700097153,Attached/Keratinized gingiva,Oral
+smpl700097155,Palatine Tonsils,Oral
+smpl700097157,Throat,Oral
+smpl700097159,Supragingival plaque,Oral
+smpl700097161,Subgingival plaque,Oral
+smpl700097163,L_Retroauricular crease,Skin
+smpl700097165,R_Retroauricular crease,Skin
+smpl700097171,Anterior nares,Skin
+smpl700097253,Stool,Stool
+smpl700097261,Saliva,Oral
+smpl700097265,Tongue dorsum,Oral
+smpl700097267,Hard palate,Oral
+smpl700097273,Palatine Tonsils,Oral
+smpl700097275,Throat,Oral
+smpl700097281,L_Retroauricular crease,Skin
+smpl700097283,R_Retroauricular crease,Skin
+smpl700097287,R_Antecubital fossa,Skin
+smpl700097289,Anterior nares,Skin
+smpl700097313,Stool,Stool
+smpl700097321,Saliva,Oral
+smpl700097325,Tongue dorsum,Oral
+smpl700097327,Hard palate,Oral
+smpl700097329,Buccal mucosa,Oral
+smpl700097333,Palatine Tonsils,Oral
+smpl700097335,Throat,Oral
+smpl700097337,Supragingival plaque,Oral
+smpl700097343,R_Retroauricular crease,Skin
+smpl700097349,Anterior nares,Skin
+smpl700097351,Vaginal introitus,Vaginal
+smpl700097353,Mid vagina,Vaginal
+smpl700097355,Posterior fornix,Vaginal
+smpl700097376,Stool,Stool
+smpl700097384,Saliva,Oral
+smpl700097388,Tongue dorsum,Oral
+smpl700097390,Hard palate,Oral
+smpl700097392,Buccal mucosa,Oral
+smpl700097394,Attached/Keratinized gingiva,Oral
+smpl700097398,Throat,Oral
+smpl700097400,Supragingival plaque,Oral
+smpl700097402,Subgingival plaque,Oral
+smpl700097437,Stool,Stool
+smpl700097445,Saliva,Oral
+smpl700097449,Tongue dorsum,Oral
+smpl700097453,Buccal mucosa,Oral
+smpl700097455,Attached/Keratinized gingiva,Oral
+smpl700097457,Palatine Tonsils,Oral
+smpl700097459,Throat,Oral
+smpl700097461,Supragingival plaque,Oral
+smpl700097463,Subgingival plaque,Oral
+smpl700097465,L_Retroauricular crease,Skin
+smpl700097467,R_Retroauricular crease,Skin
+smpl700097471,R_Antecubital fossa,Skin
+smpl700097473,Anterior nares,Skin
+smpl700097475,Vaginal introitus,Vaginal
+smpl700097477,Mid vagina,Vaginal
+smpl700097503,Stool,Stool
+smpl700097511,Saliva,Oral
+smpl700097515,Tongue dorsum,Oral
+smpl700097517,Hard palate,Oral
+smpl700097519,Buccal mucosa,Oral
+smpl700097523,Palatine Tonsils,Oral
+smpl700097525,Throat,Oral
+smpl700097527,Supragingival plaque,Oral
+smpl700097529,Subgingival plaque,Oral
+smpl700097533,R_Retroauricular crease,Skin
+smpl700097541,Vaginal introitus,Vaginal
+smpl700097543,Mid vagina,Vaginal
+smpl700097545,Posterior fornix,Vaginal
+smpl700097589,Stool,Stool
+smpl700097597,Saliva,Oral
+smpl700097601,Tongue dorsum,Oral
+smpl700097603,Hard palate,Oral
+smpl700097605,Buccal mucosa,Oral
+smpl700097609,Palatine Tonsils,Oral
+smpl700097611,Throat,Oral
+smpl700097613,Supragingival plaque,Oral
+smpl700097621,L_Antecubital fossa,Skin
+smpl700097623,R_Antecubital fossa,Skin
+smpl700097625,Anterior nares,Skin
+smpl700097650,Stool,Stool
+smpl700097658,Saliva,Oral
+smpl700097662,Tongue dorsum,Oral
+smpl700097664,Hard palate,Oral
+smpl700097666,Buccal mucosa,Oral
+smpl700097668,Attached/Keratinized gingiva,Oral
+smpl700097670,Palatine Tonsils,Oral
+smpl700097672,Throat,Oral
+smpl700097674,Supragingival plaque,Oral
+smpl700097676,Subgingival plaque,Oral
+smpl700097678,L_Retroauricular crease,Skin
+smpl700097680,R_Retroauricular crease,Skin
+smpl700097773,Stool,Stool
+smpl700097781,Saliva,Oral
+smpl700097785,Tongue dorsum,Oral
+smpl700097787,Hard palate,Oral
+smpl700097789,Buccal mucosa,Oral
+smpl700097793,Palatine Tonsils,Oral
+smpl700097795,Throat,Oral
+smpl700097797,Supragingival plaque,Oral
+smpl700097799,Subgingival plaque,Oral
+smpl700097801,L_Retroauricular crease,Skin
+smpl700097803,R_Retroauricular crease,Skin
+smpl700097809,Anterior nares,Skin
+smpl700097928,Stool,Stool
+smpl700097936,Saliva,Oral
+smpl700097940,Tongue dorsum,Oral
+smpl700097942,Hard palate,Oral
+smpl700097944,Buccal mucosa,Oral
+smpl700097946,Attached/Keratinized gingiva,Oral
+smpl700097948,Palatine Tonsils,Oral
+smpl700097950,Throat,Oral
+smpl700097952,Supragingival plaque,Oral
+smpl700097966,Vaginal introitus,Vaginal
+smpl700097968,Mid vagina,Vaginal
+smpl700097994,Stool,Stool
+smpl700098002,Saliva,Oral
+smpl700098006,Tongue dorsum,Oral
+smpl700098008,Hard palate,Oral
+smpl700098010,Buccal mucosa,Oral
+smpl700098012,Attached/Keratinized gingiva,Oral
+smpl700098014,Palatine Tonsils,Oral
+smpl700098016,Throat,Oral
+smpl700098018,Supragingival plaque,Oral
+smpl700098020,Subgingival plaque,Oral
+smpl700098036,Posterior fornix,Vaginal
+smpl700098131,Stool,Stool
+smpl700098139,Saliva,Oral
+smpl700098143,Tongue dorsum,Oral
+smpl700098145,Hard palate,Oral
+smpl700098147,Buccal mucosa,Oral
+smpl700098149,Attached/Keratinized gingiva,Oral
+smpl700098151,Palatine Tonsils,Oral
+smpl700098153,Throat,Oral
+smpl700098155,Supragingival plaque,Oral
+smpl700098157,Subgingival plaque,Oral
+smpl700098161,R_Retroauricular crease,Skin
+smpl700098169,Vaginal introitus,Vaginal
+smpl700098171,Mid vagina,Vaginal
+smpl700098173,Posterior fornix,Vaginal
+smpl700098220,Stool,Stool
+smpl700098228,Saliva,Oral
+smpl700098232,Tongue dorsum,Oral
+smpl700098234,Hard palate,Oral
+smpl700098236,Buccal mucosa,Oral
+smpl700098238,Attached/Keratinized gingiva,Oral
+smpl700098240,Palatine Tonsils,Oral
+smpl700098242,Throat,Oral
+smpl700098244,Supragingival plaque,Oral
+smpl700098246,Subgingival plaque,Oral
+smpl700098256,Anterior nares,Skin
+smpl700098451,Stool,Stool
+smpl700098459,Saliva,Oral
+smpl700098463,Tongue dorsum,Oral
+smpl700098465,Hard palate,Oral
+smpl700098467,Buccal mucosa,Oral
+smpl700098469,Attached/Keratinized gingiva,Oral
+smpl700098471,Palatine Tonsils,Oral
+smpl700098473,Throat,Oral
+smpl700098475,Supragingival plaque,Oral
+smpl700098479,L_Retroauricular crease,Skin
+smpl700098481,R_Retroauricular crease,Skin
+smpl700098489,Vaginal introitus,Vaginal
+smpl700098493,Posterior fornix,Vaginal
+smpl700098621,Stool,Stool
+smpl700098629,Saliva,Oral
+smpl700098633,Tongue dorsum,Oral
+smpl700098635,Hard palate,Oral
+smpl700098637,Buccal mucosa,Oral
+smpl700098639,Attached/Keratinized gingiva,Oral
+smpl700098641,Palatine Tonsils,Oral
+smpl700098643,Throat,Oral
+smpl700098645,Supragingival plaque,Oral
+smpl700098647,Subgingival plaque,Oral
+smpl700098649,L_Retroauricular crease,Skin
+smpl700098651,R_Retroauricular crease,Skin
+smpl700098657,Anterior nares,Skin
+smpl700098659,Vaginal introitus,Vaginal
+smpl700098661,Mid vagina,Vaginal
+smpl700098663,Posterior fornix,Vaginal
+smpl700098691,Stool,Stool
+smpl700098703,Tongue dorsum,Oral
+smpl700098707,Buccal mucosa,Oral
+smpl700098713,Throat,Oral
+smpl700098721,R_Retroauricular crease,Skin
+smpl700098727,Anterior nares,Skin
+smpl700098729,Vaginal introitus,Vaginal
+smpl700098731,Mid vagina,Vaginal
+smpl700098754,Stool,Stool
+smpl700098762,Saliva,Oral
+smpl700098766,Tongue dorsum,Oral
+smpl700098768,Hard palate,Oral
+smpl700098770,Buccal mucosa,Oral
+smpl700098772,Attached/Keratinized gingiva,Oral
+smpl700098774,Palatine Tonsils,Oral
+smpl700098776,Throat,Oral
+smpl700098778,Supragingival plaque,Oral
+smpl700098780,Subgingival plaque,Oral
+smpl700098888,Stool,Stool
+smpl700098896,Saliva,Oral
+smpl700098900,Tongue dorsum,Oral
+smpl700098902,Hard palate,Oral
+smpl700098904,Buccal mucosa,Oral
+smpl700098906,Attached/Keratinized gingiva,Oral
+smpl700098908,Palatine Tonsils,Oral
+smpl700098910,Throat,Oral
+smpl700098912,Supragingival plaque,Oral
+smpl700098914,Subgingival plaque,Oral
+smpl700098926,Vaginal introitus,Vaginal
+smpl700098928,Mid vagina,Vaginal
+smpl700098930,Posterior fornix,Vaginal
+smpl700098954,Stool,Stool
+smpl700098962,Saliva,Oral
+smpl700098966,Tongue dorsum,Oral
+smpl700098972,Attached/Keratinized gingiva,Oral
+smpl700098974,Palatine Tonsils,Oral
+smpl700098976,Throat,Oral
+smpl700098978,Supragingival plaque,Oral
+smpl700098982,L_Retroauricular crease,Skin
+smpl700098984,R_Retroauricular crease,Skin
+smpl700098990,Anterior nares,Skin
+smpl700098992,Vaginal introitus,Vaginal
+smpl700098994,Mid vagina,Vaginal
+smpl700098996,Posterior fornix,Vaginal
+smpl700099021,Stool,Stool
+smpl700099029,Saliva,Oral
+smpl700099033,Tongue dorsum,Oral
+smpl700099035,Hard palate,Oral
+smpl700099037,Buccal mucosa,Oral
+smpl700099039,Attached/Keratinized gingiva,Oral
+smpl700099041,Palatine Tonsils,Oral
+smpl700099043,Throat,Oral
+smpl700099045,Supragingival plaque,Oral
+smpl700099047,Subgingival plaque,Oral
+smpl700099049,L_Retroauricular crease,Skin
+smpl700099051,R_Retroauricular crease,Skin
+smpl700099055,R_Antecubital fossa,Skin
+smpl700099057,Anterior nares,Skin
+smpl700099081,Stool,Stool
+smpl700099089,Saliva,Oral
+smpl700099093,Tongue dorsum,Oral
+smpl700099095,Hard palate,Oral
+smpl700099101,Palatine Tonsils,Oral
+smpl700099103,Throat,Oral
+smpl700099105,Supragingival plaque,Oral
+smpl700099109,L_Retroauricular crease,Skin
+smpl700099111,R_Retroauricular crease,Skin
+smpl700099117,Anterior nares,Skin
+smpl700099119,Vaginal introitus,Vaginal
+smpl700099121,Mid vagina,Vaginal
+smpl700099123,Posterior fornix,Vaginal
+smpl700099237,Stool,Stool
+smpl700099245,Saliva,Oral
+smpl700099249,Tongue dorsum,Oral
+smpl700099251,Hard palate,Oral
+smpl700099253,Buccal mucosa,Oral
+smpl700099257,Palatine Tonsils,Oral
+smpl700099259,Throat,Oral
+smpl700099261,Supragingival plaque,Oral
+smpl700099263,Subgingival plaque,Oral
+smpl700099265,L_Retroauricular crease,Skin
+smpl700099268,R_Retroauricular crease,Skin
+smpl700099274,Anterior nares,Skin
+smpl700099276,Vaginal introitus,Vaginal
+smpl700099278,Mid vagina,Vaginal
+smpl700099280,Posterior fornix,Vaginal
+smpl700099400,Stool,Stool
+smpl700099412,Tongue dorsum,Oral
+smpl700099418,Attached/Keratinized gingiva,Oral
+smpl700099420,Palatine Tonsils,Oral
+smpl700099424,Supragingival plaque,Oral
+smpl700099426,Subgingival plaque,Oral
+smpl700099428,L_Retroauricular crease,Skin
+smpl700099430,R_Retroauricular crease,Skin
+smpl700099464,Stool,Stool
+smpl700099472,Saliva,Oral
+smpl700099476,Tongue dorsum,Oral
+smpl700099478,Hard palate,Oral
+smpl700099480,Buccal mucosa,Oral
+smpl700099482,Attached/Keratinized gingiva,Oral
+smpl700099484,Palatine Tonsils,Oral
+smpl700099486,Throat,Oral
+smpl700099488,Supragingival plaque,Oral
+smpl700099490,Subgingival plaque,Oral
+smpl700099494,R_Retroauricular crease,Skin
+smpl700099500,Anterior nares,Skin
+smpl700099502,Vaginal introitus,Vaginal
+smpl700099504,Mid vagina,Vaginal
+smpl700099531,Stool,Stool
+smpl700099539,Saliva,Oral
+smpl700099543,Tongue dorsum,Oral
+smpl700099545,Hard palate,Oral
+smpl700099547,Buccal mucosa,Oral
+smpl700099549,Attached/Keratinized gingiva,Oral
+smpl700099551,Palatine Tonsils,Oral
+smpl700099553,Throat,Oral
+smpl700099555,Supragingival plaque,Oral
+smpl700099557,Subgingival plaque,Oral
+smpl700099559,L_Retroauricular crease,Skin
+smpl700099561,R_Retroauricular crease,Skin
+smpl700099609,Stool,Stool
+smpl700099617,Saliva,Oral
+smpl700099621,Tongue dorsum,Oral
+smpl700099623,Hard palate,Oral
+smpl700099627,Attached/Keratinized gingiva,Oral
+smpl700099629,Palatine Tonsils,Oral
+smpl700099631,Throat,Oral
+smpl700099633,Supragingival plaque,Oral
+smpl700099635,Subgingival plaque,Oral
+smpl700099645,Anterior nares,Skin
+smpl700099738,Vaginal introitus,Vaginal
+smpl700099741,Mid vagina,Vaginal
+smpl700099744,Posterior fornix,Vaginal
+smpl700099765,Stool,Stool
+smpl700099773,Saliva,Oral
+smpl700099777,Tongue dorsum,Oral
+smpl700099779,Hard palate,Oral
+smpl700099781,Buccal mucosa,Oral
+smpl700099785,Palatine Tonsils,Oral
+smpl700099787,Throat,Oral
+smpl700099789,Supragingival plaque,Oral
+smpl700099791,Subgingival plaque,Oral
+smpl700099795,R_Retroauricular crease,Skin
+smpl700099978,Stool,Stool
+smpl700099986,Saliva,Oral
+smpl700099990,Tongue dorsum,Oral
+smpl700099992,Hard palate,Oral
+smpl700099994,Buccal mucosa,Oral
+smpl700099996,Attached/Keratinized gingiva,Oral
+smpl700099998,Palatine Tonsils,Oral
+smpl700100000,Throat,Oral
+smpl700100002,Supragingival plaque,Oral
+smpl700100004,Subgingival plaque,Oral
+smpl700100006,L_Retroauricular crease,Skin
+smpl700100008,R_Retroauricular crease,Skin
+smpl700100041,Stool,Stool
+smpl700100049,Saliva,Oral
+smpl700100053,Tongue dorsum,Oral
+smpl700100055,Hard palate,Oral
+smpl700100057,Buccal mucosa,Oral
+smpl700100063,Throat,Oral
+smpl700100065,Supragingival plaque,Oral
+smpl700100067,Subgingival plaque,Oral
+smpl700100069,L_Retroauricular crease,Skin
+smpl700100071,R_Retroauricular crease,Skin
+smpl700100073,L_Antecubital fossa,Skin
+smpl700100075,R_Antecubital fossa,Skin
+smpl700100077,Anterior nares,Skin
+smpl700100184,Stool,Stool
+smpl700100199,Hard palate,Oral
+smpl700100201,Buccal mucosa,Oral
+smpl700100203,Attached/Keratinized gingiva,Oral
+smpl700100205,Palatine Tonsils,Oral
+smpl700100209,Supragingival plaque,Oral
+smpl700101095,Stool,Stool
+smpl700101103,Saliva,Oral
+smpl700101107,Tongue dorsum,Oral
+smpl700101109,Hard palate,Oral
+smpl700101111,Buccal mucosa,Oral
+smpl700101113,Attached/Keratinized gingiva,Oral
+smpl700101115,Palatine Tonsils,Oral
+smpl700101117,Throat,Oral
+smpl700101119,Supragingival plaque,Oral
+smpl700101121,Subgingival plaque,Oral
+smpl700101123,L_Retroauricular crease,Skin
+smpl700101125,R_Retroauricular crease,Skin
+smpl700101127,L_Antecubital fossa,Skin
+smpl700101131,Anterior nares,Skin
+smpl700101657,Stool,Stool
+smpl700101665,Saliva,Oral
+smpl700101669,Tongue dorsum,Oral
+smpl700101671,Hard palate,Oral
+smpl700101673,Buccal mucosa,Oral
+smpl700101675,Attached/Keratinized gingiva,Oral
+smpl700101677,Palatine Tonsils,Oral
+smpl700101679,Throat,Oral
+smpl700101681,Supragingival plaque,Oral
+smpl700101683,Subgingival plaque,Oral
+smpl700101685,L_Retroauricular crease,Skin
+smpl700101687,R_Retroauricular crease,Skin
+smpl700101691,R_Antecubital fossa,Skin
+smpl700101693,Anterior nares,Skin
+smpl700101805,Tongue dorsum,Oral
+smpl700102070,Saliva,Oral
+smpl700102092,R_Retroauricular crease,Skin
+smpl700102104,Anterior nares,Skin
+smpl700102167,L_Antecubital fossa,Skin
+smpl700102549,Saliva,Oral
+smpl700102553,Tongue dorsum,Oral
+smpl700102559,Attached/Keratinized gingiva,Oral
+smpl700102561,Palatine Tonsils,Oral
+smpl700102563,Throat,Oral
+smpl700102565,Supragingival plaque,Oral
+smpl700102567,Subgingival plaque,Oral
+smpl700102579,Vaginal introitus,Vaginal
+smpl700102581,Mid vagina,Vaginal
+smpl700102583,Posterior fornix,Vaginal
+smpl700102867,Stool,Stool
+smpl700102875,Saliva,Oral
+smpl700102879,Tongue dorsum,Oral
+smpl700102881,Hard palate,Oral
+smpl700102883,Buccal mucosa,Oral
+smpl700102885,Attached/Keratinized gingiva,Oral
+smpl700102887,Palatine Tonsils,Oral
+smpl700102889,Throat,Oral
+smpl700102891,Supragingival plaque,Oral
+smpl700102893,Subgingival plaque,Oral
+smpl700102895,L_Retroauricular crease,Skin
+smpl700102897,R_Retroauricular crease,Skin
+smpl700102899,L_Antecubital fossa,Skin
+smpl700102901,R_Antecubital fossa,Skin
+smpl700102903,Anterior nares,Skin
+smpl700103247,Tongue dorsum,Oral
+smpl700103249,Hard palate,Oral
+smpl700103251,Buccal mucosa,Oral
+smpl700103253,Attached/Keratinized gingiva,Oral
+smpl700103255,Palatine Tonsils,Oral
+smpl700103257,Throat,Oral
+smpl700103259,Supragingival plaque,Oral
+smpl700103261,Subgingival plaque,Oral
+smpl700103263,L_Retroauricular crease,Skin
+smpl700103265,R_Retroauricular crease,Skin
+smpl700103291,L_Retroauricular crease,Skin
+smpl700103293,R_Retroauricular crease,Skin
+smpl700103299,Anterior nares,Skin
+smpl700103301,Vaginal introitus,Vaginal
+smpl700103305,Posterior fornix,Vaginal
+smpl700103307,Saliva,Oral
+smpl700103311,Tongue dorsum,Oral
+smpl700103313,Hard palate,Oral
+smpl700103315,Buccal mucosa,Oral
+smpl700103317,Attached/Keratinized gingiva,Oral
+smpl700103319,Palatine Tonsils,Oral
+smpl700103321,Throat,Oral
+smpl700103323,Supragingival plaque,Oral
+smpl700103325,Subgingival plaque,Oral
+smpl700103501,L_Retroauricular crease,Skin
+smpl700103507,R_Antecubital fossa,Skin
+smpl700103513,Mid vagina,Vaginal
+smpl700103515,Posterior fornix,Vaginal
+smpl700103517,Saliva,Oral
+smpl700103521,Tongue dorsum,Oral
+smpl700103531,Throat,Oral
+smpl700103533,Supragingival plaque,Oral
+smpl700103535,Subgingival plaque,Oral
+smpl700103575,Stool,Stool
+smpl700103577,L_Retroauricular crease,Skin
+smpl700103579,R_Retroauricular crease,Skin
+smpl700103581,L_Antecubital fossa,Skin
+smpl700103583,R_Antecubital fossa,Skin
+smpl700103591,Tongue dorsum,Oral
+smpl700103593,Hard palate,Oral
+smpl700103595,Buccal mucosa,Oral
+smpl700103597,Attached/Keratinized gingiva,Oral
+smpl700103599,Palatine Tonsils,Oral
+smpl700103601,Throat,Oral
+smpl700103603,Supragingival plaque,Oral
+smpl700103605,Subgingival plaque,Oral
+smpl700105003,L_Retroauricular crease,Skin
+smpl700105005,R_Retroauricular crease,Skin
+smpl700105007,L_Antecubital fossa,Skin
+smpl700105013,Saliva,Oral
+smpl700105017,Tongue dorsum,Oral
+smpl700105023,Attached/Keratinized gingiva,Oral
+smpl700105025,Palatine Tonsils,Oral
+smpl700105051,L_Retroauricular crease,Skin
+smpl700105053,R_Retroauricular crease,Skin
+smpl700105055,L_Antecubital fossa,Skin
+smpl700105063,Mid vagina,Vaginal
+smpl700105065,Posterior fornix,Vaginal
+smpl700105071,Tongue dorsum,Oral
+smpl700105073,Hard palate,Oral
+smpl700105075,Buccal mucosa,Oral
+smpl700105077,Attached/Keratinized gingiva,Oral
+smpl700105079,Palatine Tonsils,Oral
+smpl700105083,Supragingival plaque,Oral
+smpl700105085,Subgingival plaque,Oral
+smpl700105087,Stool,Stool
+smpl700105108,L_Retroauricular crease,Skin
+smpl700105110,R_Retroauricular crease,Skin
+smpl700105112,L_Antecubital fossa,Skin
+smpl700105118,Vaginal introitus,Vaginal
+smpl700105120,Mid vagina,Vaginal
+smpl700105122,Posterior fornix,Vaginal
+smpl700105124,Stool,Stool
+smpl700105130,Tongue dorsum,Oral
+smpl700105132,Hard palate,Oral
+smpl700105134,Buccal mucosa,Oral
+smpl700105136,Attached/Keratinized gingiva,Oral
+smpl700105138,Palatine Tonsils,Oral
+smpl700105140,Throat,Oral
+smpl700105142,Supragingival plaque,Oral
+smpl700105144,Subgingival plaque,Oral
+smpl700105165,L_Retroauricular crease,Skin
+smpl700105167,R_Retroauricular crease,Skin
+smpl700105169,L_Antecubital fossa,Skin
+smpl700105171,R_Antecubital fossa,Skin
+smpl700105173,Anterior nares,Skin
+smpl700105175,Vaginal introitus,Vaginal
+smpl700105177,Mid vagina,Vaginal
+smpl700105179,Posterior fornix,Vaginal
+smpl700105181,Stool,Stool
+smpl700105183,Saliva,Oral
+smpl700105187,Tongue dorsum,Oral
+smpl700105189,Hard palate,Oral
+smpl700105191,Buccal mucosa,Oral
+smpl700105193,Attached/Keratinized gingiva,Oral
+smpl700105195,Palatine Tonsils,Oral
+smpl700105197,Throat,Oral
+smpl700105199,Supragingival plaque,Oral
+smpl700105201,Subgingival plaque,Oral
+smpl700105324,L_Retroauricular crease,Skin
+smpl700105326,R_Retroauricular crease,Skin
+smpl700105334,Stool,Stool
+smpl700105340,Tongue dorsum,Oral
+smpl700105342,Hard palate,Oral
+smpl700105346,Attached/Keratinized gingiva,Oral
+smpl700105348,Palatine Tonsils,Oral
+smpl700105423,Tongue dorsum,Oral
+smpl700105427,Buccal mucosa,Oral
+smpl700105429,Attached/Keratinized gingiva,Oral
+smpl700105431,Palatine Tonsils,Oral
+smpl700105435,Supragingival plaque,Oral
+smpl700105437,Subgingival plaque,Oral
+smpl700105459,Stool,Stool
+smpl700105482,R_Retroauricular crease,Skin
+smpl700105494,Posterior fornix,Vaginal
+smpl700105496,Stool,Stool
+smpl700105498,Tongue dorsum,Oral
+smpl700105500,Hard palate,Oral
+smpl700105502,Buccal mucosa,Oral
+smpl700105504,Attached/Keratinized gingiva,Oral
+smpl700105506,Palatine Tonsils,Oral
+smpl700105508,Throat,Oral
+smpl700105510,Supragingival plaque,Oral
+smpl700105512,Subgingival plaque,Oral
+smpl700105536,L_Retroauricular crease,Skin
+smpl700105538,R_Retroauricular crease,Skin
+smpl700105634,L_Retroauricular crease,Skin
+smpl700105636,R_Retroauricular crease,Skin
+smpl700105644,Mid vagina,Vaginal
+smpl700105646,Posterior fornix,Vaginal
+smpl700105652,Tongue dorsum,Oral
+smpl700105654,Hard palate,Oral
+smpl700105658,Attached/Keratinized gingiva,Oral
+smpl700105660,Palatine Tonsils,Oral
+smpl700105662,Throat,Oral
+smpl700105666,Subgingival plaque,Oral
+smpl700105687,Saliva,Oral
+smpl700105691,Tongue dorsum,Oral
+smpl700105693,Hard palate,Oral
+smpl700105695,Buccal mucosa,Oral
+smpl700105697,Attached/Keratinized gingiva,Oral
+smpl700105699,Palatine Tonsils,Oral
+smpl700105701,Throat,Oral
+smpl700105703,Supragingival plaque,Oral
+smpl700105705,Subgingival plaque,Oral
+smpl700105707,L_Retroauricular crease,Skin
+smpl700105717,Vaginal introitus,Vaginal
+smpl700105719,Mid vagina,Vaginal
+smpl700105721,Posterior fornix,Vaginal
+smpl700105723,Stool,Stool
+smpl700105798,L_Retroauricular crease,Skin
+smpl700105800,R_Retroauricular crease,Skin
+smpl700105802,L_Antecubital fossa,Skin
+smpl700105808,Saliva,Oral
+smpl700105812,Tongue dorsum,Oral
+smpl700105814,Hard palate,Oral
+smpl700105816,Buccal mucosa,Oral
+smpl700105818,Attached/Keratinized gingiva,Oral
+smpl700105820,Palatine Tonsils,Oral
+smpl700105826,Supragingival plaque,Oral
+smpl700105828,Subgingival plaque,Oral
+smpl700105846,L_Retroauricular crease,Skin
+smpl700105848,R_Retroauricular crease,Skin
+smpl700105854,Anterior nares,Skin
+smpl700105856,Stool,Stool
+smpl700105862,Tongue dorsum,Oral
+smpl700105864,Hard palate,Oral
+smpl700105866,Buccal mucosa,Oral
+smpl700105868,Attached/Keratinized gingiva,Oral
+smpl700105870,Palatine Tonsils,Oral
+smpl700105874,Supragingival plaque,Oral
+smpl700105876,Subgingival plaque,Oral
+smpl700105894,L_Retroauricular crease,Skin
+smpl700105896,R_Retroauricular crease,Skin
+smpl700105898,L_Antecubital fossa,Skin
+smpl700105900,R_Antecubital fossa,Skin
+smpl700105902,Anterior nares,Skin
+smpl700105906,Saliva,Oral
+smpl700105910,Tongue dorsum,Oral
+smpl700105912,Hard palate,Oral
+smpl700105914,Buccal mucosa,Oral
+smpl700105916,Attached/Keratinized gingiva,Oral
+smpl700105918,Palatine Tonsils,Oral
+smpl700105920,Throat,Oral
+smpl700105922,Supragingival plaque,Oral
+smpl700105924,Subgingival plaque,Oral
+smpl700105942,Tongue dorsum,Oral
+smpl700105944,Hard palate,Oral
+smpl700105948,Attached/Keratinized gingiva,Oral
+smpl700105952,Throat,Oral
+smpl700105954,Supragingival plaque,Oral
+smpl700105956,Subgingival plaque,Oral
+smpl700105960,R_Retroauricular crease,Skin
+smpl700105964,R_Antecubital fossa,Skin
+smpl700105994,Vaginal introitus,Vaginal
+smpl700105996,Mid vagina,Vaginal
+smpl700105998,Posterior fornix,Vaginal
+smpl700106350,Stool,Stool
+smpl700106360,Anterior nares,Skin
+smpl700106366,Tongue dorsum,Oral
+smpl700106368,Hard palate,Oral
+smpl700106370,Buccal mucosa,Oral
+smpl700106372,Attached/Keratinized gingiva,Oral
+smpl700106374,Palatine Tonsils,Oral
+smpl700106376,Throat,Oral
+smpl700106378,Supragingival plaque,Oral
+smpl700106380,Subgingival plaque,Oral
+smpl700106414,Saliva,Oral
+smpl700106418,Tongue dorsum,Oral
+smpl700106420,Hard palate,Oral
+smpl700106422,Buccal mucosa,Oral
+smpl700106424,Attached/Keratinized gingiva,Oral
+smpl700106426,Palatine Tonsils,Oral
+smpl700106428,Throat,Oral
+smpl700106506,L_Retroauricular crease,Skin
+smpl700106508,R_Retroauricular crease,Skin
+smpl700106512,Anterior nares,Skin
+smpl700106516,Vaginal introitus,Vaginal
+smpl700106518,Mid vagina,Vaginal
+smpl700106520,Posterior fornix,Vaginal
+smpl700106522,Saliva,Oral
+smpl700106526,Tongue dorsum,Oral
+smpl700106528,Hard palate,Oral
+smpl700106530,Buccal mucosa,Oral
+smpl700106532,Attached/Keratinized gingiva,Oral
+smpl700106534,Palatine Tonsils,Oral
+smpl700106538,Supragingival plaque,Oral
+smpl700106540,Subgingival plaque,Oral
+smpl700106563,L_Retroauricular crease,Skin
+smpl700106565,R_Retroauricular crease,Skin
+smpl700106567,L_Antecubital fossa,Skin
+smpl700106569,R_Antecubital fossa,Skin
+smpl700106571,Anterior nares,Skin
+smpl700106573,Vaginal introitus,Vaginal
+smpl700106575,Mid vagina,Vaginal
+smpl700106581,Saliva,Oral
+smpl700106585,Tongue dorsum,Oral
+smpl700106587,Hard palate,Oral
+smpl700106589,Buccal mucosa,Oral
+smpl700106591,Attached/Keratinized gingiva,Oral
+smpl700106593,Palatine Tonsils,Oral
+smpl700106595,Throat,Oral
+smpl700106597,Supragingival plaque,Oral
+smpl700106599,Subgingival plaque,Oral
+smpl700106713,L_Retroauricular crease,Skin
+smpl700106715,R_Retroauricular crease,Skin
+smpl700106717,L_Antecubital fossa,Skin
+smpl700106719,R_Antecubital fossa,Skin
+smpl700106723,Stool,Stool
+smpl700106737,Palatine Tonsils,Oral
+smpl700106741,Supragingival plaque,Oral
+smpl700106743,Subgingival plaque,Oral
+smpl700106786,L_Retroauricular crease,Skin
+smpl700106788,R_Retroauricular crease,Skin
+smpl700106916,Subgingival plaque,Oral
+smpl700106918,Supragingival plaque,Oral
+smpl700106920,L_Retroauricular crease,Skin
+smpl700106922,R_Retroauricular crease,Skin
+smpl700106924,L_Antecubital fossa,Skin
+smpl700106926,R_Antecubital fossa,Skin
+smpl700106928,Anterior nares,Skin
+smpl700106948,Saliva,Oral
+smpl700106952,Tongue dorsum,Oral
+smpl700106954,Hard palate,Oral
+smpl700106956,Buccal mucosa,Oral
+smpl700106958,Attached/Keratinized gingiva,Oral
+smpl700106960,Palatine Tonsils,Oral
+smpl700106962,Throat,Oral
+smpl700106964,Supragingival plaque,Oral
+smpl700106966,Subgingival plaque,Oral
+smpl700106968,L_Retroauricular crease,Skin
+smpl700106970,R_Retroauricular crease,Skin
+smpl700106974,R_Antecubital fossa,Skin
+smpl700106976,Anterior nares,Skin
+smpl700106997,Supragingival plaque,Oral
+smpl700107565,Stool,Stool
+smpl700107573,Saliva,Oral
+smpl700107577,Tongue dorsum,Oral
+smpl700107579,Hard palate,Oral
+smpl700107581,Buccal mucosa,Oral
+smpl700107583,Attached/Keratinized gingiva,Oral
+smpl700107585,Palatine Tonsils,Oral
+smpl700107587,Throat,Oral
+smpl700107589,Supragingival plaque,Oral
+smpl700107591,Subgingival plaque,Oral
+smpl700107593,L_Retroauricular crease,Skin
+smpl700107595,R_Retroauricular crease,Skin
+smpl700107597,L_Antecubital fossa,Skin
+smpl700107599,R_Antecubital fossa,Skin
+smpl700107601,Anterior nares,Skin
+smpl700107864,L_Retroauricular crease,Skin
+smpl700107866,R_Retroauricular crease,Skin
+smpl700107872,Anterior nares,Skin
+smpl700107949,Stool,Stool
+smpl700107957,Saliva,Oral
+smpl700107961,Tongue dorsum,Oral
+smpl700107963,Hard palate,Oral
+smpl700107965,Buccal mucosa,Oral
+smpl700107967,Attached/Keratinized gingiva,Oral
+smpl700107969,Palatine Tonsils,Oral
+smpl700107971,Throat,Oral
+smpl700107973,Supragingival plaque,Oral
+smpl700107975,Subgingival plaque,Oral
+smpl700107977,L_Retroauricular crease,Skin
+smpl700107979,R_Retroauricular crease,Skin
+smpl700107985,Anterior nares,Skin
+smpl700108066,Saliva,Oral
+smpl700108070,Tongue dorsum,Oral
+smpl700108078,Palatine Tonsils,Oral
+smpl700108086,L_Retroauricular crease,Skin
+smpl700108088,R_Retroauricular crease,Skin
+smpl700108094,Anterior nares,Skin
+smpl700108304,Stool,Stool
+smpl700108328,Supragingival plaque,Oral
+smpl700108332,L_Retroauricular crease,Skin
+smpl700108334,R_Retroauricular crease,Skin
+smpl700108401,Vaginal introitus,Vaginal
+smpl700108403,Mid vagina,Vaginal
+smpl700108405,Posterior fornix,Vaginal
+smpl700108493,Stool,Stool
+smpl700108501,Saliva,Oral
+smpl700108515,Throat,Oral
+smpl700108517,Supragingival plaque,Oral
+smpl700108519,Subgingival plaque,Oral
+smpl700108521,L_Retroauricular crease,Skin
+smpl700108523,R_Retroauricular crease,Skin
+smpl700108527,R_Antecubital fossa,Skin
+smpl700108529,Anterior nares,Skin
+smpl700108802,Stool,Stool
+smpl700108810,Saliva,Oral
+smpl700108814,Tongue dorsum,Oral
+smpl700108816,Hard palate,Oral
+smpl700108830,L_Retroauricular crease,Skin
+smpl700108832,R_Retroauricular crease,Skin
+smpl700108838,Anterior nares,Skin
+smpl700108977,Stool,Stool
+smpl700109007,R_Retroauricular crease,Skin
+smpl700109013,Anterior nares,Skin
+smpl700109129,Stool,Stool
+smpl700109137,Saliva,Oral
+smpl700109141,Tongue dorsum,Oral
+smpl700109143,Hard palate,Oral
+smpl700109145,Buccal mucosa,Oral
+smpl700109147,Attached/Keratinized gingiva,Oral
+smpl700109149,Palatine Tonsils,Oral
+smpl700109151,Throat,Oral
+smpl700109153,Supragingival plaque,Oral
+smpl700109159,R_Retroauricular crease,Skin
+smpl700109340,Stool,Stool
+smpl700109348,Saliva,Oral
+smpl700109354,Hard palate,Oral
+smpl700109368,L_Retroauricular crease,Skin
+smpl700109370,R_Retroauricular crease,Skin
+smpl700109372,L_Antecubital fossa,Skin
+smpl700109476,Saliva,Oral
+smpl700109482,Hard palate,Oral
+smpl700109484,Buccal mucosa,Oral
+smpl700109486,Attached/Keratinized gingiva,Oral
+smpl700109488,Palatine Tonsils,Oral
+smpl700109490,Throat,Oral
+smpl700109492,Supragingival plaque,Oral
+smpl700109496,L_Retroauricular crease,Skin
+smpl700109498,R_Retroauricular crease,Skin
+smpl700109504,Anterior nares,Skin
+smpl700109525,Stool,Stool
+smpl700109533,Saliva,Oral
+smpl700109537,Tongue dorsum,Oral
+smpl700109539,Hard palate,Oral
+smpl700109541,Buccal mucosa,Oral
+smpl700109543,Attached/Keratinized gingiva,Oral
+smpl700109545,Palatine Tonsils,Oral
+smpl700109547,Throat,Oral
+smpl700109549,Supragingival plaque,Oral
+smpl700109551,Subgingival plaque,Oral
+smpl700109553,L_Retroauricular crease,Skin
+smpl700109555,R_Retroauricular crease,Skin
+smpl700109557,L_Antecubital fossa,Skin
+smpl700109559,R_Antecubital fossa,Skin
+smpl700109561,Anterior nares,Skin
+smpl700109786,Buccal mucosa,Oral
+smpl700109798,L_Retroauricular crease,Skin
+smpl700109800,R_Retroauricular crease,Skin
+smpl700109806,Anterior nares,Skin
+smpl700109827,Stool,Stool
+smpl700109841,Hard palate,Oral
+smpl700109847,Palatine Tonsils,Oral
+smpl700109851,Supragingival plaque,Oral
+smpl700109855,L_Retroauricular crease,Skin
+smpl700109857,R_Retroauricular crease,Skin
+smpl700109863,Anterior nares,Skin
+smpl700109884,Stool,Stool
+smpl700109908,Supragingival plaque,Oral
+smpl700109910,Subgingival plaque,Oral
+smpl700109912,L_Retroauricular crease,Skin
+smpl700109914,R_Retroauricular crease,Skin
+smpl700109916,L_Antecubital fossa,Skin
+smpl700109920,Anterior nares,Skin
+smpl700109943,Stool,Stool
+smpl700109951,Saliva,Oral
+smpl700109955,Tongue dorsum,Oral
+smpl700109957,Hard palate,Oral
+smpl700109959,Buccal mucosa,Oral
+smpl700109961,Attached/Keratinized gingiva,Oral
+smpl700109963,Palatine Tonsils,Oral
+smpl700109965,Throat,Oral
+smpl700109967,Supragingival plaque,Oral
+smpl700109969,Subgingival plaque,Oral
+smpl700109971,L_Retroauricular crease,Skin
+smpl700109973,R_Retroauricular crease,Skin
+smpl700109975,L_Antecubital fossa,Skin
+smpl700109977,R_Antecubital fossa,Skin
+smpl700109979,Anterior nares,Skin
+smpl700109983,Mid vagina,Vaginal
+smpl700110007,Stool,Stool
+smpl700110015,Saliva,Oral
+smpl700110018,Tongue dorsum,Oral
+smpl700110028,Throat,Oral
+smpl700110032,Subgingival plaque,Oral
+smpl700110034,L_Retroauricular crease,Skin
+smpl700110036,R_Retroauricular crease,Skin
+smpl700110042,Anterior nares,Skin
+smpl700110243,Stool,Stool
+smpl700110251,Saliva,Oral
+smpl700110255,Tongue dorsum,Oral
+smpl700110257,Hard palate,Oral
+smpl700110259,Buccal mucosa,Oral
+smpl700110261,Attached/Keratinized gingiva,Oral
+smpl700110263,Palatine Tonsils,Oral
+smpl700110265,Throat,Oral
+smpl700110267,Supragingival plaque,Oral
+smpl700110269,Subgingival plaque,Oral
+smpl700110271,L_Retroauricular crease,Skin
+smpl700110273,R_Retroauricular crease,Skin
+smpl700110275,L_Antecubital fossa,Skin
+smpl700110277,R_Antecubital fossa,Skin
+smpl700110279,Anterior nares,Skin
+smpl700110281,Vaginal introitus,Vaginal
+smpl700110283,Mid vagina,Vaginal
+smpl700110285,Posterior fornix,Vaginal
+smpl700110309,Stool,Stool
+smpl700110321,Tongue dorsum,Oral
+smpl700110323,Hard palate,Oral
+smpl700110325,Buccal mucosa,Oral
+smpl700110331,Throat,Oral
+smpl700110383,Saliva,Oral
+smpl700110389,Hard palate,Oral
+smpl700110393,Attached/Keratinized gingiva,Oral
+smpl700110399,Supragingival plaque,Oral
+smpl700110401,Subgingival plaque,Oral
+smpl700110403,L_Retroauricular crease,Skin
+smpl700110405,R_Retroauricular crease,Skin
+smpl700110411,Anterior nares,Skin
+smpl700110415,Mid vagina,Vaginal
+smpl700110417,Posterior fornix,Vaginal
+smpl700110606,Stool,Stool
+smpl700110620,Hard palate,Oral
+smpl700110622,Buccal mucosa,Oral
+smpl700110626,Palatine Tonsils,Oral
+smpl700110630,Supragingival plaque,Oral
+smpl700110663,Stool,Stool
+smpl700110671,Saliva,Oral
+smpl700110675,Tongue dorsum,Oral
+smpl700110685,Throat,Oral
+smpl700110689,Subgingival plaque,Oral
+smpl700110691,L_Retroauricular crease,Skin
+smpl700110693,R_Retroauricular crease,Skin
+smpl700110699,Anterior nares,Skin
+smpl700110720,Stool,Stool
+smpl700110732,Tongue dorsum,Oral
+smpl700110734,Hard palate,Oral
+smpl700110738,Attached/Keratinized gingiva,Oral
+smpl700110740,Palatine Tonsils,Oral
+smpl700110742,Throat,Oral
+smpl700110744,Supragingival plaque,Oral
+smpl700110746,Subgingival plaque,Oral
+smpl700110748,L_Retroauricular crease,Skin
+smpl700110750,R_Retroauricular crease,Skin
+smpl700111178,Stool,Stool
+smpl700111186,Saliva,Oral
+smpl700111190,Tongue dorsum,Oral
+smpl700111192,Hard palate,Oral
+smpl700111194,Buccal mucosa,Oral
+smpl700111196,Attached/Keratinized gingiva,Oral
+smpl700111198,Palatine Tonsils,Oral
+smpl700111200,Throat,Oral
+smpl700111202,Supragingival plaque,Oral
+smpl700111204,Subgingival plaque,Oral
+smpl700111206,L_Retroauricular crease,Skin
+smpl700111208,R_Retroauricular crease,Skin
+smpl700111210,L_Antecubital fossa,Skin
+smpl700111212,R_Antecubital fossa,Skin
+smpl700111214,Anterior nares,Skin
+smpl700111216,Vaginal introitus,Vaginal
+smpl700111218,Mid vagina,Vaginal
+smpl700111220,Posterior fornix,Vaginal
+smpl700111244,Stool,Stool
+smpl700111252,Saliva,Oral
+smpl700111256,Tongue dorsum,Oral
+smpl700111258,Hard palate,Oral
+smpl700111260,Buccal mucosa,Oral
+smpl700111262,Attached/Keratinized gingiva,Oral
+smpl700111264,Palatine Tonsils,Oral
+smpl700111268,Supragingival plaque,Oral
+smpl700111270,Subgingival plaque,Oral
+smpl700111272,L_Retroauricular crease,Skin
+smpl700111274,R_Retroauricular crease,Skin
+smpl700111276,L_Antecubital fossa,Skin
+smpl700111278,R_Antecubital fossa,Skin
+smpl700111280,Anterior nares,Skin
+smpl700111282,Vaginal introitus,Vaginal
+smpl700111284,Mid vagina,Vaginal
+smpl700111286,Posterior fornix,Vaginal
+smpl700111318,Stool,Stool
+smpl700111326,Saliva,Oral
+smpl700111330,Tongue dorsum,Oral
+smpl700111332,Hard palate,Oral
+smpl700111334,Buccal mucosa,Oral
+smpl700111336,Attached/Keratinized gingiva,Oral
+smpl700111338,Palatine Tonsils,Oral
+smpl700111340,Throat,Oral
+smpl700111342,Supragingival plaque,Oral
+smpl700111344,Subgingival plaque,Oral
+smpl700111346,L_Retroauricular crease,Skin
+smpl700111348,R_Retroauricular crease,Skin
+smpl700111350,L_Antecubital fossa,Skin
+smpl700111352,R_Antecubital fossa,Skin
+smpl700111354,Anterior nares,Skin
+smpl700111356,Vaginal introitus,Vaginal
+smpl700111358,Mid vagina,Vaginal
+smpl700111461,Stool,Stool
+smpl700111469,Saliva,Oral
+smpl700111475,Hard palate,Oral
+smpl700111477,Buccal mucosa,Oral
+smpl700111481,Palatine Tonsils,Oral
+smpl700111483,Throat,Oral
+smpl700111485,Supragingival plaque,Oral
+smpl700111487,Subgingival plaque,Oral
+smpl700111491,R_Retroauricular crease,Skin
+smpl700111532,Saliva,Oral
+smpl700111538,Hard palate,Oral
+smpl700111540,Buccal mucosa,Oral
+smpl700111546,Throat,Oral
+smpl700111548,Supragingival plaque,Oral
+smpl700111550,Subgingival plaque,Oral
+smpl700111552,L_Retroauricular crease,Skin
+smpl700111558,R_Antecubital fossa,Skin
+smpl700111560,Anterior nares,Skin
+smpl700111596,Stool,Stool
+smpl700111604,Saliva,Oral
+smpl700111610,Hard palate,Oral
+smpl700111612,Buccal mucosa,Oral
+smpl700111620,Supragingival plaque,Oral
+smpl700111622,Subgingival plaque,Oral
+smpl700111624,L_Retroauricular crease,Skin
+smpl700111626,R_Retroauricular crease,Skin
+smpl700111630,R_Antecubital fossa,Skin
+smpl700111632,Anterior nares,Skin
+smpl700111634,Vaginal introitus,Vaginal
+smpl700111636,Mid vagina,Vaginal
+smpl700111638,Posterior fornix,Vaginal
+smpl700111767,Stool,Stool
+smpl700111775,Saliva,Oral
+smpl700111779,Tongue dorsum,Oral
+smpl700111781,Hard palate,Oral
+smpl700111783,Buccal mucosa,Oral
+smpl700111785,Attached/Keratinized gingiva,Oral
+smpl700111787,Palatine Tonsils,Oral
+smpl700111789,Throat,Oral
+smpl700111791,Supragingival plaque,Oral
+smpl700111793,Subgingival plaque,Oral
+smpl700111795,L_Retroauricular crease,Skin
+smpl700111797,R_Retroauricular crease,Skin
+smpl700111799,L_Antecubital fossa,Skin
+smpl700111801,R_Antecubital fossa,Skin
+smpl700111803,Anterior nares,Skin
+smpl700111805,Vaginal introitus,Vaginal
+smpl700111807,Mid vagina,Vaginal
+smpl700111849,Buccal mucosa,Oral
+smpl700111851,Attached/Keratinized gingiva,Oral
+smpl700111853,Palatine Tonsils,Oral
+smpl700111855,Throat,Oral
+smpl700111857,Supragingival plaque,Oral
+smpl700111859,Subgingival plaque,Oral
+smpl700111867,R_Antecubital fossa,Skin
+smpl700111869,Anterior nares,Skin
+smpl700112185,Stool,Stool
+smpl700112193,Saliva,Oral
+smpl700112197,Tongue dorsum,Oral
+smpl700112199,Hard palate,Oral
+smpl700112201,Buccal mucosa,Oral
+smpl700112203,Attached/Keratinized gingiva,Oral
+smpl700112205,Palatine Tonsils,Oral
+smpl700112207,Throat,Oral
+smpl700112209,Supragingival plaque,Oral
+smpl700112211,Subgingival plaque,Oral
+smpl700112213,L_Retroauricular crease,Skin
+smpl700112215,R_Retroauricular crease,Skin
+smpl700112221,Anterior nares,Skin
+smpl700112570,Stool,Stool
+smpl700112578,Saliva,Oral
+smpl700112582,Tongue dorsum,Oral
+smpl700112586,Buccal mucosa,Oral
+smpl700112590,Palatine Tonsils,Oral
+smpl700112594,Supragingival plaque,Oral
+smpl700112596,Subgingival plaque,Oral
+smpl700112598,L_Retroauricular crease,Skin
+smpl700112600,R_Retroauricular crease,Skin
+smpl700112627,Stool,Stool
+smpl700112635,Saliva,Oral
+smpl700112639,Tongue dorsum,Oral
+smpl700112641,Hard palate,Oral
+smpl700112643,Buccal mucosa,Oral
+smpl700112645,Attached/Keratinized gingiva,Oral
+smpl700112647,Palatine Tonsils,Oral
+smpl700112649,Throat,Oral
+smpl700112651,Supragingival plaque,Oral
+smpl700112655,L_Retroauricular crease,Skin
+smpl700112657,R_Retroauricular crease,Skin
+smpl700112661,R_Antecubital fossa,Skin
+smpl700112663,Anterior nares,Skin
+smpl700112976,Stool,Stool
+smpl700112988,Tongue dorsum,Oral
+smpl700112990,Hard palate,Oral
+smpl700112994,Attached/Keratinized gingiva,Oral
+smpl700112998,Throat,Oral
+smpl700113001,Palatine Tonsils,Oral
+smpl700113003,Throat,Oral
+smpl700113005,Supragingival plaque,Oral
+smpl700113007,Subgingival plaque,Oral
+smpl700113025,L_Retroauricular crease,Skin
+smpl700113027,R_Retroauricular crease,Skin
+smpl700113029,L_Antecubital fossa,Skin
+smpl700113031,R_Antecubital fossa,Skin
+smpl700113033,Anterior nares,Skin
+smpl700113035,Stool,Stool
+smpl700113037,Saliva,Oral
+smpl700113041,Tongue dorsum,Oral
+smpl700113043,Hard palate,Oral
+smpl700113045,Buccal mucosa,Oral
+smpl700113047,Attached/Keratinized gingiva,Oral
+smpl700113049,Palatine Tonsils,Oral
+smpl700113051,Throat,Oral
+smpl700113053,Supragingival plaque,Oral
+smpl700113055,Subgingival plaque,Oral
+smpl700113073,Saliva,Oral
+smpl700113077,Tongue dorsum,Oral
+smpl700113079,Hard palate,Oral
+smpl700113081,Buccal mucosa,Oral
+smpl700113083,Attached/Keratinized gingiva,Oral
+smpl700113085,Palatine Tonsils,Oral
+smpl700113087,Throat,Oral
+smpl700113089,Supragingival plaque,Oral
+smpl700113091,Subgingival plaque,Oral
+smpl700113093,Stool,Stool
+smpl700113095,L_Retroauricular crease,Skin
+smpl700113099,L_Antecubital fossa,Skin
+smpl700113101,R_Antecubital fossa,Skin
+smpl700113103,Anterior nares,Skin
+smpl700113124,Tongue dorsum,Oral
+smpl700113128,Buccal mucosa,Oral
+smpl700113130,Attached/Keratinized gingiva,Oral
+smpl700113132,Palatine Tonsils,Oral
+smpl700113134,Throat,Oral
+smpl700113136,Supragingival plaque,Oral
+smpl700113138,Subgingival plaque,Oral
+smpl700113146,L_Retroauricular crease,Skin
+smpl700113148,R_Retroauricular crease,Skin
+smpl700113150,L_Antecubital fossa,Skin
+smpl700113152,R_Antecubital fossa,Skin
+smpl700113154,Anterior nares,Skin
+smpl700113160,Posterior fornix,Vaginal
+smpl700113181,Tongue dorsum,Oral
+smpl700113183,Hard palate,Oral
+smpl700113185,Buccal mucosa,Oral
+smpl700113187,Attached/Keratinized gingiva,Oral
+smpl700113189,Palatine Tonsils,Oral
+smpl700113191,Throat,Oral
+smpl700113193,Supragingival plaque,Oral
+smpl700113195,Subgingival plaque,Oral
+smpl700113197,L_Retroauricular crease,Skin
+smpl700113205,Anterior nares,Skin
+smpl700113207,Vaginal introitus,Vaginal
+smpl700113209,Mid vagina,Vaginal
+smpl700113211,Posterior fornix,Vaginal
+smpl700113213,Stool,Stool
+smpl700113215,Saliva,Oral
+smpl700113505,Saliva,Oral
+smpl700113509,Tongue dorsum,Oral
+smpl700113511,Hard palate,Oral
+smpl700113513,Buccal mucosa,Oral
+smpl700113515,Attached/Keratinized gingiva,Oral
+smpl700113517,Palatine Tonsils,Oral
+smpl700113519,Throat,Oral
+smpl700113521,Supragingival plaque,Oral
+smpl700113523,Subgingival plaque,Oral
+smpl700113525,L_Retroauricular crease,Skin
+smpl700113527,R_Retroauricular crease,Skin
+smpl700113529,L_Antecubital fossa,Skin
+smpl700113531,R_Antecubital fossa,Skin
+smpl700113533,Anterior nares,Skin
+smpl700113535,Vaginal introitus,Vaginal
+smpl700113537,Mid vagina,Vaginal
+smpl700113539,Posterior fornix,Vaginal
+smpl700113541,Stool,Stool
+smpl700113562,Stool,Stool
+smpl700113564,L_Retroauricular crease,Skin
+smpl700113566,R_Retroauricular crease,Skin
+smpl700113568,L_Antecubital fossa,Skin
+smpl700113570,R_Antecubital fossa,Skin
+smpl700113574,Vaginal introitus,Vaginal
+smpl700113576,Mid vagina,Vaginal
+smpl700113584,Tongue dorsum,Oral
+smpl700113586,Hard palate,Oral
+smpl700113588,Buccal mucosa,Oral
+smpl700113590,Attached/Keratinized gingiva,Oral
+smpl700113592,Palatine Tonsils,Oral
+smpl700113594,Throat,Oral
+smpl700113596,Supragingival plaque,Oral
+smpl700113598,Subgingival plaque,Oral
+smpl700113666,L_Retroauricular crease,Skin
+smpl700113668,R_Retroauricular crease,Skin
+smpl700113670,L_Antecubital fossa,Skin
+smpl700113672,R_Antecubital fossa,Skin
+smpl700113674,Anterior nares,Skin
+smpl700113680,Tongue dorsum,Oral
+smpl700113682,Hard palate,Oral
+smpl700113684,Buccal mucosa,Oral
+smpl700113686,Attached/Keratinized gingiva,Oral
+smpl700113688,Palatine Tonsils,Oral
+smpl700113690,Throat,Oral
+smpl700113692,Supragingival plaque,Oral
+smpl700113694,Subgingival plaque,Oral
+smpl700113769,Saliva,Oral
+smpl700113773,Tongue dorsum,Oral
+smpl700113777,Buccal mucosa,Oral
+smpl700113779,Attached/Keratinized gingiva,Oral
+smpl700113781,Palatine Tonsils,Oral
+smpl700113783,Throat,Oral
+smpl700113785,Supragingival plaque,Oral
+smpl700113787,Subgingival plaque,Oral
+smpl700113789,Stool,Stool
+smpl700113791,L_Retroauricular crease,Skin
+smpl700113793,R_Retroauricular crease,Skin
+smpl700113795,L_Antecubital fossa,Skin
+smpl700113797,R_Antecubital fossa,Skin
+smpl700113820,Saliva,Oral
+smpl700113824,Tongue dorsum,Oral
+smpl700113826,Hard palate,Oral
+smpl700113828,Buccal mucosa,Oral
+smpl700113830,Attached/Keratinized gingiva,Oral
+smpl700113832,Palatine Tonsils,Oral
+smpl700113834,Throat,Oral
+smpl700113836,Supragingival plaque,Oral
+smpl700113838,Subgingival plaque,Oral
+smpl700113840,Stool,Stool
+smpl700113842,L_Retroauricular crease,Skin
+smpl700113844,R_Retroauricular crease,Skin
+smpl700113846,L_Antecubital fossa,Skin
+smpl700113848,R_Antecubital fossa,Skin
+smpl700113850,Anterior nares,Skin
+smpl700113852,Vaginal introitus,Vaginal
+smpl700113854,Mid vagina,Vaginal
+smpl700113856,Posterior fornix,Vaginal
+smpl700113881,Tongue dorsum,Oral
+smpl700113883,Hard palate,Oral
+smpl700113885,Buccal mucosa,Oral
+smpl700113887,Attached/Keratinized gingiva,Oral
+smpl700113889,Palatine Tonsils,Oral
+smpl700113891,Throat,Oral
+smpl700113893,Supragingival plaque,Oral
+smpl700113895,Subgingival plaque,Oral
+smpl700113897,Stool,Stool
+smpl700113899,L_Retroauricular crease,Skin
+smpl700113901,R_Retroauricular crease,Skin
+smpl700113907,Anterior nares,Skin
+smpl700113911,Mid vagina,Vaginal
+smpl700113934,Saliva,Oral
+smpl700113938,Tongue dorsum,Oral
+smpl700113940,Hard palate,Oral
+smpl700113942,Buccal mucosa,Oral
+smpl700113944,Attached/Keratinized gingiva,Oral
+smpl700113946,Palatine Tonsils,Oral
+smpl700113948,Throat,Oral
+smpl700113950,Supragingival plaque,Oral
+smpl700113952,Subgingival plaque,Oral
+smpl700113954,Stool,Stool
+smpl700113956,L_Retroauricular crease,Skin
+smpl700113958,R_Retroauricular crease,Skin
+smpl700113962,R_Antecubital fossa,Skin
+smpl700113964,Anterior nares,Skin
+smpl700113966,Vaginal introitus,Vaginal
+smpl700113968,Mid vagina,Vaginal
+smpl700113970,Posterior fornix,Vaginal
+smpl700113991,Anterior nares,Skin
+smpl700113993,Vaginal introitus,Vaginal
+smpl700113995,Mid vagina,Vaginal
+smpl700113997,Posterior fornix,Vaginal
+smpl700113999,Stool,Stool
+smpl700114017,Stool,Stool
+smpl700114019,Saliva,Oral
+smpl700114025,Hard palate,Oral
+smpl700114027,Buccal mucosa,Oral
+smpl700114029,Attached/Keratinized gingiva,Oral
+smpl700114031,Palatine Tonsils,Oral
+smpl700114033,Throat,Oral
+smpl700114035,Supragingival plaque,Oral
+smpl700114037,Subgingival plaque,Oral
+smpl700114041,R_Retroauricular crease,Skin
+smpl700114043,L_Antecubital fossa,Skin
+smpl700114045,R_Antecubital fossa,Skin
+smpl700114047,Anterior nares,Skin
+smpl700114179,Stool,Stool
+smpl700114183,R_Retroauricular crease,Skin
+smpl700114185,L_Antecubital fossa,Skin
+smpl700114187,R_Antecubital fossa,Skin
+smpl700114189,Anterior nares,Skin
+smpl700114191,Saliva,Oral
+smpl700114195,Tongue dorsum,Oral
+smpl700114197,Hard palate,Oral
+smpl700114199,Buccal mucosa,Oral
+smpl700114201,Attached/Keratinized gingiva,Oral
+smpl700114203,Palatine Tonsils,Oral
+smpl700114205,Throat,Oral
+smpl700114207,Supragingival plaque,Oral
+smpl700114209,Subgingival plaque,Oral
+smpl700114234,Posterior fornix,Vaginal
+smpl700114236,L_Retroauricular crease,Skin
+smpl700114238,R_Retroauricular crease,Skin
+smpl700114240,L_Antecubital fossa,Skin
+smpl700114242,R_Antecubital fossa,Skin
+smpl700114244,Anterior nares,Skin
+smpl700114246,Stool,Stool
+smpl700114248,Saliva,Oral
+smpl700114252,Tongue dorsum,Oral
+smpl700114254,Hard palate,Oral
+smpl700114256,Buccal mucosa,Oral
+smpl700114258,Attached/Keratinized gingiva,Oral
+smpl700114260,Palatine Tonsils,Oral
+smpl700114262,Throat,Oral
+smpl700114264,Supragingival plaque,Oral
+smpl700114266,Subgingival plaque,Oral
+smpl700114287,Stool,Stool
+smpl700114289,L_Retroauricular crease,Skin
+smpl700114291,R_Retroauricular crease,Skin
+smpl700114293,L_Antecubital fossa,Skin
+smpl700114295,R_Antecubital fossa,Skin
+smpl700114299,Vaginal introitus,Vaginal
+smpl700114301,Mid vagina,Vaginal
+smpl700114309,Tongue dorsum,Oral
+smpl700114311,Hard palate,Oral
+smpl700114313,Buccal mucosa,Oral
+smpl700114317,Palatine Tonsils,Oral
+smpl700114319,Throat,Oral
+smpl700114321,Supragingival plaque,Oral
+smpl700114323,Subgingival plaque,Oral
+smpl700114389,Saliva,Oral
+smpl700114393,Tongue dorsum,Oral
+smpl700114395,Hard palate,Oral
+smpl700114397,Buccal mucosa,Oral
+smpl700114399,Attached/Keratinized gingiva,Oral
+smpl700114401,Palatine Tonsils,Oral
+smpl700114403,Throat,Oral
+smpl700114405,Supragingival plaque,Oral
+smpl700114407,Subgingival plaque,Oral
+smpl700114409,L_Retroauricular crease,Skin
+smpl700114411,R_Retroauricular crease,Skin
+smpl700114413,L_Antecubital fossa,Skin
+smpl700114415,R_Antecubital fossa,Skin
+smpl700114417,Anterior nares,Skin
+smpl700114419,Stool,Stool
+smpl700114421,R_Antecubital fossa,Skin
+smpl700114501,Vaginal introitus,Vaginal
+smpl700114503,Mid vagina,Vaginal
+smpl700114505,Posterior fornix,Vaginal
+smpl700114507,L_Retroauricular crease,Skin
+smpl700114509,R_Retroauricular crease,Skin
+smpl700114513,R_Antecubital fossa,Skin
+smpl700114515,Anterior nares,Skin
+smpl700114517,Stool,Stool
+smpl700114519,Saliva,Oral
+smpl700114523,Tongue dorsum,Oral
+smpl700114525,Hard palate,Oral
+smpl700114527,Buccal mucosa,Oral
+smpl700114529,Attached/Keratinized gingiva,Oral
+smpl700114531,Palatine Tonsils,Oral
+smpl700114533,Throat,Oral
+smpl700114537,Subgingival plaque,Oral
+smpl700114539,Hard palate,Oral
+smpl700114560,Saliva,Oral
+smpl700114564,Tongue dorsum,Oral
+smpl700114566,Hard palate,Oral
+smpl700114568,Buccal mucosa,Oral
+smpl700114570,Attached/Keratinized gingiva,Oral
+smpl700114572,Palatine Tonsils,Oral
+smpl700114574,Throat,Oral
+smpl700114576,Supragingival plaque,Oral
+smpl700114578,Subgingival plaque,Oral
+smpl700114580,L_Retroauricular crease,Skin
+smpl700114582,R_Retroauricular crease,Skin
+smpl700114588,Anterior nares,Skin
+smpl700114590,Vaginal introitus,Vaginal
+smpl700114592,Mid vagina,Vaginal
+smpl700114594,Posterior fornix,Vaginal
+smpl700114596,Stool,Stool
+smpl700114671,L_Retroauricular crease,Skin
+smpl700114673,R_Retroauricular crease,Skin
+smpl700114675,L_Antecubital fossa,Skin
+smpl700114677,R_Antecubital fossa,Skin
+smpl700114679,Anterior nares,Skin
+smpl700114681,Saliva,Oral
+smpl700114685,Tongue dorsum,Oral
+smpl700114687,Hard palate,Oral
+smpl700114691,Attached/Keratinized gingiva,Oral
+smpl700114693,Palatine Tonsils,Oral
+smpl700114695,Throat,Oral
+smpl700114697,Supragingival plaque,Oral
+smpl700114699,Subgingival plaque,Oral
+smpl700114701,Stool,Stool
+smpl700114719,L_Retroauricular crease,Skin
+smpl700114721,R_Retroauricular crease,Skin
+smpl700114723,L_Antecubital fossa,Skin
+smpl700114725,R_Antecubital fossa,Skin
+smpl700114727,Anterior nares,Skin
+smpl700114729,Saliva,Oral
+smpl700114733,Tongue dorsum,Oral
+smpl700114735,Hard palate,Oral
+smpl700114737,Buccal mucosa,Oral
+smpl700114739,Attached/Keratinized gingiva,Oral
+smpl700114741,Palatine Tonsils,Oral
+smpl700114743,Throat,Oral
+smpl700114745,Supragingival plaque,Oral
+smpl700114747,Subgingival plaque,Oral
+smpl700114749,Stool,Stool
+smpl700114767,Stool,Stool
+smpl700114769,L_Retroauricular crease,Skin
+smpl700114771,R_Retroauricular crease,Skin
+smpl700114773,L_Antecubital fossa,Skin
+smpl700114775,R_Antecubital fossa,Skin
+smpl700114777,Anterior nares,Skin
+smpl700114779,Saliva,Oral
+smpl700114783,Tongue dorsum,Oral
+smpl700114785,Hard palate,Oral
+smpl700114787,Buccal mucosa,Oral
+smpl700114789,Attached/Keratinized gingiva,Oral
+smpl700114791,Palatine Tonsils,Oral
+smpl700114793,Throat,Oral
+smpl700114795,Supragingival plaque,Oral
+smpl700114797,Subgingival plaque,Oral
+smpl700114818,Stool,Stool
+smpl700114820,L_Retroauricular crease,Skin
+smpl700114822,R_Retroauricular crease,Skin
+smpl700114826,R_Antecubital fossa,Skin
+smpl700114828,Anterior nares,Skin
+smpl700114830,Vaginal introitus,Vaginal
+smpl700114832,Mid vagina,Vaginal
+smpl700114834,Posterior fornix,Vaginal
+smpl700114836,Saliva,Oral
+smpl700114840,Tongue dorsum,Oral
+smpl700114842,Hard palate,Oral
+smpl700114844,Buccal mucosa,Oral
+smpl700114846,Attached/Keratinized gingiva,Oral
+smpl700114848,Palatine Tonsils,Oral
+smpl700114850,Throat,Oral
+smpl700114852,Supragingival plaque,Oral
+smpl700114854,Subgingival plaque,Oral
+smpl700114872,Stool,Stool
+smpl700114874,L_Retroauricular crease,Skin
+smpl700114876,R_Retroauricular crease,Skin
+smpl700114878,L_Antecubital fossa,Skin
+smpl700114880,R_Antecubital fossa,Skin
+smpl700114882,Anterior nares,Skin
+smpl700114888,Tongue dorsum,Oral
+smpl700114890,Hard palate,Oral
+smpl700114892,Buccal mucosa,Oral
+smpl700114894,Attached/Keratinized gingiva,Oral
+smpl700114896,Palatine Tonsils,Oral
+smpl700114898,Throat,Oral
+smpl700114900,Supragingival plaque,Oral
+smpl700114902,Subgingival plaque,Oral
+smpl700114923,L_Retroauricular crease,Skin
+smpl700114925,R_Retroauricular crease,Skin
+smpl700114927,L_Antecubital fossa,Skin
+smpl700114929,R_Antecubital fossa,Skin
+smpl700114931,Anterior nares,Skin
+smpl700114933,Vaginal introitus,Vaginal
+smpl700114935,Mid vagina,Vaginal
+smpl700114937,Posterior fornix,Vaginal
+smpl700114939,Stool,Stool
+smpl700114941,Saliva,Oral
+smpl700114945,Tongue dorsum,Oral
+smpl700114947,Hard palate,Oral
+smpl700114949,Buccal mucosa,Oral
+smpl700114951,Attached/Keratinized gingiva,Oral
+smpl700114953,Palatine Tonsils,Oral
+smpl700114955,Throat,Oral
+smpl700114957,Supragingival plaque,Oral
+smpl700114959,Subgingival plaque,Oral
+smpl700114977,Stool,Stool
+smpl700114979,L_Retroauricular crease,Skin
+smpl700114981,R_Retroauricular crease,Skin
+smpl700114983,L_Antecubital fossa,Skin
+smpl700114985,R_Antecubital fossa,Skin
+smpl700114987,Anterior nares,Skin
+smpl700114993,Tongue dorsum,Oral
+smpl700114995,Hard palate,Oral
+smpl700114997,Buccal mucosa,Oral
+smpl700114999,Attached/Keratinized gingiva,Oral
+smpl700116005,Tongue dorsum,Oral
+smpl700116007,Hard palate,Oral
+smpl700116009,Buccal mucosa,Oral
+smpl700116011,Attached/Keratinized gingiva,Oral
+smpl700116013,Palatine Tonsils,Oral
+smpl700116015,Throat,Oral
+smpl700116017,Supragingival plaque,Oral
+smpl700116019,Subgingival plaque,Oral
+smpl700116021,L_Retroauricular crease,Skin
+smpl700116023,R_Retroauricular crease,Skin
+smpl700116025,L_Antecubital fossa,Skin
+smpl700116045,Stool,Stool
+smpl700116047,L_Retroauricular crease,Skin
+smpl700116049,R_Retroauricular crease,Skin
+smpl700116055,Anterior nares,Skin
+smpl700116057,Saliva,Oral
+smpl700116061,Tongue dorsum,Oral
+smpl700116063,Hard palate,Oral
+smpl700116065,Buccal mucosa,Oral
+smpl700116067,Attached/Keratinized gingiva,Oral
+smpl700116069,Palatine Tonsils,Oral
+smpl700116073,Supragingival plaque,Oral
+smpl700116075,Subgingival plaque,Oral
+smpl700116096,Stool,Stool
+smpl700116098,L_Retroauricular crease,Skin
+smpl700116100,R_Retroauricular crease,Skin
+smpl700116102,L_Antecubital fossa,Skin
+smpl700116104,R_Antecubital fossa,Skin
+smpl700116106,Anterior nares,Skin
+smpl700116108,Vaginal introitus,Vaginal
+smpl700116110,Mid vagina,Vaginal
+smpl700116112,Posterior fornix,Vaginal
+smpl700116114,Saliva,Oral
+smpl700116118,Tongue dorsum,Oral
+smpl700116120,Hard palate,Oral
+smpl700116122,Buccal mucosa,Oral
+smpl700116124,Attached/Keratinized gingiva,Oral
+smpl700116126,Palatine Tonsils,Oral
+smpl700116128,Throat,Oral
+smpl700116130,Supragingival plaque,Oral
+smpl700116132,Subgingival plaque,Oral
+smpl700116150,L_Retroauricular crease,Skin
+smpl700116152,R_Retroauricular crease,Skin
+smpl700116158,Anterior nares,Skin
+smpl700116164,Tongue dorsum,Oral
+smpl700116166,Hard palate,Oral
+smpl700116170,Attached/Keratinized gingiva,Oral
+smpl700116172,Palatine Tonsils,Oral
+smpl700116174,Throat,Oral
+smpl700116178,Subgingival plaque,Oral
+smpl700116259,Tongue dorsum,Oral
+smpl700116261,Hard palate,Oral
+smpl700116263,Buccal mucosa,Oral
+smpl700116265,Attached/Keratinized gingiva,Oral
+smpl700116267,Palatine Tonsils,Oral
+smpl700116269,Throat,Oral
+smpl700116271,Supragingival plaque,Oral
+smpl700116273,Subgingival plaque,Oral
+smpl700116275,Stool,Stool
+smpl700116277,L_Retroauricular crease,Skin
+smpl700116279,R_Retroauricular crease,Skin
+smpl700116281,L_Antecubital fossa,Skin
+smpl700116285,Anterior nares,Skin
+smpl700116306,Saliva,Oral
+smpl700116310,Tongue dorsum,Oral
+smpl700116312,Hard palate,Oral
+smpl700116314,Buccal mucosa,Oral
+smpl700116316,Attached/Keratinized gingiva,Oral
+smpl700116318,Palatine Tonsils,Oral
+smpl700116320,Throat,Oral
+smpl700116322,Supragingival plaque,Oral
+smpl700116324,Subgingival plaque,Oral
+smpl700116326,Stool,Stool
+smpl700116328,L_Retroauricular crease,Skin
+smpl700116330,R_Retroauricular crease,Skin
+smpl700116336,Anterior nares,Skin
+smpl700116338,Vaginal introitus,Vaginal
+smpl700116340,Mid vagina,Vaginal
+smpl700116342,Posterior fornix,Vaginal
+smpl700116411,Saliva,Oral
+smpl700116415,Tongue dorsum,Oral
+smpl700116419,Buccal mucosa,Oral
+smpl700116421,Attached/Keratinized gingiva,Oral
+smpl700116423,Palatine Tonsils,Oral
+smpl700116427,Supragingival plaque,Oral
+smpl700116429,Subgingival plaque,Oral
+smpl700116431,Stool,Stool
+smpl700116441,Anterior nares,Skin
+smpl700116445,Mid vagina,Vaginal
+smpl700116468,Stool,Stool
+smpl700116470,L_Retroauricular crease,Skin
+smpl700116472,R_Retroauricular crease,Skin
+smpl700116476,R_Antecubital fossa,Skin
+smpl700116478,Anterior nares,Skin
+smpl700116480,Vaginal introitus,Vaginal
+smpl700116482,Mid vagina,Vaginal
+smpl700116484,Posterior fornix,Vaginal
+smpl700116486,Saliva,Oral
+smpl700116490,Tongue dorsum,Oral
+smpl700116492,Hard palate,Oral
+smpl700116502,Supragingival plaque,Oral
+smpl700116504,Subgingival plaque,Oral
+smpl700116522,Stool,Stool
+smpl700116524,L_Retroauricular crease,Skin
+smpl700116534,Saliva,Oral
+smpl700116538,Tongue dorsum,Oral
+smpl700116540,Hard palate,Oral
+smpl700116544,Attached/Keratinized gingiva,Oral
+smpl700116546,Palatine Tonsils,Oral
+smpl700116548,Throat,Oral
+smpl700116550,Supragingival plaque,Oral
+smpl700116552,Subgingival plaque,Oral
+smpl700116570,Saliva,Oral
+smpl700116574,Tongue dorsum,Oral
+smpl700116576,Hard palate,Oral
+smpl700116578,Buccal mucosa,Oral
+smpl700116580,Attached/Keratinized gingiva,Oral
+smpl700116582,Palatine Tonsils,Oral
+smpl700116584,Throat,Oral
+smpl700116586,Supragingival plaque,Oral
+smpl700116588,Subgingival plaque,Oral
+smpl700116590,L_Retroauricular crease,Skin
+smpl700116592,R_Retroauricular crease,Skin
+smpl700116598,Anterior nares,Skin
+smpl700116600,Stool,Stool
+smpl700116678,Saliva,Oral
+smpl700116682,Tongue dorsum,Oral
+smpl700116688,Attached/Keratinized gingiva,Oral
+smpl700116694,Supragingival plaque,Oral
+smpl700116702,R_Retroauricular crease,Skin
+smpl700116710,Vaginal introitus,Vaginal
+smpl700116712,Mid vagina,Vaginal
+smpl700116738,Hard palate,Oral
+smpl700116740,Buccal mucosa,Oral
+smpl700116746,Throat,Oral
+smpl700116748,Supragingival plaque,Oral
+smpl700116750,Subgingival plaque,Oral
+smpl700116758,R_Antecubital fossa,Skin
+smpl700116760,Anterior nares,Skin
+smpl700116762,Stool,Stool
+smpl700116876,Buccal mucosa,Oral
+smpl700116878,Attached/Keratinized gingiva,Oral
+smpl700116880,Palatine Tonsils,Oral
+smpl700116884,Supragingival plaque,Oral
+smpl700116886,Subgingival plaque,Oral
+smpl700116888,Stool,Stool
+smpl700116890,L_Retroauricular crease,Skin
+smpl700116892,R_Retroauricular crease,Skin
+smpl700116896,R_Antecubital fossa,Skin
+smpl700116900,Saliva,Oral
+smpl700116904,Tongue dorsum,Oral
+smpl700116906,Hard palate,Oral
+smpl700116931,Tongue dorsum,Oral
+smpl700116933,Hard palate,Oral
+smpl700116935,Buccal mucosa,Oral
+smpl700116937,Attached/Keratinized gingiva,Oral
+smpl700116939,Palatine Tonsils,Oral
+smpl700116943,Supragingival plaque,Oral
+smpl700116947,Stool,Stool
+smpl700116949,L_Retroauricular crease,Skin
+smpl700116951,R_Retroauricular crease,Skin
+smpl700116957,Anterior nares,Skin
+smpl700116961,Mid vagina,Vaginal
+smpl700116984,L_Retroauricular crease,Skin
+smpl700116988,L_Antecubital fossa,Skin
+smpl700116994,Vaginal introitus,Vaginal
+smpl700116998,Posterior fornix,Vaginal
+smpl700117000,Stool,Stool
+smpl700117002,Saliva,Oral
+smpl700117006,Tongue dorsum,Oral
+smpl700117008,Hard palate,Oral
+smpl700117010,Buccal mucosa,Oral
+smpl700117012,Attached/Keratinized gingiva,Oral
+smpl700117014,Palatine Tonsils,Oral
+smpl700117016,Throat,Oral
+smpl700117018,Supragingival plaque,Oral
+smpl700117020,Subgingival plaque,Oral
+smpl700117038,Saliva,Oral
+smpl700117042,Tongue dorsum,Oral
+smpl700117044,Hard palate,Oral
+smpl700117046,Buccal mucosa,Oral
+smpl700117048,Attached/Keratinized gingiva,Oral
+smpl700117050,Palatine Tonsils,Oral
+smpl700117052,Throat,Oral
+smpl700117054,Supragingival plaque,Oral
+smpl700117056,Subgingival plaque,Oral
+smpl700117058,Stool,Stool
+smpl700117060,L_Retroauricular crease,Skin
+smpl700117062,R_Retroauricular crease,Skin
+smpl700117064,L_Antecubital fossa,Skin
+smpl700117066,R_Antecubital fossa,Skin
+smpl700117068,Anterior nares,Skin
+smpl700117086,Stool,Stool
+smpl700117088,L_Retroauricular crease,Skin
+smpl700117090,R_Retroauricular crease,Skin
+smpl700117096,Anterior nares,Skin
+smpl700117098,Saliva,Oral
+smpl700117102,Tongue dorsum,Oral
+smpl700117104,Hard palate,Oral
+smpl700117106,Buccal mucosa,Oral
+smpl700117108,Attached/Keratinized gingiva,Oral
+smpl700117110,Palatine Tonsils,Oral
+smpl700117112,Throat,Oral
+smpl700117114,Supragingival plaque,Oral
+smpl700117116,Subgingival plaque,Oral
+smpl700117139,R_Retroauricular crease,Skin
+smpl700117145,Anterior nares,Skin
+smpl700117147,Vaginal introitus,Vaginal
+smpl700117153,Saliva,Oral
+smpl700117159,Hard palate,Oral
+smpl700117161,Buccal mucosa,Oral
+smpl700117163,Attached/Keratinized gingiva,Oral
+smpl700117165,Palatine Tonsils,Oral
+smpl700117169,Supragingival plaque,Oral
+smpl700117171,Subgingival plaque,Oral
+smpl700117173,Stool,Stool
+smpl700117194,Saliva,Oral
+smpl700117198,Tongue dorsum,Oral
+smpl700117200,Hard palate,Oral
+smpl700117202,Buccal mucosa,Oral
+smpl700117204,Attached/Keratinized gingiva,Oral
+smpl700117206,Palatine Tonsils,Oral
+smpl700117208,Throat,Oral
+smpl700117210,Supragingival plaque,Oral
+smpl700117212,Subgingival plaque,Oral
+smpl700117214,Stool,Stool
+smpl700117216,L_Retroauricular crease,Skin
+smpl700117218,R_Retroauricular crease,Skin
+smpl700117224,Anterior nares,Skin
+smpl700117226,Vaginal introitus,Vaginal
+smpl700117228,Mid vagina,Vaginal
+smpl700117230,Posterior fornix,Vaginal
+smpl700117251,Vaginal introitus,Vaginal
+smpl700117253,Mid vagina,Vaginal
+smpl700117267,Stool,Stool
+smpl700117269,Tongue dorsum,Oral
+smpl700117273,Buccal mucosa,Oral
+smpl700117277,Palatine Tonsils,Oral
+smpl700117279,Throat,Oral
+smpl700117281,Supragingival plaque,Oral
+smpl700117283,Subgingival plaque,Oral
+smpl700117305,L_Retroauricular crease,Skin
+smpl700117319,Tongue dorsum,Oral
+smpl700117323,Buccal mucosa,Oral
+smpl700117325,Attached/Keratinized gingiva,Oral
+smpl700117327,Palatine Tonsils,Oral
+smpl700117331,Supragingival plaque,Oral
+smpl700117335,Stool,Stool
+smpl700117353,L_Retroauricular crease,Skin
+smpl700117355,R_Retroauricular crease,Skin
+smpl700117359,R_Antecubital fossa,Skin
+smpl700117361,Anterior nares,Skin
+smpl700117363,Saliva,Oral
+smpl700117367,Tongue dorsum,Oral
+smpl700117371,Buccal mucosa,Oral
+smpl700117373,Attached/Keratinized gingiva,Oral
+smpl700117375,Palatine Tonsils,Oral
+smpl700117377,Throat,Oral
+smpl700117379,Supragingival plaque,Oral
+smpl700117383,Stool,Stool
+smpl700117401,Saliva,Oral
+smpl700117405,Tongue dorsum,Oral
+smpl700117407,Hard palate,Oral
+smpl700117413,Palatine Tonsils,Oral
+smpl700117415,Throat,Oral
+smpl700117417,Supragingival plaque,Oral
+smpl700117419,Subgingival plaque,Oral
+smpl700117421,L_Retroauricular crease,Skin
+smpl700117423,Stool,Stool
+smpl700117425,R_Retroauricular crease,Skin
+smpl700117449,Saliva,Oral
+smpl700117453,Tongue dorsum,Oral
+smpl700117455,Hard palate,Oral
+smpl700117459,Attached/Keratinized gingiva,Oral
+smpl700117461,Palatine Tonsils,Oral
+smpl700117463,Throat,Oral
+smpl700117467,Subgingival plaque,Oral
+smpl700117471,R_Retroauricular crease,Skin
+smpl700117479,Stool,Stool
+smpl700117506,Hard palate,Oral
+smpl700117508,Buccal mucosa,Oral
+smpl700117510,Attached/Keratinized gingiva,Oral
+smpl700117514,Throat,Oral
+smpl700117516,Supragingival plaque,Oral
+smpl700117518,Subgingival plaque,Oral
+smpl700117520,Stool,Stool
+smpl700117532,Vaginal introitus,Vaginal
+smpl700117556,L_Retroauricular crease,Skin
+smpl700117558,R_Retroauricular crease,Skin
+smpl700117564,Anterior nares,Skin
+smpl700117566,Saliva,Oral
+smpl700117576,Attached/Keratinized gingiva,Oral
+smpl700117578,Palatine Tonsils,Oral
+smpl700117580,Throat,Oral
+smpl700117584,Subgingival plaque,Oral
+smpl700117666,Tongue dorsum,Oral
+smpl700117668,Hard palate,Oral
+smpl700117670,Buccal mucosa,Oral
+smpl700117672,Attached/Keratinized gingiva,Oral
+smpl700117674,Palatine Tonsils,Oral
+smpl700117676,Throat,Oral
+smpl700117678,Supragingival plaque,Oral
+smpl700117680,Subgingival plaque,Oral
+smpl700117682,Stool,Stool
+smpl700117684,L_Retroauricular crease,Skin
+smpl700117686,R_Retroauricular crease,Skin
+smpl700117688,L_Antecubital fossa,Skin
+smpl700117690,R_Antecubital fossa,Skin
+smpl700117692,Anterior nares,Skin
+smpl700117694,Vaginal introitus,Vaginal
+smpl700117696,Mid vagina,Vaginal
+smpl700117698,Posterior fornix,Vaginal
+smpl700117719,Saliva,Oral
+smpl700117723,Tongue dorsum,Oral
+smpl700117725,Hard palate,Oral
+smpl700117727,Buccal mucosa,Oral
+smpl700117729,Attached/Keratinized gingiva,Oral
+smpl700117731,Palatine Tonsils,Oral
+smpl700117733,Throat,Oral
+smpl700117735,Supragingival plaque,Oral
+smpl700117737,Subgingival plaque,Oral
+smpl700117739,L_Retroauricular crease,Skin
+smpl700117741,R_Retroauricular crease,Skin
+smpl700117747,Anterior nares,Skin
+smpl700117749,Vaginal introitus,Vaginal
+smpl700117753,Posterior fornix,Vaginal
+smpl700117755,Stool,Stool
+smpl700117776,Saliva,Oral
+smpl700117780,Tongue dorsum,Oral
+smpl700117782,Hard palate,Oral
+smpl700117784,Buccal mucosa,Oral
+smpl700117786,Attached/Keratinized gingiva,Oral
+smpl700117788,Palatine Tonsils,Oral
+smpl700117790,Throat,Oral
+smpl700117794,Subgingival plaque,Oral
+smpl700117796,Stool,Stool
+smpl700117798,L_Retroauricular crease,Skin
+smpl700117802,L_Antecubital fossa,Skin
+smpl700117804,R_Antecubital fossa,Skin
+smpl700117806,Anterior nares,Skin
+smpl700117812,Posterior fornix,Vaginal
+smpl700117885,Tongue dorsum,Oral
+smpl700117889,Buccal mucosa,Oral
+smpl700117891,Attached/Keratinized gingiva,Oral
+smpl700117895,Throat,Oral
+smpl700117897,Supragingival plaque,Oral
+smpl700117901,L_Retroauricular crease,Skin
+smpl700117917,Stool,Stool
+smpl700117938,Stool,Stool
+smpl700117942,R_Retroauricular crease,Skin
+smpl700117948,Anterior nares,Skin
+smpl700117950,Vaginal introitus,Vaginal
+smpl700117954,Posterior fornix,Vaginal
+smpl700117956,Saliva,Oral
+smpl700117960,Tongue dorsum,Oral
+smpl700117962,Hard palate,Oral
+smpl700117964,Buccal mucosa,Oral
+smpl700117966,Attached/Keratinized gingiva,Oral
+smpl700117968,Palatine Tonsils,Oral
+smpl700117970,Throat,Oral
+smpl700117972,Supragingival plaque,Oral
+smpl700117974,Subgingival plaque,Oral
+smpl700119022,Supragingival plaque,Oral
+smpl700119024,Subgingival plaque,Oral
+smpl700119026,L_Retroauricular crease,Skin
+smpl700119028,R_Retroauricular crease,Skin
+smpl700119032,R_Antecubital fossa,Skin
+smpl700119034,Anterior nares,Skin
+smpl700119036,Vaginal introitus,Vaginal
+smpl700119040,Posterior fornix,Vaginal
+smpl700119127,Stool,Stool
+smpl700119135,Saliva,Oral
+smpl700119139,Tongue dorsum,Oral
+smpl700119141,Hard palate,Oral
+smpl700119143,Buccal mucosa,Oral
+smpl700119145,Attached/Keratinized gingiva,Oral
+smpl700119147,Palatine Tonsils,Oral
+smpl700119149,Throat,Oral
+smpl700119151,Supragingival plaque,Oral
+smpl700119153,Subgingival plaque,Oral
+smpl700119155,L_Retroauricular crease,Skin
+smpl700119157,R_Retroauricular crease,Skin
+smpl700119163,Anterior nares,Skin
+smpl700119326,Stool,Stool
+smpl700119334,Saliva,Oral
+smpl700119338,Tongue dorsum,Oral
+smpl700119340,Hard palate,Oral
+smpl700119342,Buccal mucosa,Oral
+smpl700119344,Attached/Keratinized gingiva,Oral
+smpl700119346,Palatine Tonsils,Oral
+smpl700119348,Throat,Oral
+smpl700119350,Supragingival plaque,Oral
+smpl700119352,Subgingival plaque,Oral
+smpl700119354,L_Retroauricular crease,Skin
+smpl700119356,R_Retroauricular crease,Skin
+smpl700119358,L_Antecubital fossa,Skin
+smpl700119386,Stool,Stool
+smpl700119394,Saliva,Oral
+smpl700119398,Tongue dorsum,Oral
+smpl700119400,Hard palate,Oral
+smpl700119404,Attached/Keratinized gingiva,Oral
+smpl700119406,Palatine Tonsils,Oral
+smpl700119408,Throat,Oral
+smpl700119410,Supragingival plaque,Oral
+smpl700119412,Subgingival plaque,Oral
+smpl700119414,L_Retroauricular crease,Skin
+smpl700119416,R_Retroauricular crease,Skin
+smpl700119422,Anterior nares,Skin
+smpl700119452,Stool,Stool
+smpl700119460,Saliva,Oral
+smpl700119464,Tongue dorsum,Oral
+smpl700119466,Hard palate,Oral
+smpl700119468,Buccal mucosa,Oral
+smpl700119472,Palatine Tonsils,Oral
+smpl700119474,Throat,Oral
+smpl700119476,Supragingival plaque,Oral
+smpl700119478,Subgingival plaque,Oral
+smpl700119480,L_Retroauricular crease,Skin
+smpl700119482,R_Retroauricular crease,Skin
+smpl700119488,Anterior nares,Skin
+smpl700119490,Vaginal introitus,Vaginal
+smpl700119492,Mid vagina,Vaginal
+smpl700119650,Stool,Stool
+smpl700119658,Saliva,Oral
+smpl700119662,Tongue dorsum,Oral
+smpl700119664,Hard palate,Oral
+smpl700119666,Buccal mucosa,Oral
+smpl700119668,Attached/Keratinized gingiva,Oral
+smpl700119670,Palatine Tonsils,Oral
+smpl700119672,Throat,Oral
+smpl700119674,Supragingival plaque,Oral
+smpl700119676,Subgingival plaque,Oral
+smpl700119680,R_Retroauricular crease,Skin
+smpl700119686,Anterior nares,Skin
+smpl700119818,Stool,Stool
+smpl700119826,Saliva,Oral
+smpl700119830,Tongue dorsum,Oral
+smpl700119832,Hard palate,Oral
+smpl700119834,Buccal mucosa,Oral
+smpl700119836,Attached/Keratinized gingiva,Oral
+smpl700119838,Palatine Tonsils,Oral
+smpl700119842,Supragingival plaque,Oral
+smpl700119844,Subgingival plaque,Oral
+smpl700119846,L_Retroauricular crease,Skin
+smpl700119854,Anterior nares,Skin
+smpl700119860,Posterior fornix,Vaginal
+smpl700119895,Tongue dorsum,Oral
+smpl700119897,Hard palate,Oral
+smpl700119899,Buccal mucosa,Oral
+smpl700119903,Palatine Tonsils,Oral
+smpl700119905,Throat,Oral
+smpl700119907,Supragingival plaque,Oral
+smpl700119909,Subgingival plaque,Oral
+smpl700119917,R_Antecubital fossa,Skin
+smpl700119943,Stool,Stool
+smpl700119951,Saliva,Oral
+smpl700119955,Tongue dorsum,Oral
+smpl700119957,Hard palate,Oral
+smpl700119959,Buccal mucosa,Oral
+smpl700119961,Attached/Keratinized gingiva,Oral
+smpl700119963,Palatine Tonsils,Oral
+smpl700119965,Throat,Oral
+smpl700119967,Supragingival plaque,Oral
+smpl700119969,Subgingival plaque,Oral
+smpl700119971,L_Retroauricular crease,Skin
+smpl700119973,R_Retroauricular crease,Skin
+smpl700119979,Anterior nares,Skin
+smpl700119985,Posterior fornix,Vaginal
+smpl700120152,Saliva,Oral
+smpl700120156,Tongue dorsum,Oral
+smpl700120158,Hard palate,Oral
+smpl700120162,Attached/Keratinized gingiva,Oral
+smpl700120164,Palatine Tonsils,Oral
+smpl700120166,Throat,Oral
+smpl700120170,Subgingival plaque,Oral
+smpl700120172,L_Retroauricular crease,Skin
+smpl700120174,R_Retroauricular crease,Skin
+smpl700120180,Anterior nares,Skin
+smpl700120182,Vaginal introitus,Vaginal
+smpl700120218,Saliva,Oral
+smpl700120222,Tongue dorsum,Oral
+smpl700120224,Hard palate,Oral
+smpl700120226,Buccal mucosa,Oral
+smpl700120232,Throat,Oral
+smpl700120234,Supragingival plaque,Oral
+smpl700120236,Subgingival plaque,Oral
+smpl700120238,L_Retroauricular crease,Skin
+smpl700120240,R_Retroauricular crease,Skin
+smpl700120246,Anterior nares,Skin
+smpl700120372,Stool,Stool
+smpl700120384,Tongue dorsum,Oral
+smpl700120388,Buccal mucosa,Oral
+smpl700120390,Attached/Keratinized gingiva,Oral
+smpl700120396,Supragingival plaque,Oral
+smpl700120398,Subgingival plaque,Oral
+smpl700120400,L_Retroauricular crease,Skin
+smpl700120402,R_Retroauricular crease,Skin
+smpl700120410,Vaginal introitus,Vaginal
+smpl700120412,Mid vagina,Vaginal
+smpl700120414,Posterior fornix,Vaginal
+smpl700120462,Stool,Stool
+smpl700120474,Tongue dorsum,Oral
+smpl700120476,Hard palate,Oral
+smpl700120478,Buccal mucosa,Oral
+smpl700120480,Attached/Keratinized gingiva,Oral
+smpl700120482,Palatine Tonsils,Oral
+smpl700120484,Throat,Oral
+smpl700120486,Supragingival plaque,Oral
+smpl700120488,Subgingival plaque,Oral
+smpl700120490,L_Retroauricular crease,Skin
+smpl700120492,R_Retroauricular crease,Skin
+smpl700120494,L_Antecubital fossa,Skin
+smpl700120496,R_Antecubital fossa,Skin
+smpl700120498,Anterior nares,Skin
+smpl700120500,Vaginal introitus,Vaginal
+smpl700120504,Posterior fornix,Vaginal
+smpl700120536,Saliva,Oral
+smpl700120540,Tongue dorsum,Oral
+smpl700120544,Buccal mucosa,Oral
+smpl700120550,Throat,Oral
+smpl700120552,Supragingival plaque,Oral
+smpl700120554,Subgingival plaque,Oral
+smpl700120556,L_Retroauricular crease,Skin
+smpl700120558,R_Retroauricular crease,Skin
+smpl700120560,L_Antecubital fossa,Skin
+smpl700120566,Vaginal introitus,Vaginal
+smpl700120568,Mid vagina,Vaginal
+smpl700120570,Posterior fornix,Vaginal
+smpl700120594,Stool,Stool
+smpl700120602,Saliva,Oral
+smpl700120606,Tongue dorsum,Oral
+smpl700120612,Attached/Keratinized gingiva,Oral
+smpl700120616,Throat,Oral
+smpl700120618,Supragingival plaque,Oral
+smpl700120620,Subgingival plaque,Oral
+smpl700120622,L_Retroauricular crease,Skin
+smpl700120626,L_Antecubital fossa,Skin
+smpl700120628,R_Antecubital fossa,Skin
+smpl700120630,Anterior nares,Skin
+smpl700120632,Vaginal introitus,Vaginal
+smpl700120634,Mid vagina,Vaginal
+smpl700120636,Posterior fornix,Vaginal
+smpl700120664,Stool,Stool
+smpl700120672,Saliva,Oral
+smpl700120676,Tongue dorsum,Oral
+smpl700120678,Hard palate,Oral
+smpl700120684,Palatine Tonsils,Oral
+smpl700120688,Supragingival plaque,Oral
+smpl700120690,Subgingival plaque,Oral
+smpl700120692,L_Retroauricular crease,Skin
+smpl700120694,R_Retroauricular crease,Skin
+smpl700120702,Vaginal introitus,Vaginal
+smpl700120704,Mid vagina,Vaginal
+smpl700120706,Posterior fornix,Vaginal
+smpl700120772,Stool,Stool
+smpl700120784,Tongue dorsum,Oral
+smpl700120792,Palatine Tonsils,Oral
+smpl700120794,Throat,Oral
+smpl700120796,Supragingival plaque,Oral
+smpl700120800,L_Retroauricular crease,Skin
+smpl700120802,R_Retroauricular crease,Skin
+smpl700120808,Anterior nares,Skin
+smpl700120856,Stool,Stool
+smpl700120864,Saliva,Oral
+smpl700120868,Tongue dorsum,Oral
+smpl700120870,Hard palate,Oral
+smpl700120872,Buccal mucosa,Oral
+smpl700120874,Attached/Keratinized gingiva,Oral
+smpl700120876,Palatine Tonsils,Oral
+smpl700120878,Throat,Oral
+smpl700120880,Supragingival plaque,Oral
+smpl700120884,L_Retroauricular crease,Skin
+smpl700120886,R_Retroauricular crease,Skin
+smpl700120892,Anterior nares,Skin
+smpl700120898,Posterior fornix,Vaginal
+smpl700120946,Stool,Stool
+smpl700120954,Saliva,Oral
+smpl700120958,Tongue dorsum,Oral
+smpl700120960,Hard palate,Oral
+smpl700120962,Buccal mucosa,Oral
+smpl700120964,Attached/Keratinized gingiva,Oral
+smpl700120966,Palatine Tonsils,Oral
+smpl700120968,Throat,Oral
+smpl700120970,Supragingival plaque,Oral
+smpl700120972,Subgingival plaque,Oral
+smpl700120988,Posterior fornix,Vaginal
+smpl700121012,Stool,Stool
+smpl700121020,Saliva,Oral
+smpl700121024,Tongue dorsum,Oral
+smpl700121028,Buccal mucosa,Oral
+smpl700121030,Attached/Keratinized gingiva,Oral
+smpl700121032,Palatine Tonsils,Oral
+smpl700121034,Throat,Oral
+smpl700121036,Supragingival plaque,Oral
+smpl700121038,Subgingival plaque,Oral
+smpl700121040,L_Retroauricular crease,Skin
+smpl700121042,R_Retroauricular crease,Skin
+smpl700121046,R_Antecubital fossa,Skin
+smpl700121054,Posterior fornix,Vaginal
+smpl700121102,Stool,Stool
+smpl700121110,Saliva,Oral
+smpl700121114,Tongue dorsum,Oral
+smpl700121118,Buccal mucosa,Oral
+smpl700121120,Attached/Keratinized gingiva,Oral
+smpl700121122,Palatine Tonsils,Oral
+smpl700121124,Throat,Oral
+smpl700121140,Vaginal introitus,Vaginal
+smpl700121142,Mid vagina,Vaginal
+smpl700121144,Posterior fornix,Vaginal
+smpl700121165,Stool,Stool
+smpl700121173,Saliva,Oral
+smpl700121177,Tongue dorsum,Oral
+smpl700121179,Hard palate,Oral
+smpl700121187,Throat,Oral
+smpl700121189,Supragingival plaque,Oral
+smpl700121191,Subgingival plaque,Oral
+smpl700121264,Stool,Stool
+smpl700121272,Saliva,Oral
+smpl700121276,Tongue dorsum,Oral
+smpl700121280,Buccal mucosa,Oral
+smpl700121282,Attached/Keratinized gingiva,Oral
+smpl700121284,Palatine Tonsils,Oral
+smpl700121288,Supragingival plaque,Oral
+smpl700121290,Subgingival plaque,Oral
+smpl700121329,Saliva,Oral
+smpl700121333,Tongue dorsum,Oral
+smpl700121341,Palatine Tonsils,Oral
+smpl700121343,Throat,Oral
+smpl700121349,L_Retroauricular crease,Skin
+smpl700121351,R_Retroauricular crease,Skin
+smpl700121353,L_Antecubital fossa,Skin
+smpl700121355,R_Antecubital fossa,Skin
+smpl700121357,Anterior nares,Skin
+smpl700121431,Stool,Stool
+smpl700121439,Saliva,Oral
+smpl700121443,Tongue dorsum,Oral
+smpl700121445,Hard palate,Oral
+smpl700121447,Buccal mucosa,Oral
+smpl700121449,Attached/Keratinized gingiva,Oral
+smpl700121451,Palatine Tonsils,Oral
+smpl700121453,Throat,Oral
+smpl700121455,Supragingival plaque,Oral
+smpl700121457,Subgingival plaque,Oral
+smpl700121459,L_Retroauricular crease,Skin
+smpl700121461,R_Retroauricular crease,Skin
+smpl700121467,Anterior nares,Skin
+smpl700121469,Vaginal introitus,Vaginal
+smpl700121497,Stool,Stool
+smpl700121509,Tongue dorsum,Oral
+smpl700121510,Tongue dorsum,Oral
+smpl700121511,Hard palate,Oral
+smpl700121513,Buccal mucosa,Oral
+smpl700121515,Attached/Keratinized gingiva,Oral
+smpl700121517,Palatine Tonsils,Oral
+smpl700121519,Throat,Oral
+smpl700121521,Supragingival plaque,Oral
+smpl700121525,L_Retroauricular crease,Skin
+smpl700121527,R_Retroauricular crease,Skin
+smpl700121531,R_Antecubital fossa,Skin
+smpl700121533,Anterior nares,Skin
+smpl700121535,Vaginal introitus,Vaginal
+smpl700121567,Stool,Stool
+smpl700121575,Saliva,Oral
+smpl700121579,Tongue dorsum,Oral
+smpl700121581,Hard palate,Oral
+smpl700121583,Buccal mucosa,Oral
+smpl700121585,Attached/Keratinized gingiva,Oral
+smpl700121587,Palatine Tonsils,Oral
+smpl700121589,Throat,Oral
+smpl700121591,Supragingival plaque,Oral
+smpl700121593,Subgingival plaque,Oral
+smpl700121595,L_Retroauricular crease,Skin
+smpl700121597,R_Retroauricular crease,Skin
+smpl700121601,R_Antecubital fossa,Skin
+smpl700121607,Mid vagina,Vaginal
+smpl700121611,Supragingival plaque,Oral
+smpl700121661,Stool,Stool
+smpl700121669,Saliva,Oral
+smpl700121673,Tongue dorsum,Oral
+smpl700121675,Hard palate,Oral
+smpl700121677,Buccal mucosa,Oral
+smpl700121679,Attached/Keratinized gingiva,Oral
+smpl700121681,Palatine Tonsils,Oral
+smpl700121683,Throat,Oral
+smpl700121685,Supragingival plaque,Oral
+smpl700121687,Subgingival plaque,Oral
+smpl700121689,L_Retroauricular crease,Skin
+smpl700121691,R_Retroauricular crease,Skin
+smpl700121693,L_Antecubital fossa,Skin
+smpl700121695,R_Antecubital fossa,Skin
+smpl700121697,Anterior nares,Skin
+smpl700121699,Vaginal introitus,Vaginal
+smpl700121701,Mid vagina,Vaginal
+smpl700121703,Posterior fornix,Vaginal
+smpl700121909,L_Retroauricular crease,Skin
+smpl700121911,R_Retroauricular crease,Skin
+smpl700121917,Anterior nares,Skin
+smpl700121969,L_Retroauricular crease,Skin
+smpl700121977,Anterior nares,Skin
+smpl700121985,Stool,Stool
+smpl700121993,Saliva,Oral
+smpl700121997,Tongue dorsum,Oral
+smpl700122020,Buccal mucosa,Oral
+smpl700122022,Attached/Keratinized gingiva,Oral
+smpl700122024,Palatine Tonsils,Oral
+smpl700122028,Supragingival plaque,Oral
+smpl700122030,Subgingival plaque,Oral
+smpl700122092,L_Retroauricular crease,Skin
+smpl700122094,R_Retroauricular crease,Skin
+smpl700122100,Anterior nares,Skin
+smpl700122149,Throat,Oral
+smpl700122155,L_Retroauricular crease,Skin
+smpl700122157,R_Retroauricular crease,Skin
+smpl700122215,L_Retroauricular crease,Skin
+smpl700122217,R_Retroauricular crease,Skin
+smpl700122219,L_Antecubital fossa,Skin
+smpl700122223,Anterior nares,Skin
+smpl700122366,Stool,Stool
+smpl700122374,Saliva,Oral
+smpl700122378,Tongue dorsum,Oral
+smpl700122382,Buccal mucosa,Oral
+smpl700122384,Attached/Keratinized gingiva,Oral
+smpl700122386,Palatine Tonsils,Oral
+smpl700122388,Throat,Oral
+smpl700122390,Supragingival plaque,Oral
+smpl700122392,Subgingival plaque,Oral
+smpl700122394,L_Retroauricular crease,Skin
+smpl700122396,R_Retroauricular crease,Skin
+smpl700122398,L_Antecubital fossa,Skin
+smpl700122400,R_Antecubital fossa,Skin
+smpl700122402,Anterior nares,Skin
+smpl700122516,Palatine Tonsils,Oral
+smpl700122518,Throat,Oral
+smpl700122520,Supragingival plaque,Oral
+smpl700122524,L_Retroauricular crease,Skin
+smpl700122526,R_Retroauricular crease,Skin
+smpl700122532,Anterior nares,Skin
+smpl700122538,Posterior fornix,Vaginal
+smpl700122604,Stool,Stool
+smpl700122612,Saliva,Oral
+smpl700122618,Hard palate,Oral
+smpl700122626,Throat,Oral
+smpl700122628,Supragingival plaque,Oral
+smpl700122630,Subgingival plaque,Oral
+smpl700122632,L_Retroauricular crease,Skin
+smpl700122634,R_Retroauricular crease,Skin
+smpl700122640,Anterior nares,Skin
+smpl700122664,Stool,Stool
+smpl700122672,Saliva,Oral
+smpl700122682,Attached/Keratinized gingiva,Oral
+smpl700122688,Supragingival plaque,Oral
+smpl700122692,L_Retroauricular crease,Skin
+smpl700122735,Saliva,Oral
+smpl700122749,Throat,Oral
+smpl700122751,Supragingival plaque,Oral
+smpl700122753,Subgingival plaque,Oral
+smpl700122755,L_Retroauricular crease,Skin
+smpl700122757,R_Retroauricular crease,Skin
+smpl700122761,R_Antecubital fossa,Skin
+smpl700122763,Anterior nares,Skin
+smpl700122787,Stool,Stool
+smpl700122807,Palatine Tonsils,Oral
+smpl700122811,Supragingival plaque,Oral
+smpl700122813,Subgingival plaque,Oral
+smpl700122815,L_Retroauricular crease,Skin
+smpl700122817,R_Retroauricular crease,Skin
+smpl700122825,Vaginal introitus,Vaginal
+smpl700122827,Mid vagina,Vaginal
+smpl700122829,Posterior fornix,Vaginal
+smpl700122879,Stool,Stool
+smpl700122893,Hard palate,Oral
+smpl700122895,Buccal mucosa,Oral
+smpl700122899,Palatine Tonsils,Oral
+smpl700122903,Supragingival plaque,Oral
+smpl700122905,Subgingival plaque,Oral
+smpl700122907,L_Retroauricular crease,Skin
+smpl700122909,R_Retroauricular crease,Skin
+smpl700122939,Stool,Stool
+smpl700122963,Supragingival plaque,Oral
+smpl700122965,Subgingival plaque,Oral
+smpl700122969,R_Retroauricular crease,Skin
+smpl700123049,Hard palate,Oral
+smpl700123059,Supragingival plaque,Oral
+smpl700123061,Subgingival plaque,Oral
+smpl700123063,L_Retroauricular crease,Skin
+smpl700123065,R_Retroauricular crease,Skin
+smpl700123154,Stool,Stool
+smpl700123162,Saliva,Oral
+smpl700123166,Tongue dorsum,Oral
+smpl700123170,Buccal mucosa,Oral
+smpl700123172,Attached/Keratinized gingiva,Oral
+smpl700123176,Throat,Oral
+smpl700123178,Supragingival plaque,Oral
+smpl700123180,Subgingival plaque,Oral
+smpl700123182,L_Retroauricular crease,Skin
+smpl700123246,L_Retroauricular crease,Skin
+smpl700123248,R_Retroauricular crease,Skin
+smpl700123254,Anterior nares,Skin
+smpl700123370,Saliva,Oral
+smpl700123374,Tongue dorsum,Oral
+smpl700123376,Hard palate,Oral
+smpl700123378,Buccal mucosa,Oral
+smpl700123384,Throat,Oral
+smpl700123386,Supragingival plaque,Oral
+smpl700123388,Subgingival plaque,Oral
+smpl700123428,Stool,Stool
+smpl700123436,Saliva,Oral
+smpl700123442,Hard palate,Oral
+smpl700123444,Buccal mucosa,Oral
+smpl700123446,Attached/Keratinized gingiva,Oral
+smpl700123448,Palatine Tonsils,Oral
+smpl700123450,Throat,Oral
+smpl700123452,Supragingival plaque,Oral
+smpl700123456,L_Retroauricular crease,Skin
+smpl700123458,R_Retroauricular crease,Skin
+smpl700123464,Anterior nares,Skin
+smpl700123466,Vaginal introitus,Vaginal
+smpl700123524,Stool,Stool
+smpl700123532,Saliva,Oral
+smpl700123536,Tongue dorsum,Oral
+smpl700123540,Buccal mucosa,Oral
+smpl700123542,Attached/Keratinized gingiva,Oral
+smpl700123544,Palatine Tonsils,Oral
+smpl700123550,Subgingival plaque,Oral
+smpl700123552,L_Retroauricular crease,Skin
+smpl700123554,R_Retroauricular crease,Skin
+smpl700123560,Anterior nares,Skin
+smpl700123722,Stool,Stool
+smpl700123730,Saliva,Oral
+smpl700123738,Buccal mucosa,Oral
+smpl700123740,Attached/Keratinized gingiva,Oral
+smpl700123742,Palatine Tonsils,Oral
+smpl700123746,Supragingival plaque,Oral
+smpl700123748,Subgingival plaque,Oral
+smpl700123762,Mid vagina,Vaginal
+smpl700123764,Posterior fornix,Vaginal
+smpl700123785,Stool,Stool
+smpl700123793,Saliva,Oral
+smpl700123799,Hard palate,Oral
+smpl700123801,Buccal mucosa,Oral
+smpl700123803,Attached/Keratinized gingiva,Oral
+smpl700123805,Palatine Tonsils,Oral
+smpl700123813,L_Retroauricular crease,Skin
+smpl700123815,R_Retroauricular crease,Skin
+smpl700123821,Anterior nares,Skin
+smpl700123943,L_Retroauricular crease,Skin
+smpl700123945,R_Retroauricular crease,Skin
+smpl700123947,L_Antecubital fossa,Skin
+smpl700123949,R_Antecubital fossa,Skin
+smpl700123951,Anterior nares,Skin
+smpl700124063,Stool,Stool
+smpl700124071,Saliva,Oral
+smpl700124077,Hard palate,Oral
+smpl700124079,Buccal mucosa,Oral
+smpl700124083,Palatine Tonsils,Oral
+smpl700124085,Throat,Oral
+smpl700124087,Supragingival plaque,Oral
+smpl700124091,L_Retroauricular crease,Skin
+smpl700124093,R_Retroauricular crease,Skin
+smpl700124099,Anterior nares,Skin
+smpl700124101,Vaginal introitus,Vaginal
+smpl700124103,Mid vagina,Vaginal
+smpl700124157,L_Retroauricular crease,Skin
+smpl700124159,R_Retroauricular crease,Skin
+smpl700124165,Anterior nares,Skin
+smpl700124199,Stool,Stool
+smpl700124207,Saliva,Oral
+smpl700124215,Buccal mucosa,Oral
+smpl700124217,Attached/Keratinized gingiva,Oral
+smpl700124221,Throat,Oral
+smpl700124223,Supragingival plaque,Oral
+smpl700124225,Subgingival plaque,Oral
+smpl700124235,Anterior nares,Skin
+smpl700124241,Posterior fornix,Vaginal
+smpl700124397,Tongue dorsum,Oral
+smpl700124407,Throat,Oral
+smpl700124409,Supragingival plaque,Oral
+smpl700124425,Mid vagina,Vaginal
+smpl700124427,Posterior fornix,Vaginal
+smpl700124451,Stool,Stool
+smpl700124459,Saliva,Oral
+smpl700124463,Tongue dorsum,Oral
+smpl700124465,Hard palate,Oral
+smpl700124467,Buccal mucosa,Oral
+smpl700124469,Attached/Keratinized gingiva,Oral
+smpl700124473,Throat,Oral
+smpl700124477,Subgingival plaque,Oral
+smpl700124479,L_Retroauricular crease,Skin
+smpl700124481,R_Retroauricular crease,Skin
+smpl700124487,Anterior nares,Skin
+smpl700124493,Posterior fornix,Vaginal
+smpl700124517,Stool,Stool
+smpl700124525,Saliva,Oral
+smpl700124529,Tongue dorsum,Oral
+smpl700124531,Hard palate,Oral
+smpl700124533,Buccal mucosa,Oral
+smpl700124535,Attached/Keratinized gingiva,Oral
+smpl700124537,Palatine Tonsils,Oral
+smpl700124539,Throat,Oral
+smpl700124541,Supragingival plaque,Oral
+smpl700124545,L_Retroauricular crease,Skin
+smpl700124547,R_Retroauricular crease,Skin
+smpl700124553,Anterior nares,Skin
+smpl700124555,Vaginal introitus,Vaginal
+smpl700124557,Mid vagina,Vaginal
+smpl700124559,Posterior fornix,Vaginal
+smpl700124583,Stool,Stool
+smpl700124591,Saliva,Oral
+smpl700124595,Tongue dorsum,Oral
+smpl700124597,Hard palate,Oral
+smpl700124599,Buccal mucosa,Oral
+smpl700124603,Palatine Tonsils,Oral
+smpl700124605,Throat,Oral
+smpl700124607,Supragingival plaque,Oral
+smpl700124609,Subgingival plaque,Oral
+smpl700124611,L_Retroauricular crease,Skin
+smpl700124613,R_Retroauricular crease,Skin
+smpl700124619,Anterior nares,Skin
+smpl700124751,Stool,Stool
+smpl700124763,Tongue dorsum,Oral
+smpl700124767,Buccal mucosa,Oral
+smpl700124769,Attached/Keratinized gingiva,Oral
+smpl700124775,Supragingival plaque,Oral
+smpl700124781,R_Retroauricular crease,Skin
+smpl700124831,Hard palate,Oral
+smpl700124833,Buccal mucosa,Oral
+smpl700124837,Palatine Tonsils,Oral
+smpl700124839,Throat,Oral
+smpl700124841,Supragingival plaque,Oral
+smpl700124845,L_Retroauricular crease,Skin
+smpl700124847,R_Retroauricular crease,Skin
+smpl700124875,Stool,Stool
+smpl700124883,Saliva,Oral
+smpl700124887,Tongue dorsum,Oral
+smpl700124889,Hard palate,Oral
+smpl700124891,Buccal mucosa,Oral
+smpl700124893,Attached/Keratinized gingiva,Oral
+smpl700124895,Palatine Tonsils,Oral
+smpl700124897,Throat,Oral
+smpl700124899,Supragingival plaque,Oral
+smpl700124901,Subgingival plaque,Oral
+smpl700124905,R_Retroauricular crease,Skin
+smpl700124913,Vaginal introitus,Vaginal
+smpl700124917,Posterior fornix,Vaginal
+smpl700124919,Anterior nares,Skin
+smpl700124923,L_Antecubital fossa,Skin
+smpl700124997,Stool,Stool
+smpl700161020,Saliva,Oral
+smpl700161024,Tongue dorsum,Oral
+smpl700161026,Hard palate,Oral
+smpl700161028,Buccal mucosa,Oral
+smpl700161036,Supragingival plaque,Oral
+smpl700161038,Subgingival plaque,Oral
+smpl700161042,L_Retroauricular crease,Skin
+smpl700161044,R_Retroauricular crease,Skin
+smpl700161050,Anterior nares,Skin
+smpl700161077,Saliva,Oral
+smpl700161081,Tongue dorsum,Oral
+smpl700161085,Buccal mucosa,Oral
+smpl700161087,Attached/Keratinized gingiva,Oral
+smpl700161089,Palatine Tonsils,Oral
+smpl700161091,Throat,Oral
+smpl700161093,Supragingival plaque,Oral
+smpl700161095,Subgingival plaque,Oral
+smpl700161097,Stool,Stool
+smpl700161099,L_Retroauricular crease,Skin
+smpl700161105,R_Antecubital fossa,Skin
+smpl700161109,Vaginal introitus,Vaginal
+smpl700161111,Mid vagina,Vaginal
+smpl700161113,Posterior fornix,Vaginal
+smpl700161131,Stool,Stool
+smpl700161133,Saliva,Oral
+smpl700161137,Tongue dorsum,Oral
+smpl700161145,Palatine Tonsils,Oral
+smpl700161147,Throat,Oral
+smpl700161151,Subgingival plaque,Oral
+smpl700161153,L_Retroauricular crease,Skin
+smpl700161157,L_Antecubital fossa,Skin
+smpl700161159,R_Antecubital fossa,Skin
+smpl700161182,Saliva,Oral
+smpl700161186,Tongue dorsum,Oral
+smpl700161190,Buccal mucosa,Oral
+smpl700161192,Attached/Keratinized gingiva,Oral
+smpl700161194,Palatine Tonsils,Oral
+smpl700161196,Throat,Oral
+smpl700161198,Supragingival plaque,Oral
+smpl700161200,Subgingival plaque,Oral
+smpl700161202,Stool,Stool
+smpl700161208,L_Antecubital fossa,Skin
+smpl700161210,R_Antecubital fossa,Skin
+smpl700161293,Stool,Stool
+smpl700161299,Throat,Oral
+smpl700161301,Buccal mucosa,Oral
+smpl700161303,Tongue dorsum,Oral
+smpl700161305,Supragingival plaque,Oral
+smpl700161307,Subgingival plaque,Oral
+smpl700161309,Attached/Keratinized gingiva,Oral
+smpl700161311,Palatine Tonsils,Oral
+smpl700161356,Hard palate,Oral
+smpl700161358,Buccal mucosa,Oral
+smpl700161370,L_Retroauricular crease,Skin
+smpl700161372,R_Retroauricular crease,Skin
+smpl700161398,Anterior nares,Skin
+smpl700161406,Hard palate,Oral
+smpl700161416,Supragingival plaque,Oral
+smpl700161451,Palatine Tonsils,Oral
+smpl700161459,Stool,Stool
+smpl700161461,L_Retroauricular crease,Skin
+smpl700161463,R_Retroauricular crease,Skin
+smpl700161550,Stool,Stool
+smpl700161572,L_Retroauricular crease,Skin
+smpl700161598,Stool,Stool
+smpl700161600,Saliva,Oral
+smpl700161604,Tongue dorsum,Oral
+smpl700161606,Hard palate,Oral
+smpl700161608,Buccal mucosa,Oral
+smpl700161610,Attached/Keratinized gingiva,Oral
+smpl700161612,Palatine Tonsils,Oral
+smpl700161614,Throat,Oral
+smpl700161616,Supragingival plaque,Oral
+smpl700161618,Subgingival plaque,Oral
+smpl700161620,L_Retroauricular crease,Skin
+smpl700161622,R_Retroauricular crease,Skin
+smpl700161628,Anterior nares,Skin
+smpl700161649,Stool,Stool
+smpl700161651,Saliva,Oral
+smpl700161655,Tongue dorsum,Oral
+smpl700161657,Hard palate,Oral
+smpl700161659,Buccal mucosa,Oral
+smpl700161661,Attached/Keratinized gingiva,Oral
+smpl700161663,Palatine Tonsils,Oral
+smpl700161665,Throat,Oral
+smpl700161667,Supragingival plaque,Oral
+smpl700161669,Subgingival plaque,Oral
+smpl700161673,R_Retroauricular crease,Skin
+smpl700161675,L_Antecubital fossa,Skin
+smpl700161677,R_Antecubital fossa,Skin
+smpl700161679,Anterior nares,Skin
+smpl700161771,R_Antecubital fossa,Skin
+smpl700161773,Anterior nares,Skin
+smpl700161789,Buccal mucosa,Oral
+smpl700161791,Attached/Keratinized gingiva,Oral
+smpl700161820,Saliva,Oral
+smpl700161824,Tongue dorsum,Oral
+smpl700161826,Hard palate,Oral
+smpl700161828,Buccal mucosa,Oral
+smpl700161830,Attached/Keratinized gingiva,Oral
+smpl700161832,Palatine Tonsils,Oral
+smpl700161834,Throat,Oral
+smpl700161836,Supragingival plaque,Oral
+smpl700161838,Subgingival plaque,Oral
+smpl700161844,L_Antecubital fossa,Skin
+smpl700161846,R_Antecubital fossa,Skin
+smpl700161848,Anterior nares,Skin
+smpl700161850,Vaginal introitus,Vaginal
+smpl700161852,Mid vagina,Vaginal
+smpl700161854,Posterior fornix,Vaginal
+smpl700161856,Stool,Stool
+smpl700161874,Saliva,Oral
+smpl700161878,Tongue dorsum,Oral
+smpl700161880,Hard palate,Oral
+smpl700161882,Buccal mucosa,Oral
+smpl700161890,Supragingival plaque,Oral
+smpl700161892,Subgingival plaque,Oral
+smpl700161896,R_Retroauricular crease,Skin
+smpl700161904,Stool,Stool
+smpl700161981,R_Retroauricular crease,Skin
+smpl700163030,Stool,Stool
+smpl700163042,Vaginal introitus,Vaginal
+smpl700163044,Mid vagina,Vaginal
+smpl700163048,Saliva,Oral
+smpl700163052,Tongue dorsum,Oral
+smpl700163054,Hard palate,Oral
+smpl700163056,Buccal mucosa,Oral
+smpl700163058,Attached/Keratinized gingiva,Oral
+smpl700163060,Palatine Tonsils,Oral
+smpl700163062,Throat,Oral
+smpl700163064,Supragingival plaque,Oral
+smpl700163066,Subgingival plaque,Oral
+smpl700163144,Stool,Stool
+smpl700163146,L_Retroauricular crease,Skin
+smpl700163148,R_Retroauricular crease,Skin
+smpl700163168,Hard palate,Oral
+smpl700163170,Palatine Tonsils,Oral
+smpl700163178,Supragingival plaque,Oral
+smpl700163201,Stool,Stool
+smpl700163209,R_Antecubital fossa,Skin
+smpl700163211,Anterior nares,Skin
+smpl700163213,Vaginal introitus,Vaginal
+smpl700163215,Mid vagina,Vaginal
+smpl700163217,Posterior fornix,Vaginal
+smpl700163219,Saliva,Oral
+smpl700163223,Tongue dorsum,Oral
+smpl700163225,Hard palate,Oral
+smpl700163227,Buccal mucosa,Oral
+smpl700163229,Attached/Keratinized gingiva,Oral
+smpl700163231,Palatine Tonsils,Oral
+smpl700163233,Throat,Oral
+smpl700163235,Supragingival plaque,Oral
+smpl700163237,Subgingival plaque,Oral
+smpl700163258,Stool,Stool
+smpl700163260,L_Retroauricular crease,Skin
+smpl700163262,R_Retroauricular crease,Skin
+smpl700163268,Anterior nares,Skin
+smpl700163270,Vaginal introitus,Vaginal
+smpl700163276,Saliva,Oral
+smpl700163280,Tongue dorsum,Oral
+smpl700163282,Hard palate,Oral
+smpl700163284,Buccal mucosa,Oral
+smpl700163286,Attached/Keratinized gingiva,Oral
+smpl700163288,Palatine Tonsils,Oral
+smpl700163290,Throat,Oral
+smpl700163292,Subgingival plaque,Oral
+smpl700163294,Supragingival plaque,Oral
+smpl700163316,Stool,Stool
+smpl700163328,Vaginal introitus,Vaginal
+smpl700163475,Stool,Stool
+smpl700163477,Saliva,Oral
+smpl700163481,Tongue dorsum,Oral
+smpl700163483,Hard palate,Oral
+smpl700163485,Buccal mucosa,Oral
+smpl700163487,Attached/Keratinized gingiva,Oral
+smpl700163489,Palatine Tonsils,Oral
+smpl700163491,Throat,Oral
+smpl700163493,Supragingival plaque,Oral
+smpl700163495,Subgingival plaque,Oral
+smpl700163497,L_Retroauricular crease,Skin
+smpl700163501,L_Antecubital fossa,Skin
+smpl700163505,Anterior nares,Skin
+smpl700163523,Saliva,Oral
+smpl700163527,Tongue dorsum,Oral
+smpl700163529,Hard palate,Oral
+smpl700163531,Buccal mucosa,Oral
+smpl700163533,Attached/Keratinized gingiva,Oral
+smpl700163535,Palatine Tonsils,Oral
+smpl700163537,Throat,Oral
+smpl700163539,Supragingival plaque,Oral
+smpl700163541,Subgingival plaque,Oral
+smpl700163543,L_Retroauricular crease,Skin
+smpl700163553,Stool,Stool
+smpl700163574,Stool,Stool
+smpl700163578,R_Retroauricular crease,Skin
+smpl700163580,L_Antecubital fossa,Skin
+smpl700163584,Anterior nares,Skin
+smpl700163586,Vaginal introitus,Vaginal
+smpl700163592,Saliva,Oral
+smpl700163596,Tongue dorsum,Oral
+smpl700163598,Hard palate,Oral
+smpl700163600,Buccal mucosa,Oral
+smpl700163602,Attached/Keratinized gingiva,Oral
+smpl700163604,Palatine Tonsils,Oral
+smpl700163606,Throat,Oral
+smpl700163608,Supragingival plaque,Oral
+smpl700163610,Subgingival plaque,Oral
+smpl700163831,Stool,Stool
+smpl700163833,Saliva,Oral
+smpl700163837,Tongue dorsum,Oral
+smpl700163839,Hard palate,Oral
+smpl700163841,Buccal mucosa,Oral
+smpl700163843,Attached/Keratinized gingiva,Oral
+smpl700163845,Palatine Tonsils,Oral
+smpl700163847,Throat,Oral
+smpl700163849,Supragingival plaque,Oral
+smpl700163851,Subgingival plaque,Oral
+smpl700163861,Anterior nares,Skin
+smpl700163888,Stool,Stool
+smpl700163890,Saliva,Oral
+smpl700163894,Tongue dorsum,Oral
+smpl700163896,Hard palate,Oral
+smpl700163898,Buccal mucosa,Oral
+smpl700163900,Attached/Keratinized gingiva,Oral
+smpl700163902,Palatine Tonsils,Oral
+smpl700163904,Throat,Oral
+smpl700163906,Supragingival plaque,Oral
+smpl700163908,Subgingival plaque,Oral
+smpl700163910,L_Retroauricular crease,Skin
+smpl700163912,R_Retroauricular crease,Skin
+smpl700163914,L_Antecubital fossa,Skin
+smpl700163999,Stool,Stool
+smpl700164001,Saliva,Oral
+smpl700164005,Tongue dorsum,Oral
+smpl700164007,Hard palate,Oral
+smpl700164009,Buccal mucosa,Oral
+smpl700164011,Attached/Keratinized gingiva,Oral
+smpl700164013,Palatine Tonsils,Oral
+smpl700164015,Throat,Oral
+smpl700164017,Supragingival plaque,Oral
+smpl700164019,Subgingival plaque,Oral
+smpl700164111,Tongue dorsum,Oral
+smpl700164113,Hard palate,Oral
+smpl700164115,Buccal mucosa,Oral
+smpl700164117,Attached/Keratinized gingiva,Oral
+smpl700164119,Palatine Tonsils,Oral
+smpl700164121,Throat,Oral
+smpl700164123,Supragingival plaque,Oral
+smpl700164125,Subgingival plaque,Oral
+smpl700164127,L_Retroauricular crease,Skin
+smpl700164137,Vaginal introitus,Vaginal
+smpl700164141,Posterior fornix,Vaginal
+smpl700164143,Stool,Stool
+smpl700164212,Stool,Stool
+smpl700164214,L_Retroauricular crease,Skin
+smpl700164216,R_Retroauricular crease,Skin
+smpl700164222,Anterior nares,Skin
+smpl700164224,Vaginal introitus,Vaginal
+smpl700164226,Mid vagina,Vaginal
+smpl700164228,Posterior fornix,Vaginal
+smpl700164230,Saliva,Oral
+smpl700164234,Tongue dorsum,Oral
+smpl700164236,Hard palate,Oral
+smpl700164238,Buccal mucosa,Oral
+smpl700164242,Palatine Tonsils,Oral
+smpl700164244,Throat,Oral
+smpl700164246,Supragingival plaque,Oral
+smpl700164269,Stool,Stool
+smpl700164271,L_Retroauricular crease,Skin
+smpl700164273,R_Retroauricular crease,Skin
+smpl700164275,L_Antecubital fossa,Skin
+smpl700164277,R_Antecubital fossa,Skin
+smpl700164279,Anterior nares,Skin
+smpl700164281,Vaginal introitus,Vaginal
+smpl700164287,Saliva,Oral
+smpl700164291,Tongue dorsum,Oral
+smpl700164293,Hard palate,Oral
+smpl700164295,Buccal mucosa,Oral
+smpl700164297,Attached/Keratinized gingiva,Oral
+smpl700164299,Palatine Tonsils,Oral
+smpl700164301,Throat,Oral
+smpl700164303,Supragingival plaque,Oral
+smpl700164305,Subgingival plaque,Oral
+smpl700164323,Tongue dorsum,Oral
+smpl700164325,Hard palate,Oral
+smpl700164327,Buccal mucosa,Oral
+smpl700164329,Attached/Keratinized gingiva,Oral
+smpl700164331,Palatine Tonsils,Oral
+smpl700164333,Throat,Oral
+smpl700164335,Supragingival plaque,Oral
+smpl700164337,Subgingival plaque,Oral
+smpl700164339,Stool,Stool
+smpl700164341,L_Retroauricular crease,Skin
+smpl700164345,L_Antecubital fossa,Skin
+smpl700164351,Saliva,Oral
+smpl700164371,Stool,Stool
+smpl700164373,Saliva,Oral
+smpl700164377,Tongue dorsum,Oral
+smpl700164379,Hard palate,Oral
+smpl700164381,Buccal mucosa,Oral
+smpl700164383,Attached/Keratinized gingiva,Oral
+smpl700164385,Palatine Tonsils,Oral
+smpl700164387,Throat,Oral
+smpl700164389,Supragingival plaque,Oral
+smpl700164391,Subgingival plaque,Oral
+smpl700164393,L_Retroauricular crease,Skin
+smpl700164395,R_Retroauricular crease,Skin
+smpl700164399,R_Antecubital fossa,Skin
+smpl700164401,Anterior nares,Skin
+smpl700164427,Buccal mucosa,Oral
+smpl700164431,Palatine Tonsils,Oral
+smpl700164441,R_Retroauricular crease,Skin
+smpl700164449,Stool,Stool
+smpl700164467,Stool,Stool
+smpl700164469,Saliva,Oral
+smpl700164473,Tongue dorsum,Oral
+smpl700164475,Hard palate,Oral
+smpl700164477,Buccal mucosa,Oral
+smpl700164479,Palatine Tonsils,Oral
+smpl700164481,Throat,Oral
+smpl700164483,Attached/Keratinized gingiva,Oral
+smpl700164485,Supragingival plaque,Oral
+smpl700164487,Subgingival plaque,Oral
+smpl700164489,L_Retroauricular crease,Skin
+smpl700164491,R_Retroauricular crease,Skin
+smpl700164493,L_Antecubital fossa,Skin
+smpl700164495,R_Antecubital fossa,Skin
+smpl700164497,Anterior nares,Skin
+smpl700164518,Saliva,Oral
+smpl700164522,Tongue dorsum,Oral
+smpl700164524,Hard palate,Oral
+smpl700164526,Buccal mucosa,Oral
+smpl700164528,Attached/Keratinized gingiva,Oral
+smpl700164530,Palatine Tonsils,Oral
+smpl700164532,Throat,Oral
+smpl700164534,Supragingival plaque,Oral
+smpl700164536,Subgingival plaque,Oral
+smpl700164538,Stool,Stool
+smpl700164540,L_Retroauricular crease,Skin
+smpl700164542,R_Retroauricular crease,Skin
+smpl700164548,Anterior nares,Skin
+smpl700164550,Vaginal introitus,Vaginal
+smpl700164552,Mid vagina,Vaginal
+smpl700164554,Posterior fornix,Vaginal
+smpl700164650,Saliva,Oral
+smpl700164658,Buccal mucosa,Oral
+smpl700164660,Attached/Keratinized gingiva,Oral
+smpl700164737,Saliva,Oral
+smpl700164741,Tongue dorsum,Oral
+smpl700164743,Hard palate,Oral
+smpl700164745,Buccal mucosa,Oral
+smpl700164747,Attached/Keratinized gingiva,Oral
+smpl700164749,Palatine Tonsils,Oral
+smpl700164751,Throat,Oral
+smpl700164753,Supragingival plaque,Oral
+smpl700164755,Subgingival plaque,Oral
+smpl700164757,L_Retroauricular crease,Skin
+smpl700164759,R_Retroauricular crease,Skin
+smpl700164761,L_Antecubital fossa,Skin
+smpl700164763,R_Antecubital fossa,Skin
+smpl700164765,Anterior nares,Skin
+smpl700164767,Vaginal introitus,Vaginal
+smpl700164769,Mid vagina,Vaginal
+smpl700164771,Posterior fornix,Vaginal
+smpl700164773,Stool,Stool
+smpl700164794,Saliva,Oral
+smpl700164798,Tongue dorsum,Oral
+smpl700164800,Hard palate,Oral
+smpl700164802,Buccal mucosa,Oral
+smpl700164804,Attached/Keratinized gingiva,Oral
+smpl700164806,Palatine Tonsils,Oral
+smpl700164808,Throat,Oral
+smpl700164810,Supragingival plaque,Oral
+smpl700164812,Subgingival plaque,Oral
+smpl700164814,L_Retroauricular crease,Skin
+smpl700164816,R_Retroauricular crease,Skin
+smpl700164818,L_Antecubital fossa,Skin
+smpl700164820,R_Antecubital fossa,Skin
+smpl700164822,Anterior nares,Skin
+smpl700164824,Vaginal introitus,Vaginal
+smpl700164826,Mid vagina,Vaginal
+smpl700164828,Posterior fornix,Vaginal
+smpl700164830,Stool,Stool
+smpl700164911,Stool,Stool
+smpl700164921,Anterior nares,Skin
+smpl700164927,Posterior fornix,Vaginal
+smpl700164929,Saliva,Oral
+smpl700164933,Tongue dorsum,Oral
+smpl700164935,Hard palate,Oral
+smpl700164937,Buccal mucosa,Oral
+smpl700164939,Attached/Keratinized gingiva,Oral
+smpl700164941,Palatine Tonsils,Oral
+smpl700164943,Throat,Oral
+smpl700164945,Supragingival plaque,Oral
+smpl700164969,Tongue dorsum,Oral
+smpl700164971,Hard palate,Oral
+smpl700164973,Buccal mucosa,Oral
+smpl700164977,Palatine Tonsils,Oral
+smpl700164979,Throat,Oral
+smpl700164981,Supragingival plaque,Oral
+smpl700164983,Subgingival plaque,Oral
+smpl700164987,R_Retroauricular crease,Skin
+smpl700164995,Stool,Stool
+smpl700165016,Saliva,Oral
+smpl700165030,Throat,Oral
+smpl700165032,Supragingival plaque,Oral
+smpl700165036,L_Retroauricular crease,Skin
+smpl700165038,R_Retroauricular crease,Skin
+smpl700165070,Saliva,Oral
+smpl700165074,Tongue dorsum,Oral
+smpl700165078,Buccal mucosa,Oral
+smpl700165080,Attached/Keratinized gingiva,Oral
+smpl700165082,Palatine Tonsils,Oral
+smpl700165084,Throat,Oral
+smpl700165086,Supragingival plaque,Oral
+smpl700165088,Subgingival plaque,Oral
+smpl700165090,Stool,Stool
+smpl700165094,R_Retroauricular crease,Skin
+smpl700165187,Subgingival plaque,Oral
+smpl700165189,L_Retroauricular crease,Skin
+smpl700165191,R_Retroauricular crease,Skin
+smpl700165193,L_Antecubital fossa,Skin
+smpl700165205,Stool,Stool
+smpl700165230,Tongue dorsum,Oral
+smpl700165232,Hard palate,Oral
+smpl700165234,Buccal mucosa,Oral
+smpl700165236,Attached/Keratinized gingiva,Oral
+smpl700165238,Palatine Tonsils,Oral
+smpl700165240,Throat,Oral
+smpl700165244,Subgingival plaque,Oral
+smpl700165246,L_Retroauricular crease,Skin
+smpl700165248,R_Retroauricular crease,Skin
+smpl700165256,Vaginal introitus,Vaginal
+smpl700165262,Stool,Stool
+smpl700165328,Stool,Stool
+smpl700165330,Saliva,Oral
+smpl700165334,Tongue dorsum,Oral
+smpl700165336,Hard palate,Oral
+smpl700165338,Buccal mucosa,Oral
+smpl700165340,Attached/Keratinized gingiva,Oral
+smpl700165346,Supragingival plaque,Oral
+smpl700165348,Subgingival plaque,Oral
+smpl700165350,L_Retroauricular crease,Skin
+smpl700165352,R_Retroauricular crease,Skin
+smpl700165376,Stool,Stool
+smpl700165378,Saliva,Oral
+smpl700165382,Tongue dorsum,Oral
+smpl700165384,Hard palate,Oral
+smpl700165386,Buccal mucosa,Oral
+smpl700165388,Attached/Keratinized gingiva,Oral
+smpl700165390,Palatine Tonsils,Oral
+smpl700165392,Throat,Oral
+smpl700165394,Supragingival plaque,Oral
+smpl700165396,Subgingival plaque,Oral
+smpl700165398,L_Retroauricular crease,Skin
+smpl700165400,R_Retroauricular crease,Skin
+smpl700165402,L_Antecubital fossa,Skin
+smpl700165404,R_Antecubital fossa,Skin
+smpl700165406,Anterior nares,Skin
+smpl700165424,Stool,Stool
+smpl700165430,Tongue dorsum,Oral
+smpl700165432,Hard palate,Oral
+smpl700165434,Buccal mucosa,Oral
+smpl700165436,Attached/Keratinized gingiva,Oral
+smpl700165438,Palatine Tonsils,Oral
+smpl700165440,Throat,Oral
+smpl700165442,Supragingival plaque,Oral
+smpl700165444,Subgingival plaque,Oral
+smpl700165446,L_Retroauricular crease,Skin
+smpl700165448,R_Retroauricular crease,Skin
+smpl700165452,R_Antecubital fossa,Skin
+smpl700165454,Anterior nares,Skin
+smpl700165532,Saliva,Oral
+smpl700165536,Tongue dorsum,Oral
+smpl700165538,Hard palate,Oral
+smpl700165540,Buccal mucosa,Oral
+smpl700165542,Attached/Keratinized gingiva,Oral
+smpl700165544,Palatine Tonsils,Oral
+smpl700165552,L_Retroauricular crease,Skin
+smpl700165562,Vaginal introitus,Vaginal
+smpl700165564,Mid vagina,Vaginal
+smpl700165566,Posterior fornix,Vaginal
+smpl700165568,Stool,Stool
+smpl700165586,Stool,Stool
+smpl700165588,Saliva,Oral
+smpl700165592,Tongue dorsum,Oral
+smpl700165594,Hard palate,Oral
+smpl700165596,Buccal mucosa,Oral
+smpl700165598,Attached/Keratinized gingiva,Oral
+smpl700165600,Palatine Tonsils,Oral
+smpl700165602,Throat,Oral
+smpl700165604,Supragingival plaque,Oral
+smpl700165606,Subgingival plaque,Oral
+smpl700165614,R_Antecubital fossa,Skin
+smpl700165634,Stool,Stool
+smpl700165636,Saliva,Oral
+smpl700165640,Tongue dorsum,Oral
+smpl700165642,Hard palate,Oral
+smpl700165644,Buccal mucosa,Oral
+smpl700165646,Attached/Keratinized gingiva,Oral
+smpl700165648,Palatine Tonsils,Oral
+smpl700165650,Throat,Oral
+smpl700165652,Supragingival plaque,Oral
+smpl700165654,Subgingival plaque,Oral
+smpl700165656,L_Retroauricular crease,Skin
+smpl700165658,R_Retroauricular crease,Skin
+smpl700165662,R_Antecubital fossa,Skin
+smpl700165664,Anterior nares,Skin
+smpl700165682,Stool,Stool
+smpl700165684,Saliva,Oral
+smpl700165688,Tongue dorsum,Oral
+smpl700165690,Hard palate,Oral
+smpl700165692,Buccal mucosa,Oral
+smpl700165694,Attached/Keratinized gingiva,Oral
+smpl700165696,Palatine Tonsils,Oral
+smpl700165700,Supragingival plaque,Oral
+smpl700165702,Subgingival plaque,Oral
+smpl700165704,L_Retroauricular crease,Skin
+smpl700165706,R_Retroauricular crease,Skin
+smpl700165708,L_Antecubital fossa,Skin
+smpl700165712,Anterior nares,Skin
+smpl700165730,Saliva,Oral
+smpl700165734,Tongue dorsum,Oral
+smpl700165736,Hard palate,Oral
+smpl700165738,Buccal mucosa,Oral
+smpl700165740,Attached/Keratinized gingiva,Oral
+smpl700165742,Palatine Tonsils,Oral
+smpl700165744,Throat,Oral
+smpl700165746,Supragingival plaque,Oral
+smpl700165748,Subgingival plaque,Oral
+smpl700165750,L_Retroauricular crease,Skin
+smpl700165752,R_Retroauricular crease,Skin
+smpl700165758,Anterior nares,Skin
+smpl700165760,Stool,Stool
+smpl700165778,Stool,Stool
+smpl700165784,Tongue dorsum,Oral
+smpl700165786,Hard palate,Oral
+smpl700165788,Buccal mucosa,Oral
+smpl700165792,Palatine Tonsils,Oral
+smpl700165794,Throat,Oral
+smpl700165796,Supragingival plaque,Oral
+smpl700165798,Subgingival plaque,Oral
+smpl700165800,L_Retroauricular crease,Skin
+smpl700165802,R_Retroauricular crease,Skin
+smpl700165804,L_Antecubital fossa,Skin
+smpl700165806,R_Antecubital fossa,Skin
+smpl700165808,Anterior nares,Skin
+smpl700165934,Saliva,Oral
+smpl700165938,Tongue dorsum,Oral
+smpl700165940,Hard palate,Oral
+smpl700165942,Buccal mucosa,Oral
+smpl700165944,Attached/Keratinized gingiva,Oral
+smpl700165946,Palatine Tonsils,Oral
+smpl700165948,Throat,Oral
+smpl700165950,Supragingival plaque,Oral
+smpl700165952,Subgingival plaque,Oral
+smpl700165954,L_Retroauricular crease,Skin
+smpl700165956,R_Retroauricular crease,Skin
+smpl700165958,L_Antecubital fossa,Skin
+smpl700165960,R_Antecubital fossa,Skin
+smpl700165962,Anterior nares,Skin
+smpl700165964,Vaginal introitus,Vaginal
+smpl700165970,Stool,Stool
+smpl700165994,Hard palate,Oral
+smpl700166094,Vaginal introitus,Vaginal
+smpl700166218,Stool,Stool
+smpl700166226,Saliva,Oral
+smpl700166234,Buccal mucosa,Oral
+smpl700166238,Palatine Tonsils,Oral
+smpl700166240,Throat,Oral
+smpl700166244,Subgingival plaque,Oral
+smpl700166248,R_Retroauricular crease,Skin
+smpl700166256,Vaginal introitus,Vaginal
+smpl700166258,Mid vagina,Vaginal
+smpl700166260,Posterior fornix,Vaginal
+smpl700166302,Attached/Keratinized gingiva,Oral
+smpl700166312,L_Retroauricular crease,Skin
+smpl700166314,R_Retroauricular crease,Skin
+smpl700166320,Anterior nares,Skin
+smpl700166472,Stool,Stool
+smpl700166480,Saliva,Oral
+smpl700166486,Hard palate,Oral
+smpl700166488,Buccal mucosa,Oral
+smpl700166490,Attached/Keratinized gingiva,Oral
+smpl700166496,Supragingival plaque,Oral
+smpl700166498,Subgingival plaque,Oral
+smpl700166500,L_Retroauricular crease,Skin
+smpl700166502,R_Retroauricular crease,Skin
+smpl700166508,Anterior nares,Skin
+smpl700166605,Stool,Stool
+smpl700166613,Saliva,Oral
+smpl700166617,Tongue dorsum,Oral
+smpl700166619,Hard palate,Oral
+smpl700166621,Buccal mucosa,Oral
+smpl700166623,Attached/Keratinized gingiva,Oral
+smpl700166625,Palatine Tonsils,Oral
+smpl700166629,Supragingival plaque,Oral
+smpl700166631,Subgingival plaque,Oral
+smpl700166639,R_Antecubital fossa,Skin
+smpl700166641,Anterior nares,Skin
+smpl700166693,L_Retroauricular crease,Skin
+smpl700166695,R_Retroauricular crease,Skin
+smpl700166701,Anterior nares,Skin
+smpl700166731,Stool,Stool
+smpl700166739,Saliva,Oral
+smpl700166743,Tongue dorsum,Oral
+smpl700166745,Hard palate,Oral
+smpl700166749,Attached/Keratinized gingiva,Oral
+smpl700166751,Palatine Tonsils,Oral
+smpl700166757,Subgingival plaque,Oral
+smpl700166769,Vaginal introitus,Vaginal
+smpl700166881,Stool,Stool
+smpl700166897,Buccal mucosa,Oral
+smpl700166899,Attached/Keratinized gingiva,Oral
+smpl700166901,Palatine Tonsils,Oral
+smpl700166903,Throat,Oral
+smpl700166909,L_Retroauricular crease,Skin
+smpl700166911,R_Retroauricular crease,Skin
+smpl700166917,Anterior nares,Skin
+smpl700167005,Saliva,Oral
+smpl700167009,Tongue dorsum,Oral
+smpl700167011,Hard palate,Oral
+smpl700167015,Attached/Keratinized gingiva,Oral
+smpl700167017,Palatine Tonsils,Oral
+smpl700167019,Throat,Oral
+smpl700167021,Supragingival plaque,Oral
+smpl700167025,L_Retroauricular crease,Skin
+smpl700167027,R_Retroauricular crease,Skin
+smpl700167033,Anterior nares,Skin
+smpl700167063,Stool,Stool
+smpl700167071,Saliva,Oral
+smpl700167077,Hard palate,Oral
+smpl700167079,Buccal mucosa,Oral
+smpl700167081,Attached/Keratinized gingiva,Oral
+smpl700167083,Palatine Tonsils,Oral
+smpl700167085,Throat,Oral
+smpl700167087,Supragingival plaque,Oral
+smpl700167091,L_Retroauricular crease,Skin
+smpl700167093,R_Retroauricular crease,Skin
+smpl700167095,L_Antecubital fossa,Skin
+smpl700167097,R_Antecubital fossa,Skin
+smpl700167099,Anterior nares,Skin
+smpl700167157,L_Retroauricular crease,Skin
+smpl700167159,R_Retroauricular crease,Skin
+smpl700167161,L_Antecubital fossa,Skin
+smpl700167165,Anterior nares,Skin
+smpl700167223,L_Retroauricular crease,Skin
+smpl700167225,R_Retroauricular crease,Skin
+smpl700167231,Anterior nares,Skin
+smpl700167313,Supragingival plaque,Oral
+smpl700167317,L_Retroauricular crease,Skin
+smpl700167321,L_Antecubital fossa,Skin
+smpl700167379,Supragingival plaque,Oral
+smpl700167383,L_Retroauricular crease,Skin
+smpl700167385,R_Retroauricular crease,Skin
+smpl700167389,R_Antecubital fossa,Skin
+smpl700167497,L_Retroauricular crease,Skin
+smpl700167499,R_Retroauricular crease,Skin
+smpl700167505,Anterior nares,Skin
+smpl700167535,Stool,Stool
+smpl700167543,Saliva,Oral
+smpl700167547,Tongue dorsum,Oral
+smpl700167549,Hard palate,Oral
+smpl700167551,Buccal mucosa,Oral
+smpl700167555,Palatine Tonsils,Oral
+smpl700167557,Throat,Oral
+smpl700167559,Supragingival plaque,Oral
+smpl700167563,L_Retroauricular crease,Skin
+smpl700167565,R_Retroauricular crease,Skin
+smpl700167571,Anterior nares,Skin
+smpl700167573,Vaginal introitus,Vaginal
+smpl700167575,Mid vagina,Vaginal
+smpl700167649,Stool,Stool
+smpl700167657,Saliva,Oral
+smpl700167661,Tongue dorsum,Oral
+smpl700167663,Hard palate,Oral
+smpl700167671,Throat,Oral
+smpl700167673,Supragingival plaque,Oral
+smpl700167675,Subgingival plaque,Oral
+smpl700167677,L_Retroauricular crease,Skin
+smpl700167679,R_Retroauricular crease,Skin
+smpl700167689,Mid vagina,Vaginal
+smpl700167691,Posterior fornix,Vaginal
+smpl700167727,Tongue dorsum,Oral
+smpl700167729,Hard palate,Oral
+smpl700167739,Supragingival plaque,Oral
+smpl700167793,Tongue dorsum,Oral
+smpl700167809,L_Retroauricular crease,Skin
+smpl700167875,L_Retroauricular crease,Skin
+smpl700167877,R_Retroauricular crease,Skin
+smpl700167937,Stool,Stool
+smpl700167945,Saliva,Oral
+smpl700167951,Hard palate,Oral
+smpl700167957,Palatine Tonsils,Oral
+smpl700167959,Throat,Oral
+smpl700167961,Supragingival plaque,Oral
+smpl700167973,Anterior nares,Skin
+smpl700167975,Vaginal introitus,Vaginal
+smpl700171036,Saliva,Oral
+smpl700171040,Tongue dorsum,Oral
+smpl700171042,Hard palate,Oral
+smpl700171044,Buccal mucosa,Oral
+smpl700171046,Attached/Keratinized gingiva,Oral
+smpl700171048,Palatine Tonsils,Oral
+smpl700171052,Supragingival plaque,Oral
+smpl700171054,Subgingival plaque,Oral
+smpl700171056,L_Retroauricular crease,Skin
+smpl700171058,R_Retroauricular crease,Skin
+smpl700171060,L_Antecubital fossa,Skin
+smpl700171064,Anterior nares,Skin
+smpl700171066,Stool,Stool
+smpl700171084,Saliva,Oral
+smpl700171088,Tongue dorsum,Oral
+smpl700171090,Hard palate,Oral
+smpl700171092,Buccal mucosa,Oral
+smpl700171094,Attached/Keratinized gingiva,Oral
+smpl700171096,Palatine Tonsils,Oral
+smpl700171098,Throat,Oral
+smpl700171100,Supragingival plaque,Oral
+smpl700171102,Subgingival plaque,Oral
+smpl700171104,L_Retroauricular crease,Skin
+smpl700171106,R_Retroauricular crease,Skin
+smpl700171112,Anterior nares,Skin
+smpl700171114,Stool,Stool
+smpl700171135,Stool,Stool
+smpl700171137,L_Retroauricular crease,Skin
+smpl700171139,R_Retroauricular crease,Skin
+smpl700171145,Anterior nares,Skin
+smpl700171147,Vaginal introitus,Vaginal
+smpl700171149,Mid vagina,Vaginal
+smpl700171151,Posterior fornix,Vaginal
+smpl700171153,Saliva,Oral
+smpl700171157,Tongue dorsum,Oral
+smpl700171159,Hard palate,Oral
+smpl700171161,Buccal mucosa,Oral
+smpl700171163,Attached/Keratinized gingiva,Oral
+smpl700171165,Palatine Tonsils,Oral
+smpl700171167,Throat,Oral
+smpl700171169,Supragingival plaque,Oral
+smpl700171171,Subgingival plaque,Oral
+smpl700171246,Stool,Stool
+smpl700171260,Palatine Tonsils,Oral
+smpl700171264,Supragingival plaque,Oral
+smpl700171266,Subgingival plaque,Oral
+smpl700171294,Saliva,Oral
+smpl700171298,Tongue dorsum,Oral
+smpl700171300,Hard palate,Oral
+smpl700171302,Buccal mucosa,Oral
+smpl700171304,Attached/Keratinized gingiva,Oral
+smpl700171306,Palatine Tonsils,Oral
+smpl700171308,Throat,Oral
+smpl700171310,Supragingival plaque,Oral
+smpl700171312,Subgingival plaque,Oral
+smpl700171324,Stool,Stool
+smpl700171352,Buccal mucosa,Oral
+smpl700171360,Supragingival plaque,Oral
+smpl700171362,Subgingival plaque,Oral
+smpl700171390,Stool,Stool
+smpl700171392,Saliva,Oral
+smpl700171396,Tongue dorsum,Oral
+smpl700171398,Hard palate,Oral
+smpl700171400,Buccal mucosa,Oral
+smpl700171402,Attached/Keratinized gingiva,Oral
+smpl700171404,Palatine Tonsils,Oral
+smpl700171406,Throat,Oral
+smpl700171408,Supragingival plaque,Oral
+smpl700171410,Subgingival plaque,Oral
+smpl700171412,L_Retroauricular crease,Skin
+smpl700171414,R_Retroauricular crease,Skin
+smpl700171416,L_Antecubital fossa,Skin
+smpl700171418,R_Antecubital fossa,Skin
+smpl700171420,Anterior nares,Skin
+smpl700171441,Stool,Stool
+smpl700171443,Tongue dorsum,Oral
+smpl700171445,Hard palate,Oral
+smpl700171447,Buccal mucosa,Oral
+smpl700171449,Attached/Keratinized gingiva,Oral
+smpl700171451,Palatine Tonsils,Oral
+smpl700171453,Throat,Oral
+smpl700171455,Saliva,Oral
+smpl700171459,Supragingival plaque,Oral
+smpl700171461,Subgingival plaque,Oral
+smpl700171463,L_Retroauricular crease,Skin
+smpl700171465,R_Retroauricular crease,Skin
+smpl700171467,L_Antecubital fossa,Skin
+smpl700171469,R_Antecubital fossa,Skin
+smpl700171471,Anterior nares,Skin
+smpl700171473,Vaginal introitus,Vaginal
+smpl700171475,Mid vagina,Vaginal
+smpl700171477,Posterior fornix,Vaginal
+smpl700171495,Saliva,Oral
+smpl700171499,Tongue dorsum,Oral
+smpl700171501,Hard palate,Oral
+smpl700171503,Buccal mucosa,Oral
+smpl700171505,Attached/Keratinized gingiva,Oral
+smpl700171507,Palatine Tonsils,Oral
+smpl700171509,Throat,Oral
+smpl700171511,Supragingival plaque,Oral
+smpl700171513,Subgingival plaque,Oral
+smpl700171515,L_Retroauricular crease,Skin
+smpl700171517,R_Retroauricular crease,Skin
+smpl700171519,L_Antecubital fossa,Skin
+smpl700171521,R_Antecubital fossa,Skin
+smpl700171523,Anterior nares,Skin
+smpl700171525,Stool,Stool
+smpl700171543,Saliva,Oral
+smpl700171547,Tongue dorsum,Oral
+smpl700171549,Hard palate,Oral
+smpl700171551,Buccal mucosa,Oral
+smpl700171553,Attached/Keratinized gingiva,Oral
+smpl700171555,Palatine Tonsils,Oral
+smpl700171557,Throat,Oral
+smpl700171559,Supragingival plaque,Oral
+smpl700171561,Subgingival plaque,Oral
+smpl700171563,L_Retroauricular crease,Skin
+smpl700171565,R_Retroauricular crease,Skin
+smpl700171567,L_Antecubital fossa,Skin
+smpl700171569,R_Antecubital fossa,Skin
+smpl700171571,Anterior nares,Skin
+smpl700171573,Stool,Stool
+smpl700171594,Stool,Stool
+smpl700171596,Saliva,Oral
+smpl700171600,Tongue dorsum,Oral
+smpl700171602,Hard palate,Oral
+smpl700171604,Buccal mucosa,Oral
+smpl700171606,Attached/Keratinized gingiva,Oral
+smpl700171608,Palatine Tonsils,Oral
+smpl700171610,Throat,Oral
+smpl700171612,Supragingival plaque,Oral
+smpl700171614,Subgingival plaque,Oral
+smpl700171616,L_Retroauricular crease,Skin
+smpl700171618,R_Retroauricular crease,Skin
+smpl700171620,L_Antecubital fossa,Skin
+smpl700171622,R_Antecubital fossa,Skin
+smpl700171624,Anterior nares,Skin
+smpl700171626,Vaginal introitus,Vaginal
+smpl700171630,Posterior fornix,Vaginal
+smpl700171648,Stool,Stool
+smpl700171650,Saliva,Oral
+smpl700171654,Tongue dorsum,Oral
+smpl700171656,Hard palate,Oral
+smpl700171658,Buccal mucosa,Oral
+smpl700171660,Attached/Keratinized gingiva,Oral
+smpl700171662,Palatine Tonsils,Oral
+smpl700171666,Supragingival plaque,Oral
+smpl700171668,Subgingival plaque,Oral
+smpl700171670,L_Retroauricular crease,Skin
+smpl700171672,R_Retroauricular crease,Skin
+smpl700171674,L_Antecubital fossa,Skin
+smpl700171676,R_Antecubital fossa,Skin
+smpl700171678,Anterior nares,Skin
+smpl700171696,Stool,Stool
+smpl700171698,Saliva,Oral
+smpl700171702,Tongue dorsum,Oral
+smpl700171704,Hard palate,Oral
+smpl700171706,Buccal mucosa,Oral
+smpl700171708,Attached/Keratinized gingiva,Oral
+smpl700171710,Palatine Tonsils,Oral
+smpl700171712,Throat,Oral
+smpl700171714,Supragingival plaque,Oral
+smpl700171716,Subgingival plaque,Oral
+smpl700171718,L_Retroauricular crease,Skin
+smpl700171720,R_Retroauricular crease,Skin
+smpl700171804,Saliva,Oral
+smpl700171808,Tongue dorsum,Oral
+smpl700171810,Hard palate,Oral
+smpl700171812,Buccal mucosa,Oral
+smpl700171814,Attached/Keratinized gingiva,Oral
+smpl700171816,Palatine Tonsils,Oral
+smpl700171818,Throat,Oral
+smpl700171820,Supragingival plaque,Oral
+smpl700171822,Subgingival plaque,Oral
+smpl700171826,R_Retroauricular crease,Skin
+smpl700171828,L_Antecubital fossa,Skin
+smpl700171830,R_Antecubital fossa,Skin
+smpl700171832,Anterior nares,Skin
+smpl700171836,Mid vagina,Vaginal
+smpl700171838,Posterior fornix,Vaginal
+smpl700171840,Stool,Stool
+smpl700171861,Saliva,Oral
+smpl700171865,Tongue dorsum,Oral
+smpl700171867,Hard palate,Oral
+smpl700171869,Buccal mucosa,Oral
+smpl700171871,Attached/Keratinized gingiva,Oral
+smpl700171873,Palatine Tonsils,Oral
+smpl700171875,Throat,Oral
+smpl700171877,Supragingival plaque,Oral
+smpl700171879,Subgingival plaque,Oral
+smpl700171881,L_Retroauricular crease,Skin
+smpl700171883,R_Retroauricular crease,Skin
+smpl700171889,Anterior nares,Skin
+smpl700171891,Vaginal introitus,Vaginal
+smpl700171893,Mid vagina,Vaginal
+smpl700171895,Posterior fornix,Vaginal
+smpl700171897,Stool,Stool
+smpl700171975,Stool,Stool
+smpl700171977,L_Retroauricular crease,Skin
+smpl700171979,R_Retroauricular crease,Skin
+smpl700171987,Vaginal introitus,Vaginal
+smpl700171989,Mid vagina,Vaginal
+smpl700171991,Posterior fornix,Vaginal
+smpl700171993,Saliva,Oral
+smpl700171997,Tongue dorsum,Oral
+smpl700171999,Hard palate,Oral
+smpl700172001,Buccal mucosa,Oral
+smpl700172003,Attached/Keratinized gingiva,Oral
+smpl700172005,Palatine Tonsils,Oral
+smpl700172007,Throat,Oral
+smpl700172009,Supragingival plaque,Oral
+smpl700172011,Subgingival plaque,Oral
+smpl700172086,Stool,Stool
+smpl700172088,Saliva,Oral
+smpl700172092,Tongue dorsum,Oral
+smpl700172094,Hard palate,Oral
+smpl700172096,Buccal mucosa,Oral
+smpl700172098,Attached/Keratinized gingiva,Oral
+smpl700172100,Palatine Tonsils,Oral
+smpl700172104,Supragingival plaque,Oral
+smpl700172110,R_Retroauricular crease,Skin
+smpl700172138,Tongue dorsum,Oral
+smpl700172142,Buccal mucosa,Oral
+smpl700172144,Attached/Keratinized gingiva,Oral
+smpl700172148,Throat,Oral
+smpl700172152,Subgingival plaque,Oral
+smpl700172154,L_Retroauricular crease,Skin
+smpl700172156,R_Retroauricular crease,Skin
+smpl700172164,Stool,Stool
+smpl700172299,Stool,Stool
+smpl700172301,Saliva,Oral
+smpl700172305,Tongue dorsum,Oral
+smpl700172307,Hard palate,Oral
+smpl700172309,Buccal mucosa,Oral
+smpl700172311,Attached/Keratinized gingiva,Oral
+smpl700172313,Palatine Tonsils,Oral
+smpl700172315,Throat,Oral
+smpl700172317,Supragingival plaque,Oral
+smpl700172319,Subgingival plaque,Oral
+smpl700172321,L_Retroauricular crease,Skin
+smpl700172329,Anterior nares,Skin
+smpl700172331,Vaginal introitus,Vaginal
+smpl700172356,Palatine Tonsils,Oral
+smpl700172358,Attached/Keratinized gingiva,Oral
+smpl700172362,Buccal mucosa,Oral
+smpl700172364,Throat,Oral
+smpl700172366,Supragingival plaque,Oral
+smpl700172370,Subgingival plaque,Oral
+smpl700172376,Stool,Stool
+smpl700172378,L_Retroauricular crease,Skin
+smpl700172388,Vaginal introitus,Vaginal
+smpl700172390,Mid vagina,Vaginal
+smpl700172392,Posterior fornix,Vaginal
+smpl700172410,Stool,Stool
+smpl700172412,Saliva,Oral
+smpl700172416,Tongue dorsum,Oral
+smpl700172418,Hard palate,Oral
+smpl700172420,Buccal mucosa,Oral
+smpl700172422,Attached/Keratinized gingiva,Oral
+smpl700172424,Palatine Tonsils,Oral
+smpl700172426,Throat,Oral
+smpl700172428,Supragingival plaque,Oral
+smpl700172430,Subgingival plaque,Oral
+smpl700172432,L_Retroauricular crease,Skin
+smpl700172518,Stool,Stool
+smpl700172524,Tongue dorsum,Oral
+smpl700172526,Hard palate,Oral
+smpl700172530,Attached/Keratinized gingiva,Oral
+smpl700172532,Palatine Tonsils,Oral
+smpl700172534,Throat,Oral
+smpl700172536,Supragingival plaque,Oral
+smpl700172538,Subgingival plaque,Oral
+smpl700172540,L_Retroauricular crease,Skin
+smpl700172542,R_Retroauricular crease,Skin
+smpl700172544,L_Antecubital fossa,Skin
+smpl700172546,R_Antecubital fossa,Skin
+smpl700172548,Anterior nares,Skin
+smpl700172550,Vaginal introitus,Vaginal
+smpl700172554,Posterior fornix,Vaginal
+smpl700172572,Stool,Stool
+smpl700172574,Saliva,Oral
+smpl700172578,Tongue dorsum,Oral
+smpl700172580,Hard palate,Oral
+smpl700172582,Buccal mucosa,Oral
+smpl700172584,Attached/Keratinized gingiva,Oral
+smpl700172586,Palatine Tonsils,Oral
+smpl700172588,Throat,Oral
+smpl700172590,Supragingival plaque,Oral
+smpl700172592,Subgingival plaque,Oral
+smpl700172594,L_Retroauricular crease,Skin
+smpl700172596,R_Retroauricular crease,Skin
+smpl700172602,Anterior nares,Skin
+smpl700172623,Saliva,Oral
+smpl700172627,Tongue dorsum,Oral
+smpl700172629,Hard palate,Oral
+smpl700172631,Buccal mucosa,Oral
+smpl700172633,Attached/Keratinized gingiva,Oral
+smpl700172635,Palatine Tonsils,Oral
+smpl700172639,Supragingival plaque,Oral
+smpl700172641,Subgingival plaque,Oral
+smpl700172645,R_Retroauricular crease,Skin
+smpl700172653,Vaginal introitus,Vaginal
+smpl700172655,Mid vagina,Vaginal
+smpl700172657,Posterior fornix,Vaginal
+smpl700172659,Stool,Stool
+smpl700172679,Saliva,Oral
+smpl700172683,Tongue dorsum,Oral
+smpl700172685,Hard palate,Oral
+smpl700172687,Buccal mucosa,Oral
+smpl700172689,Attached/Keratinized gingiva,Oral
+smpl700172691,Palatine Tonsils,Oral
+smpl700172693,Throat,Oral
+smpl700172695,Supragingival plaque,Oral
+smpl700172697,Subgingival plaque,Oral
+smpl700172699,L_Retroauricular crease,Skin
+smpl700172701,R_Retroauricular crease,Skin
+smpl700172707,Anterior nares,Skin
+smpl700172732,Tongue dorsum,Oral
+smpl700172736,Buccal mucosa,Oral
+smpl700172738,Attached/Keratinized gingiva,Oral
+smpl700172740,Palatine Tonsils,Oral
+smpl700172742,Throat,Oral
+smpl700172744,Supragingival plaque,Oral
+smpl700172746,Subgingival plaque,Oral
+smpl700172748,L_Retroauricular crease,Skin
+smpl700172750,R_Retroauricular crease,Skin
+smpl700172756,Anterior nares,Skin
+smpl700172758,Vaginal introitus,Vaginal
+smpl700172764,Stool,Stool
+smpl700172833,Stool,Stool
+smpl700172839,Tongue dorsum,Oral
+smpl700172841,Hard palate,Oral
+smpl700172843,Buccal mucosa,Oral
+smpl700172845,Attached/Keratinized gingiva,Oral
+smpl700172849,Throat,Oral
+smpl700172851,Supragingival plaque,Oral
+smpl700172853,Subgingival plaque,Oral
+smpl700172857,R_Retroauricular crease,Skin
+smpl700172865,Vaginal introitus,Vaginal
+smpl700172867,Mid vagina,Vaginal
+smpl700172890,Stool,Stool
+smpl700172892,Saliva,Oral
+smpl700172896,Tongue dorsum,Oral
+smpl700172902,Attached/Keratinized gingiva,Oral
+smpl700172912,L_Retroauricular crease,Skin
+smpl700172944,Stool,Stool
+smpl700172950,Tongue dorsum,Oral
+smpl700172964,Subgingival plaque,Oral
+smpl700172966,L_Retroauricular crease,Skin
+smpl700172968,R_Retroauricular crease,Skin
+smpl700172992,Stool,Stool
+smpl700172998,Tongue dorsum,Oral
+smpl700173000,Hard palate,Oral
+smpl700173002,Buccal mucosa,Oral
+smpl700173004,Attached/Keratinized gingiva,Oral
+smpl700173006,Palatine Tonsils,Oral
+smpl700173008,Throat,Oral
+smpl700173010,Supragingival plaque,Oral
+smpl700173012,Subgingival plaque,Oral
+smpl700173014,L_Retroauricular crease,Skin
+smpl700173016,R_Retroauricular crease,Skin
+smpl700173040,Stool,Stool
+smpl700173042,Saliva,Oral
+smpl700173046,Tongue dorsum,Oral
+smpl700173052,Attached/Keratinized gingiva,Oral
+smpl700173054,Palatine Tonsils,Oral
+smpl700173056,Throat,Oral
+smpl700173058,Supragingival plaque,Oral
+smpl700173060,Subgingival plaque,Oral
+smpl700173062,L_Retroauricular crease,Skin
+smpl700173064,R_Retroauricular crease,Skin
+smpl700173066,L_Antecubital fossa,Skin
+smpl700173070,Anterior nares,Skin
+smpl700173088,Saliva,Oral
+smpl700173092,Tongue dorsum,Oral
+smpl700173094,Hard palate,Oral
+smpl700173096,Buccal mucosa,Oral
+smpl700173098,Attached/Keratinized gingiva,Oral
+smpl700173100,Palatine Tonsils,Oral
+smpl700173102,Throat,Oral
+smpl700173104,Supragingival plaque,Oral
+smpl700173106,Subgingival plaque,Oral
+smpl700173108,L_Retroauricular crease,Skin
+smpl700173110,R_Retroauricular crease,Skin
+smpl700173116,Anterior nares,Skin
+smpl700173118,Stool,Stool
+smpl700173139,Stool,Stool
+smpl700173145,Tongue dorsum,Oral
+smpl700173147,Hard palate,Oral
+smpl700173149,Buccal mucosa,Oral
+smpl700173151,Attached/Keratinized gingiva,Oral
+smpl700173153,Palatine Tonsils,Oral
+smpl700173155,Throat,Oral
+smpl700173157,Supragingival plaque,Oral
+smpl700173159,Subgingival plaque,Oral
+smpl700173171,Vaginal introitus,Vaginal
+smpl700173173,Mid vagina,Vaginal
+smpl700173175,Posterior fornix,Vaginal
+smpl700173193,Stool,Stool
+smpl700173199,Tongue dorsum,Oral
+smpl700173203,Buccal mucosa,Oral
+smpl700173205,Attached/Keratinized gingiva,Oral
+smpl700173207,Palatine Tonsils,Oral
+smpl700173211,Supragingival plaque,Oral
+smpl700173213,Subgingival plaque,Oral
+smpl700173215,L_Retroauricular crease,Skin
+smpl700173217,R_Retroauricular crease,Skin
+smpl700173241,Stool,Stool
+smpl700173247,Tongue dorsum,Oral
+smpl700173249,Hard palate,Oral
+smpl700173251,Buccal mucosa,Oral
+smpl700173253,Attached/Keratinized gingiva,Oral
+smpl700173255,Palatine Tonsils,Oral
+smpl700173257,Throat,Oral
+smpl700173259,Supragingival plaque,Oral
+smpl700173263,L_Retroauricular crease,Skin
+smpl700173265,R_Retroauricular crease,Skin
+smpl700173269,R_Antecubital fossa,Skin
+smpl700173291,Saliva,Oral
+smpl700173295,Tongue dorsum,Oral
+smpl700173297,Hard palate,Oral
+smpl700173299,Buccal mucosa,Oral
+smpl700173303,Palatine Tonsils,Oral
+smpl700173305,Throat,Oral
+smpl700173309,Subgingival plaque,Oral
+smpl700173311,L_Retroauricular crease,Skin
+smpl700173313,R_Retroauricular crease,Skin
+smpl700173319,Anterior nares,Skin
+smpl700173342,L_Retroauricular crease,Skin
+smpl700173344,R_Retroauricular crease,Skin
+smpl700173362,Tongue dorsum,Oral
+smpl700173397,Stool,Stool
+smpl700173399,Saliva,Oral
+smpl700173403,Tongue dorsum,Oral
+smpl700173405,Hard palate,Oral
+smpl700173409,Attached/Keratinized gingiva,Oral
+smpl700173411,Palatine Tonsils,Oral
+smpl700173415,Supragingival plaque,Oral
+smpl700173417,Subgingival plaque,Oral
+smpl700173419,L_Retroauricular crease,Skin
+smpl700173421,R_Retroauricular crease,Skin
+smpl700173427,Anterior nares,Skin
+smpl700173429,Vaginal introitus,Vaginal
+smpl700173431,Mid vagina,Vaginal
+smpl700173433,Posterior fornix,Vaginal
+smpl700173456,Tongue dorsum,Oral
+smpl700173458,Hard palate,Oral
+smpl700173460,Buccal mucosa,Oral
+smpl700173462,Attached/Keratinized gingiva,Oral
+smpl700173464,Palatine Tonsils,Oral
+smpl700173466,Throat,Oral
+smpl700173468,Supragingival plaque,Oral
+smpl700173470,Subgingival plaque,Oral
+smpl700173472,L_Retroauricular crease,Skin
+smpl700173474,R_Retroauricular crease,Skin
+smpl700173476,L_Antecubital fossa,Skin
+smpl700173478,R_Antecubital fossa,Skin
+smpl700173480,Anterior nares,Skin
+smpl700173482,Stool,Stool
+smpl700173500,Stool,Stool
+smpl700173502,Saliva,Oral
+smpl700173506,Tongue dorsum,Oral
+smpl700173508,Hard palate,Oral
+smpl700173510,Buccal mucosa,Oral
+smpl700173512,Attached/Keratinized gingiva,Oral
+smpl700173514,Palatine Tonsils,Oral
+smpl700173518,Supragingival plaque,Oral
+smpl700173520,Subgingival plaque,Oral
+smpl700173522,L_Retroauricular crease,Skin
+smpl700173552,Tongue dorsum,Oral
+smpl700173554,Hard palate,Oral
+smpl700173556,Buccal mucosa,Oral
+smpl700173558,Attached/Keratinized gingiva,Oral
+smpl700173560,Palatine Tonsils,Oral
+smpl700173562,Throat,Oral
+smpl700173564,Supragingival plaque,Oral
+smpl700173566,Subgingival plaque,Oral
+smpl700173568,L_Retroauricular crease,Skin
+smpl700173570,R_Retroauricular crease,Skin
+smpl700173576,Anterior nares,Skin
+smpl700173578,Stool,Stool
+smpl700173596,Stool,Stool
+smpl700173598,Saliva,Oral
+smpl700173604,Hard palate,Oral
+smpl700173606,Buccal mucosa,Oral
+smpl700173608,Attached/Keratinized gingiva,Oral
+smpl700173610,Palatine Tonsils,Oral
+smpl700173612,Throat,Oral
+smpl700173614,Supragingival plaque,Oral
+smpl700173616,Subgingival plaque,Oral
+smpl700173618,L_Retroauricular crease,Skin
+smpl700173620,R_Retroauricular crease,Skin
+smpl700173622,L_Antecubital fossa,Skin
+smpl700173626,Anterior nares,Skin
+smpl700173647,Stool,Stool
+smpl700173649,Saliva,Oral
+smpl700173655,Hard palate,Oral
+smpl700173657,Buccal mucosa,Oral
+smpl700173659,Attached/Keratinized gingiva,Oral
+smpl700173661,Palatine Tonsils,Oral
+smpl700173665,Supragingival plaque,Oral
+smpl700173667,Subgingival plaque,Oral
+smpl700173669,L_Retroauricular crease,Skin
+smpl700173671,R_Retroauricular crease,Skin
+smpl700173677,Anterior nares,Skin
+smpl700173679,Vaginal introitus,Vaginal
+smpl700173681,Mid vagina,Vaginal
+smpl700173683,Posterior fornix,Vaginal
+smpl700173759,Tongue dorsum,Oral
+smpl700173767,Palatine Tonsils,Oral
+smpl700173773,Subgingival plaque,Oral
+smpl700173779,L_Antecubital fossa,Skin
+smpl700173783,Anterior nares,Skin
+smpl700173802,Saliva,Oral
+smpl700173806,Tongue dorsum,Oral
+smpl700173808,Hard palate,Oral
+smpl700173812,Attached/Keratinized gingiva,Oral
+smpl700173814,Palatine Tonsils,Oral
+smpl700173818,Supragingival plaque,Oral
+smpl700173820,Subgingival plaque,Oral
+smpl700173822,L_Retroauricular crease,Skin
+smpl700173824,R_Retroauricular crease,Skin
+smpl700173830,Anterior nares,Skin
+smpl700173848,Saliva,Oral
+smpl700173852,Tongue dorsum,Oral
+smpl700173854,Hard palate,Oral
+smpl700173856,Buccal mucosa,Oral
+smpl700173858,Attached/Keratinized gingiva,Oral
+smpl700173860,Palatine Tonsils,Oral
+smpl700173862,Throat,Oral
+smpl700173864,Supragingival plaque,Oral
+smpl700173866,Subgingival plaque,Oral
+smpl700173868,L_Retroauricular crease,Skin
+smpl700173870,R_Retroauricular crease,Skin
+smpl700173872,L_Antecubital fossa,Skin
+smpl700173878,Stool,Stool
+smpl700173898,Saliva,Oral
+smpl700173902,Tongue dorsum,Oral
+smpl700173904,Hard palate,Oral
+smpl700173906,Buccal mucosa,Oral
+smpl700173908,Attached/Keratinized gingiva,Oral
+smpl700173910,Palatine Tonsils,Oral
+smpl700173912,Throat,Oral
+smpl700173914,Supragingival plaque,Oral
+smpl700173916,Subgingival plaque,Oral
+smpl700173918,L_Retroauricular crease,Skin
+smpl700173920,R_Retroauricular crease,Skin
+smpl700173926,Anterior nares,Skin
+smpl700173930,Mid vagina,Vaginal
+smpl700173932,Posterior fornix,Vaginal
+smpl700175001,Saliva,Oral
+smpl700175005,Tongue dorsum,Oral
+smpl700175007,Hard palate,Oral
+smpl700175011,Attached/Keratinized gingiva,Oral
+smpl700175013,Palatine Tonsils,Oral
+smpl700175015,Throat,Oral
+smpl700175017,Supragingival plaque,Oral
+smpl700175019,Subgingival plaque,Oral
+smpl700175037,Saliva,Oral
+smpl700175041,Tongue dorsum,Oral
+smpl700175043,Hard palate,Oral
+smpl700175045,Buccal mucosa,Oral
+smpl700175047,Attached/Keratinized gingiva,Oral
+smpl700175049,Palatine Tonsils,Oral
+smpl700175051,Throat,Oral
+smpl700175053,Supragingival plaque,Oral
+smpl700175055,Subgingival plaque,Oral
+smpl700175059,R_Retroauricular crease,Skin
+smpl700175067,Stool,Stool
+smpl700175088,Saliva,Oral
+smpl700175092,Tongue dorsum,Oral
+smpl700175094,Hard palate,Oral
+smpl700175096,Buccal mucosa,Oral
+smpl700175098,Attached/Keratinized gingiva,Oral
+smpl700175100,Palatine Tonsils,Oral
+smpl700175102,Throat,Oral
+smpl700175104,Supragingival plaque,Oral
+smpl700175106,Subgingival plaque,Oral
+smpl700175108,L_Retroauricular crease,Skin
+smpl700175110,R_Retroauricular crease,Skin
+smpl700175116,Anterior nares,Skin
+smpl700175118,Vaginal introitus,Vaginal
+smpl700175120,Mid vagina,Vaginal
+smpl700175122,Posterior fornix,Vaginal
+smpl700175124,Stool,Stool
+smpl700175142,Stool,Stool
+smpl700175152,Anterior nares,Skin
+smpl700175154,Saliva,Oral
+smpl700175158,Tongue dorsum,Oral
+smpl700175162,Buccal mucosa,Oral
+smpl700175164,Attached/Keratinized gingiva,Oral
+smpl700175166,Palatine Tonsils,Oral
+smpl700175168,Throat,Oral
+smpl700175170,Supragingival plaque,Oral
+smpl700175172,Subgingival plaque,Oral
+smpl700175205,Mid vagina,Vaginal
+smpl700175207,Posterior fornix,Vaginal
+smpl700175209,Stool,Stool
+smpl700175211,Saliva,Oral
+smpl700175215,Tongue dorsum,Oral
+smpl700175217,Hard palate,Oral
+smpl700175219,Buccal mucosa,Oral
+smpl700175221,Attached/Keratinized gingiva,Oral
+smpl700175223,Palatine Tonsils,Oral
+smpl700175225,Throat,Oral
+smpl700175227,Supragingival plaque,Oral
+smpl700175229,Subgingival plaque,Oral
+smpl700175247,L_Retroauricular crease,Skin
+smpl700175249,R_Retroauricular crease,Skin
+smpl700175255,Anterior nares,Skin
+smpl700175257,Stool,Stool
+smpl700175259,Saliva,Oral
+smpl700175263,Tongue dorsum,Oral
+smpl700175265,Hard palate,Oral
+smpl700175267,Buccal mucosa,Oral
+smpl700175269,Attached/Keratinized gingiva,Oral
+smpl700175271,Palatine Tonsils,Oral
+smpl700175273,Throat,Oral
+smpl700175275,Supragingival plaque,Oral
+smpl700175277,Subgingival plaque,Oral
+smpl700175345,R_Retroauricular crease,Skin
+smpl700175353,Stool,Stool
+smpl700175355,Saliva,Oral
+smpl700175361,Hard palate,Oral
+smpl700175363,Buccal mucosa,Oral
+smpl700175367,Palatine Tonsils,Oral
+smpl700175371,Supragingival plaque,Oral
+smpl700175373,Subgingival plaque,Oral
+smpl700176027,Stool,Stool
+smpl700176035,Saliva,Oral
+smpl700176039,Tongue dorsum,Oral
+smpl700176041,Hard palate,Oral
+smpl700176047,Palatine Tonsils,Oral
+smpl700176055,L_Retroauricular crease,Skin
+smpl700176057,R_Retroauricular crease,Skin
+smpl700176063,Anterior nares,Skin
+smpl700176093,Stool,Stool
+smpl700176101,Saliva,Oral
+smpl700176105,Tongue dorsum,Oral
+smpl700176107,Hard palate,Oral
+smpl700176111,Attached/Keratinized gingiva,Oral
+smpl700176113,Palatine Tonsils,Oral
+smpl700176115,Throat,Oral
+smpl700176121,L_Retroauricular crease,Skin

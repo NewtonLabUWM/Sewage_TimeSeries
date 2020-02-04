@@ -1,0 +1,205 @@
+Sample_name,City,State,Latitude,Longitude,Collection_date,Sample_period,Temp_profile_metric
+1St_01_Boonville,Boonville,Indiana,38.053,-87.289,8/9/12,Aug,-0.013295792
+1St_02_Spencer,Spencer,Iowa,43.136,-95.132,8/27/12,Aug,-0.06368126
+1St_03_Junction_City_East,Junction City East,Kansas,39.044,-96.819,8/10/12,Aug,-0.007018136
+1St_04_Delano,Delano,Minnesota,45.052,-93.784,8/15/12,Aug,-0.111910848
+1St_05_Monticello,Monticello,Minnesota,45.298,-93.775,8/15/12,Aug,-0.111910848
+1St_06_St_Michael,Albertville,Minnesota,45.225,-93.661,8/22/12,Aug,-0.107287981
+1St_07_Franklin,Franklin,Ohio,39.553,-84.319,8/16/12,Aug,-0.015129404
+1St_08_Springboro,Springboro,Ohio,39.55,-84.24,8/9/12,Aug,-0.047557557
+1St_09_Woodbran,Woodmere,Ohio,41.456,-81.475,8/22/12,Aug,-0.055661433
+1St_10_Jones_Island,Milwaukee,Wisconsin,43.022,-87.9,8/22/12,Aug,-0.074545908
+1St_100_Great_Falls,Great Falls,Montana,47.521,-111.299,1/16/13,Jan,-0.080754333
+1St_101_Portland,Portland,Oregon,45.547,-122.458,1/16/13,Jan,0.004474898
+1St_102_Vancouver_Marinepark,Vancouver,Washington,45.617,-122.626,1/15/13,Jan,-0.001263286
+1St_103_Vancouver_Westside,Vancouver,Washington,45.636,-122.694,1/15/13,Jan,-0.001263286
+1St_105_Moore,Moore,Oklahoma,35.298,-97.485,2/1/13,Jan,0.052021364
+1St_106_Yukon,Yukon,Oklahoma,35.525,-97.752,1/17/13,Jan,0.056719136
+1St_107_Burkburnett,Burkburnett,Texas,34.102,-98.562,1/15/13,Jan,0.069201921
+1St_108_Freeport,Freeport,Texas,28.917,-95.378,1/16/13,Jan,0.099903695
+1St_109_Kenedy,Kenedy,Texas,28.814,-97.849,1/24/13,Jan,0.132951295
+1St_11_South_Shore,Oak Creek,Wisconsin,42.888,-87.846,8/21/12,Aug,-0.074545908
+1St_111_Palmetto,Palmetto,Florida,27.526,-82.596,1/17/13,Jan,0.134108821
+1St_112_Johns_Creek,Johns Creek,Georgia,33.977,-84.267,1/24/13,Jan,0.057941807
+1St_113_Little_River,Johns Creek,Georgia,34.018,-84.227,2/1/13,Jan,0.062230254
+1St_114_Hardinsburg,Hardinsburg,Kentucky,37.78,-86.469,1/30/13,Jan,-0.005199821
+1St_115_Clintwood,Clintwood,Virginia,37.18,-82.431,1/23/13,Jan,-0.025474852
+1St_116_Coeburn,Coeburn,Virginia,36.951,-82.467,1/30/13,Jan,-0.019083136
+1St_117_Matewan,Matewan,West Virginia,37.621,-82.166,2/8/13,Jan,-0.009237976
+1St_118_Williamson,Williamson,West Virginia,37.67,-82.275,2/8/13,Jan,-0.009237976
+1St_119_Discovery_Bay,Discovery Bay,California,37.889,-121.584,1/31/13,Jan,0.039290752
+1St_12_New_London,New London,Connecticut,41.343,-72.097,8/31/12,Aug,-0.040366642
+1St_120_Richmond,Richmond,California,37.919,-122.378,1/30/13,Jan,0.035650235
+1St_121_Stockton,Stockton,California,37.936,-121.328,1/15/13,Jan,0.048843064
+1St_122_SantaBarbara_INF1,Santa Barbara,California,34.417,-119.686,1/9/13,Jan,0.039778098
+1St_123_SantaBarbara_INF2,Santa Barbara,California,34.417,-119.686,1/9/13,Jan,0.039778098
+1St_125_Bozeman,Bozeman,Montana,45.723,-111.069,1/24/13,Jan,-0.063835188
+1St_126_Syracuse,Syracuse,New York,43.064,-76.178,1/15/13,Jan,-0.044135568
+1St_127_Pendleton,Pendleton,Oregon,45.668,-118.837,1/16/13,Jan,-0.012017072
+1St_128_Duncansville,Duncansville,Pennsylvania,40.456,-78.426,1/15/13,Jan,-0.051029846
+1St_129_Memphis,Memphis,Tennessee ,35.188,-90.055,1/16/13,Jan,0.062773712
+1St_13_Brockton,Brockton,Massachusetts,42.047,71.006,8/16/12,Aug,-0.076227975
+1St_130_IowaCity,Iowa City,Iowa,41.611,-91.506,1/15/13,Jan,-0.030877804
+1St_131_Burlington,Burlington,Vermont,44.472,-73.22,1/16/13,Jan,-0.080330676
+1St_132_Lincoln,Lincoln,Nebraska,40.839,-96.688,1/23/13,Jan,-0.023600143
+1St_133_Whittier,Whittier,California,34.034,-118.023,1/23/13,Jan,0.082875895
+1St_134_Austin,Austin,Texas,30.279,-97.651,1/17/13,Jan,0.103300978
+1St_135_Madison,Madison,Wisconsin,43.036,-89.357,1/27/13,Jan,-0.084931734
+1St_136_Yuma,Yuma,Arizona,32.73,-114.664,1/16/13,Jan,0.156143983
+1St_137_Metropolitan,St. Paul,Minnesota,44.924,-93.046,1/28/13,Jan,-0.079482282
+1St_138_BlueLake,Shakopee,Minnesota,44.798,-93.431,1/23/13,Jan,-0.074110465
+1St_139_Empire,Farmington,Minnesota,44.666,-93.104,1/29/13,Jan,-0.081380736
+1St_14_Fall_River,Fall River,Massachusetts,41.676,-71.193,8/30/12,Aug,0.014314917
+1St_140_St_Joseph,St. Joseph,Missouri,39.731,-94.866,1/15/13,Jan,-0.004751562
+1St_141_Mendenhall,Juneau,Alaska,58.286,-134.385,1/23/13,Jan,-0.094511097
+1St_142_Juneau_Douglas,Juneau,Alaska,58.364,-134.599,1/23/13,Jan,-0.094511097
+1St_143_Salina,Salina,Kansas,38.833,-97.607,1/15/13,Jan,0.001014982
+1St_144_Key_West,Key West,Florida,24.569,-81.797,1/16/13,Jan,0.160771512
+1St_145_Palo_Alto_Grab,Palo Alto,California,37.453,-122.111,1/15/13,Jan,0.029076118
+1St_146_Palo_Alto_Comp,Palo Alto,California,37.453,-122.111,1/15/13,Jan,0.029076118
+1St_147_West_Palm_Beach,West Palm Beach,Florida,26.741,-80.132,1/15/13,Jan,0.146778538
+1St_148_Kelso,Kelso,Washington,46.324,-122.73,1/15/13,Jan,-0.025676912
+1St_149_Steamboat_Springs,Steamboat Springs,Colorado,40.496,-108.858,1/16/13,Jan,-0.13642377
+1St_15_Gloucester,Gloucester,Massachusetts,42.611,-70.68,8/10/12,Aug,-0.074139701
+1St_150_Roswell,Roswell,Georgia,34.002,-84.392,1/24/13,Jan,0.048453961
+1St_151_Laramie,Laramie,Wyoming,41.338,-105.605,1/24/13,Jan,-0.117248754
+1St_152_Metro_North,Denver,Colorado,39.808,-104.956,1/23/13,Jan,-0.053054331
+1St_153_Metro_South,Denver,Colorado,39.808,-104.956,1/23/13,Jan,-0.053054331
+1St_154_Augusta,Augusta,Georgia,33.395,-81.976,1/29/13,Jan,0.069068667
+1St_156_Marathon,Marathon,Florida,24.746,-80.983,2/28/13,Jan,0.16387124
+1St_157_Augusta,Augusta,Georgia,33.395,-81.976,5/8/13,May,0.069068667
+1St_158_Bozeman,Bozeman,Montana,45.723,-111.069,5/14/13,May,-0.063835188
+1St_159_Burlington,Burlington,Vermont,44.472,-73.22,5/2/13,May,-0.080330676
+1St_16_Bedford_Hills,Bedford,New York,41.243,-73.677,8/9/12,Aug,-0.045055537
+1St_160_Denver,Denver,Colorado,39.808,-104.956,4/29/13,May,-0.053054331
+1St_162_Farmington,Farmington,Minnesota,44.666,-93.104,5/13/13,May,-0.081380736
+1St_163_Iowa_City,Iowa City,Iowa,41.611,-91.506,5/15/13,May,-0.030877804
+1St_164_Juneau_Mendenhall,Juneau,Alaska,58.286,-134.385,5/16/13,May,-0.094511097
+1St_165_Juneau_Douglas,Juneau,Alaska,58.286,-134.385,5/16/13,May,-0.094511097
+1St_166_Kelso,Kelso,Washington,46.324,-122.73,5/6/13,May,-0.025676912
+1St_167_Key_West,Key West,Florida,24.569,-81.797,5/16/13,May,0.160767148
+1St_168_Laramie,Laramie,Wyoming,41.338,-105.605,5/8/13,May,-0.117248754
+1St_169_Lincoln,Lincoln,Nebraska,40.839,-96.688,5/9/13,May,-0.023600143
+1St_17_Poughkeepsie,Poughkeepsie,New York,41.717,-73.936,8/7/12,Aug,-0.033594378
+1St_170_Madison,Madison,Wisconsin,43.036,-89.357,4/28/13,May,-0.084931734
+1St_171_Marathon,Marathon,Florida,24.746,-80.983,5/9/13,May,0.16387124
+1St_172_Memphis,Memphis,Tennessee,35.188,-90.055,4/30/13,May,0.062773712
+1St_173_Missoula,Missoula,Montana,46.88,-114.042,5/22/13,May,-0.052788672
+1St_174_Palo_Alto,Palo Alto,California,37.453,-122.111,5/2/13,May,0.029076118
+1St_175_Pendleton,Pendleton,Oregon,45.668,-118.837,5/1/13,May,-0.012017072
+1St_176_Salina,Salina,Kansas,38.833,-97.607,5/6/13,May,0.001014982
+1St_177_Santa_Barbara_INF_1,Santa Barbara,California,34.417,-119.686,5/2/13,May,0.039778098
+1St_178_Shakopee,Shakopee,Minnesota,44.798,-93.431,5/14/13,May,-0.074110465
+1St_179_St_Paul,St. Paul,Minnesota,44.924,-93.046,5/16/13,May,-0.079482282
+1St_18_Western_Rampo,Hillburn,New York,41.12,-74.164,8/16/12,Aug,-0.036824717
+1St_180_Stockton,Stockton,California,37.936,-121.328,5/2/13,May,0.048843064
+1St_181_Syracuse,Syracuse,New York,43.064,-76.178,5/17/13,May,-0.044135568
+1St_182_West_Palm_Beach,West Palm Beach,Florida,26.741,-80.132,5/9/13,May,0.146778606
+1St_183_Whittier,Whittier,California,34.034,-118.023,5/7/13,May,0.082875895
+1St_184_Yuma,Yuma,Arizona,32.73,-114.664,5/8/13,May,0.156143985
+1St_185_Albertville,Albertville,Minnesota,45.225,-93.661,5/7/13,May,-0.107287981
+1St_186_Boonville,Boonville,Indiana,38.053,-87.289,4/29/13,May,0.00732163
+1St_187_Burkburnett,Burkburnett,Texas,34.102,-98.562,5/1/13,May,0.069201921
+1St_188_Clintwood,Clintwood,Virginia,37.18,-82.431,5/14/13,May,-0.025474852
+1St_189_Discovery_Bay,Discovery Bay,California,37.889,-121.584,4/30/13,May,0.039290752
+1St_19_Great_Falls,Great Falls,Montana,47.521,-111.299,8/9/12,Aug,-0.080754333
+1St_190_Fall_River,Fall River,Massachusetts,41.676,-71.193,5/7/13,May,0.014314917
+1St_191_Freeport,Freeport,Texas,28.917,-95.378,4/29/13,May,0.099902967
+1St_192_Gloucester,Gloucester,Massachusetts,42.611,-70.68,5/7/13,May,-0.074139701
+1St_193_Great_Falls,Great Falls,Montana,47.521,-111.299,4/28/13,May,-0.080754333
+1St_194_Hardinsburg,Hardinsburg,Kentucky,37.78,-86.469,5/1/13,May,-0.005199821
+1St_195_Hillburn,Hillburn,New York,41.12,-74.164,5/1/13,May,-0.036824717
+1St_196_JohnsCreek_Env_Camp,Johns Creek,Georgia,33.977,-84.267,5/14/13,May,0.057941807
+1St_20_Gresham,Portland,Oregon,45.547,-122.458,8/9/12,Aug,0.004474898
+1St_206_Portland,Portland,Oregon,45.547,-122.458,5/2/13,May,0.004474898
+1St_208_Poughkeepsie_Poughkeepsie,Poughkeepsie,New York,41.717,-73.936,4/30/13,May,-0.033594378
+1St_209_Richmond,Richmond,California,37.919,-122.378,5/2/13,May,0.035650235
+1St_21_Marine_Park,Vancouver,Washington,45.617,-122.626,8/22/12,Aug,-0.001263286
+1St_210_Springboro,Springboro,Ohio,39.55,-84.24,4/30/13,May,-0.047557557
+1St_211_Vancouver_MarinePark,Vancouver,Washington,45.617,-122.626,4/29/13,May,-0.001263286
+1St_212_Vancouver_Westside,Vancouver,Washington,45.636,-122.694,4/29/13,May,-0.001263286
+1St_213_Williamson_Matewan,Matewan,West Virginia,37.621,-82.166,5/16/13,May,-0.009237976
+1St_214_Williamson_Williamson,Williamson,West Virginia,37.67,-82.275,5/15/13,May,-0.009237976
+1St_215_Woodmere,Woodmere,Ohio,41.456,-81.475,5/2/13,May,-0.055661433
+1St_216_Yukon,Yukon,Oklahoma,35.525,-97.752,5/1/13,May,0.056719136
+1St_217_Denver_South,Denver,Colorado,39.808,-104.956,4/29/13,May,-0.053054331
+1St_218_Brockton,Brockton,Massachusetts,42.047,71.006,4/29/13,May,-0.076227975
+1St_219_Santa_Barbara_INF_2,Santa Barbara,California,34.417,-119.686,5/2/13,May,0.039778098
+1St_22_Vancouver_Westside,Vancouver,Washington,45.636,-122.694,8/22/12,Aug,-0.001263286
+1St_220_Honouliuli,Honolulu,Hawaii,21.331,-158.037,6/4/13,May,0.164542777
+1St_221_Sand_Island,Honolulu,Hawaii,21.306,-157.882,6/4/13,May,0.164542906
+1St_23_Heavener,Heavener,Oklahoma,34.885,-94.616,8/9/12,Aug,0.062916396
+1St_24_Moore,Moore,Oklahoma,35.298,-97.485,8/23/12,Aug,0.052021364
+1St_25_Yukon,Yukon,Oklahoma,35.525,-97.752,8/8/12,Aug,0.056719136
+1St_26_Burkburnett,Burkburnett,Texas,34.102,-98.562,8/14/12,Aug,0.069201921
+1St_27_Freeport,Freeport,Texas,28.917,-95.378,8/9/12,Aug,0.099902884
+1St_28_Gladewater,Gladewater,Texas,32.533,-94.932,8/22/12,Aug,0.088922399
+1St_29_Kenedy_Texas,Kenedy,Texas,28.814,-97.849,8/30/12,Aug,0.132951298
+1St_30_Northside,Auburn,Alabama,32.627,-85.544,8/14/12,Aug,0.094663892
+1St_31_Southside,Auburn,Alabama,32.536,-85.509,8/14/12,Aug,0.094663891
+1St_32_Palmetto,Palmetto,Florida,27.526,-82.596,8/24/12,Aug,0.134108821
+1St_34_Johns_Creek_Env_Camp,Johns Creek,Georgia,33.977,-84.267,8/15/12,Aug,0.057941807
+1St_35_Little_River_WRF,Johns Creek,Georgia,34.018,-84.227,8/16/12,Aug,0.062230254
+1St_36_Hardinsberg,Hardinsburg,Kentucky,37.78,-86.469,8/10/12,Aug,-0.005199821
+1St_37_Clintwood,Clintwood,Virginia,37.18,-82.431,8/22/12,Aug,-0.025474852
+1St_38_Coeburn,Coeburn,Virginia,36.951,-82.467,8/23/12,Aug,-0.019083136
+1St_39_Matewan,Matewan,West Virginia,37.621,-82.166,8/10/12,Aug,-0.009237976
+1St_40_Williamson,Williamson,West Virginia,37.67,-82.275,8/10/12,Aug,-0.009237976
+1St_41_Discovery_Bay,Discovery Bay,California,37.889,-121.584,8/16/12,Aug,0.039290752
+1St_42_Richmond,Richmond,California,37.919,-122.378,9/5/12,Aug,0.034534818
+1St_43_Stockton_WWControl,Stockton,California,37.936,-121.328,8/14/12,Aug,0.048843064
+1St_44_El_Estero_INF2,Santa Barbara,California,34.417,-119.686,8/9/12,Aug,0.039778098
+1St_45_Palo_Alto_comp,Palo Alto,California,37.453,-122.111,8/9/12,Aug,0.029076118
+1St_46_East_Central,West Palm Beach,Florida,26.741,-80.132,8/8/12,Aug,0.146778241
+1St_47_Augusta,Augusta,Georgia,33.395,-81.976,8/8/12,Aug,0.069068667
+1St_48_Missoula,Missoula,Montana,46.88,-114.042,8/10/12,Aug,-0.052788672
+1St_49_Bozeman,Bozeman,Montana,45.723,-111.069,8/9/12,Aug,-0.063835188
+1St_50_Syracuse,Syracuse,New York,43.064,-76.178,8/7/12,Aug,-0.044135568
+1St_51_Pendleton,Pendleton,Oregon,45.668,-118.837,8/13/12,Aug,-0.012017072
+1St_52_Duncansville,Duncansville,Pennsylvania,40.456,-78.426,8/9/12,Aug,-0.051029846
+1St_53_Memphis,Memphis,Tennessee,35.188,-90.055,8/15/12,Aug,0.062773712
+1St_54_Laramie,Laramie,Wyoming,41.338,-105.605,8/14/12,Aug,-0.117248754
+1St_55_Iowa_City,Iowa City,Iowa,41.611,-91.506,8/9/12,Aug,-0.030877804
+1St_56_Burlington,Burlington,Vermont,44.472,-73.22,8/8/12,Aug,-0.080330676
+1St_58_Lincoln,Lincoln,Nebraska,40.839,-96.688,8/23/12,Aug,-0.023600143
+1St_59_Walnut_Creek,Austin,Texas,30.279,-97.651,8/15/12,Aug,0.103300978
+1St_60_Denver_North_Plant,Denver,Colorado,39.808,-104.956,8/23/12,Aug,-0.053054331
+1St_61_Madison,Madison,Wisconsin,43.036,-89.357,8/26/12,Aug,-0.084931734
+1St_62_Yuma,Yuma,Arizona,32.73,-114.664,8/15/12,Aug,0.156143985
+1St_63_Empire,Farmington,Minnesota,44.666,-93.104,8/15/12,Aug,-0.081380736
+1St_64_El_Estero_INF1,Santa Barbara,California,34.417,-119.686,8/9/12,Aug,0.039778098
+1St_65_Palo_Alto_Grab,Palo Alto,California,37.453,-122.111,8/9/12,Aug,0.029076118
+1St_66_Junction_City_SW,Junction City,Kansas,38.992,-96.866,8/15/12,Aug,-0.007018136
+1St_67_Erin_Lipp_Sample,Key Largo,Florida,25.086,-80.448,8/15/12,Aug,0.136281404
+1St_68_Key_West,Key West,Florida,24.569,-81.797,8/16/12,Aug,0.16076689
+1St_69_Whittier,Whittier,California,34.034,-118.023,8/21/12,Aug,0.082875895
+1St_70_Marathon,Marathon,Florida,24.746,-80.983,8/21/12,Aug,0.163871208
+1St_71_St_Joseph,St. Joseph,Missouri,39.731,-94.866,8/21/12,Aug,-0.004751562
+1St_72_Denver_South_Plant,Denver,Colorado,39.808,-104.956,8/14/12,Aug,-0.053054331
+1St_73_Blue_Lake,Shakopee,Minnesota,44.798,-93.431,8/28/12,Aug,-0.074110465
+1St_74_Metropolitan,St. Paul,Minnesota,44.924,-93.046,8/30/12,Aug,-0.079482282
+1St_75_Salina,Salina,Kansas,38.833,-97.607,9/4/12,Aug,0.001014982
+1St_76_Mendenhall,Juneau,Alaska,58.286,-134.385,9/6/12,Aug,-0.094511097
+1St_77_Juneau_Douglas,Juneau,Alaska,58.364,-134.599,9/6/12,Aug,-0.094515601
+1St_78_Honouliuli,Honolulu,Hawaii,21.331,-158.037,9/7/12,Aug,0.164542897
+1St_79_Sand_Island,Honolulu,Hawaii,21.306,-157.882,9/7/12,Aug,0.164542665
+1St_80_Reus_Spain,Reus,n/a,41.156,1.108,NA,n/a,n/a
+1St_81_BOONVILLE,Boonville,Indiana,38.053,-87.289,1/28/13,Jan,0.00732163
+1St_82_SPENCER,Spencer,Iowa,43.136,-95.132,1/31/13,Jan,-0.06368126
+1St_83_JUNCTION_CITY_EAST,Junction City,Kansas,39.044,-96.819,1/17/13,Jan,-0.007018136
+1St_84_JUNCTION_CITY_SW,Junction City,Kansas,38.992,-96.866,1/31/13,Jan,-0.007018136
+1St_85_DELANO,Delano,Minnesota,45.052,-93.784,1/16/13,Jan,-0.111910848
+1St_86_MONTICELLO,Monticello,Minnesota,45.298,-93.775,1/16/13,Jan,-0.111910848
+1St_87_ALBERTVILLE,Albertville,Minnesota,45.225,-93.661,1/16/13,Jan,-0.107287981
+1St_88_FRANKLIN,Franklin,Ohio,39.553,-84.319,2/1/13,Jan,-0.015129404
+1St_89_SPRINGBORO,Springboro,Ohio,39.55,-84.24,1/18/13,Jan,-0.047557557
+1St_90_WOODMERE,Woodmere,Ohio,41.456,-81.475,1/17/13,Jan,-0.055661433
+1St_91_JONESISLAND,Milwaukee,Wisconsin,43.022,-87.9,1/17/13,Jan,-0.074545908
+1St_92_SOUTHSHORE,Oak Creek,Wisconsin,42.888,-87.846,1/16/13,Jan,-0.074545908
+1St_93_NEWLONDON,New London,Connecticut,41.343,-72.097,1/31/13,Jan,-0.040366642
+1St_94_BROCKTON,Brockton,Massachusetts,42.047,71.006,1/18/13,Jan,-0.076227975
+1St_95_FALLRIVER,Fall River,Massachusetts,41.676,-71.193,4/2/13,Jan,0.014314917
+1St_96_GLOUCESTER,Gloucester,Massachusetts,42.611,-70.68,1/16/13,Jan,-0.074139701
+1St_97_BEDFORD_HILLS,Bedford,New York,41.243,-73.677,1/24/13,Jan,-0.045055537
+1St_98_Poughkeepsie,Poughkeepsie,New York,41.717,-73.936,1/14/13,Jan,-0.033594378
+1St_99_Hillburn,Hillburn,New York,41.12,-74.164,1/28/13,Jan,-0.036824717

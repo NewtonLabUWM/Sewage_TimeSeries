@@ -111,7 +111,7 @@ JI_ASV_dist <- vegdist(t(JI_sewer.z), method = "euclidian")
 
 
 # cluster ASVs based on euclidian distances
-JI_ASV_clus <- hclust(JI_ASV_dist, "aver")
+JI_ASV_clus <- hclust(JI_ASV_dist, method = "average")
 
 
 # add taxa info
@@ -230,7 +230,7 @@ JI_ASV_dist <- vegdist(t(JI_human.z), method = "euclidian")
 
 
 # cluster ASVs based on euclidian distances
-JI_ASV_clus <- hclust(JI_ASV_dist, "aver")
+JI_ASV_clus <- hclust(JI_ASV_dist, method = "average")
 
 
 # add taxa info

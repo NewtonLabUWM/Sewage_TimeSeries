@@ -76,11 +76,11 @@ dim(JI_human_filt)
 ##################
 
 # stat
-TimeSeries_ord <- ordinate(TimeSeries_relabun_object, method = "PCoA")
+TimeSeries_PCoA <- pcoa(vegdist(TimeSeries_relabun, method = "bray"))
 
 
 # extract values
-TimeSeries_PCoA.df <- data.frame(TimeSeries_ord$vectors[,1:2])
+TimeSeries_PCoA.df <- data.frame(TimeSeries_PCoA$vectors[,1:2])
 
 
 # add info

@@ -38,11 +38,11 @@ north_cities <- unique(Cities_info[order(Cities_info$Temp_profile_metric, decrea
 
 
 # merge phyloseq objects
-northsouth_cities_object <- subset_samples(Cities_relabun_object, City %in% south_cities | City %in% north_cities)
+NorthSouth_cities_object <- subset_samples(Cities_relabun_object, City %in% south_cities | City %in% north_cities)
 
 
 # merge with time series
-northsouth_cities_object <- merge_phyloseq(TimeSeries_relabun_object, northsouth_cities_object)
+NorthSouth_cities_object <- merge_phyloseq(TimeSeries_relabun_object, NorthSouth_cities_object)
 
 
 # add to sample info
@@ -101,7 +101,7 @@ map
 ############
 
 # stat
-northsouth_PCoA <- pcoa(vegdist(data.frame(HotCold_cities_object@otu_table@.Data), method = "bray"))
+northsouth_PCoA <- pcoa(vegdist(data.frame(NorthSouth_cities_object@otu_table@.Data), method = "bray"))
 
 
 # extract results
@@ -127,9 +127,9 @@ Axes$Month[Axes$Month == "Jan"] <- "January"
 
 # make months match sampling periods
 Axes$Period[Axes$Month == "January" | Axes$Month == "February" |
-             Axes$Month == "March" | Axes$Month == "April"] <- "January"
+              Axes$Month == "March" | Axes$Month == "April"] <- "January"
 Axes$Period[Axes$Month == "April" | Axes$Month == "May" |
-             Axes$Month == "June"] <- "May"
+              Axes$Month == "June"] <- "May"
 Axes$Period[Axes$Month == "August" | Axes$Month == "September"] <- "August"
 Axes <- Axes[which(is.na(Axes$Period) == FALSE),]
 
@@ -176,37 +176,36 @@ northsouth
 ### which dataset is more variable? ###
 #######################################
 
-
 # extract info
-southCities_relabun <- data.frame(subset_samples(Cities_relabun_object, City %in% south_cities)@otu_table@.Data)
-southCities_relabun <- southCities_relabun[rowSums(southCities_relabun != 0) > 0, colSums(southCities_relabun != 0) > 0]
+SouthCities_relabun <- data.frame(subset_samples(Cities_relabun_object, City %in% south_cities)@otu_table@.Data)
+SouthCities_relabun <- SouthCities_relabun[rowSums(SouthCities_relabun != 0) > 0, colSums(SouthCities_relabun != 0) > 0]
 
-northCities_relabun <- data.frame(subset_samples(Cities_relabun_object, City %in% north_cities)@otu_table@.Data)
-northCities_relabun <- northCities_relabun[rowSums(northCities_relabun != 0) > 0, colSums(northCities_relabun != 0) > 0]
+NorthCities_relabun <- data.frame(subset_samples(Cities_relabun_object, City %in% north_cities)@otu_table@.Data)
+NorthCities_relabun <- NorthCities_relabun[rowSums(NorthCities_relabun != 0) > 0, colSums(NorthCities_relabun != 0) > 0]
 
 
 # combine with time series
 TimeSeries_relabun.t <- t(TimeSeries_relabun)
 TimeSeries_relabun.t <- data.frame(ASV = rownames(TimeSeries_relabun.t), TimeSeries_relabun.t)
 
-southCities_relabun.t <- t(southCities_relabun)
-southCities_relabun.t <- data.frame(ASV = rownames(southCities_relabun.t), southCities_relabun.t)
+SouthCities_relabun.t <- t(SouthCities_relabun)
+SouthCities_relabun.t <- data.frame(ASV = rownames(SouthCities_relabun.t), SouthCities_relabun.t)
 
-northCities_relabun.t <- t(northCities_relabun)
-northCities_relabun.t <- data.frame(ASV = rownames(northCities_relabun.t), northCities_relabun.t)
+NorthCities_relabun.t <- t(NorthCities_relabun)
+NorthCities_relabun.t <- data.frame(ASV = rownames(NorthCities_relabun.t), NorthCities_relabun.t)
 
-TS_northsouth_relabun <- merge(TimeSeries_relabun.t, southCities_relabun.t, by = "ASV", all = TRUE)
-TS_northsouth_relabun <- merge(TS_northsouth_relabun, northCities_relabun.t, by = "ASV", all = TRUE)
-rownames(TS_northsouth_relabun) <- TS_northsouth_relabun$ASV
-TS_northsouth_relabun <- data.frame(t(TS_northsouth_relabun[-1]))
+TS_NorthSouth_relabun <- merge(TimeSeries_relabun.t, SouthCities_relabun.t, by = "ASV", all = TRUE)
+TS_NorthSouth_relabun <- merge(TS_NorthSouth_relabun, NorthCities_relabun.t, by = "ASV", all = TRUE)
+rownames(TS_NorthSouth_relabun) <- TS_NorthSouth_relabun$ASV
+TS_NorthSouth_relabun <- data.frame(t(TS_NorthSouth_relabun[-1]))
 
 
 # convert NA to zero (takes a minute)
-TS_northsouth_relabun[is.na(TS_northsouth_relabun)] <- 0
+TS_NorthSouth_relabun[is.na(TS_NorthSouth_relabun)] <- 0
 
 
 # calculate bray curtis distance, then do cluster analysis on that
-northsouth.bray <- vegdist(TS_northsouth_relabun[-ncol(TS_northsouth_relabun)], distance = "bray")
+northsouth.bray <- vegdist(TS_NorthSouth_relabun[-ncol(TS_NorthSouth_relabun)], distance = "bray")
 northsouth.hclust <- hclust(northsouth.bray, method = "centroid")
 
 
@@ -242,11 +241,11 @@ comparisons <- merge(combine1, combine2, by = "Compare")
 
 # subset to types of comparisons
 south_comparisons <- subset(comparisons, name1  %in% subset(Axes, Source == "Southern city")$Sample_name &
-                            name2 %in% subset(Axes, Source == "Southern city")$Sample_name)
+                              name2 %in% subset(Axes, Source == "Southern city")$Sample_name)
 south_comparisons$type <- "south"
 
 north_comparisons <- subset(comparisons, name1  %in% subset(Axes, Source == "Northern city")$Sample_name &
-                            name2 %in% subset(Axes, Source == "Northern city")$Sample_name)
+                              name2 %in% subset(Axes, Source == "Northern city")$Sample_name)
 north_comparisons$type <- "north"
 
 TS_comparisons <- subset(comparisons, name1  %in% subset(Axes, Source == "Milwaukee time series")$Sample_name &

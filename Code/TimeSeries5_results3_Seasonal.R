@@ -24,6 +24,7 @@ Taxonomy_all <- read.csv("./RData/Taxonomy_all.csv")
 # human ASVs (refer to TimeSeries2_Threshold.R)
 Final_human_ASVs <- readRDS("./RData/Final_human_ASVs.RData")
 
+
 # subset the two treatment plants
 JI_object <- subset_samples(TimeSeries_object, Treatment_plant == "Jones_Island")
 SS_object <- subset_samples(TimeSeries_object, Treatment_plant == "South_Shore")

@@ -11,6 +11,7 @@ library(ggplot2)
 library(ggrepel)
 library(vegan)
 library(usmap)
+library(ape)
 
 
 # load data (refer to TimeSeries1_DataPrep.R)
@@ -100,11 +101,11 @@ map
 ############
 
 # stat
-northsouth_bray <- ordinate(northsouth_cities_object, method = "PCoA", distance = "bray")
+hotcold_PCoA <- pcoa(vegdist(data.frame(HotCold_cities_object@otu_table@.Data), method = "bray"))
 
 
 # extract results
-Axes <- data.frame(northsouth_bray$vectors)[1:2]
+Axes <- data.frame(hotcold_PCoA$vectors)[1:2]
 Axes$Sample_name <- rownames(Axes)
 Axes <- merge(Cities_info[c(1:2, 7)], Axes, by = "Sample_name", all.y = TRUE)
 

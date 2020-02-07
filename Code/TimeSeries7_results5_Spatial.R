@@ -101,11 +101,11 @@ map
 ############
 
 # stat
-hotcold_PCoA <- pcoa(vegdist(data.frame(HotCold_cities_object@otu_table@.Data), method = "bray"))
+northsouth_PCoA <- pcoa(vegdist(data.frame(HotCold_cities_object@otu_table@.Data), method = "bray"))
 
 
 # extract results
-Axes <- data.frame(hotcold_PCoA$vectors)[1:2]
+Axes <- data.frame(northsouth_PCoA$vectors)[1:2]
 Axes$Sample_name <- rownames(Axes)
 Axes <- merge(Cities_info[c(1:2, 7)], Axes, by = "Sample_name", all.y = TRUE)
 

@@ -170,8 +170,146 @@ northsouth
 
 
 
+                                                 
+##############################
+### seasonal relationships ###
+##############################
+
+# stat
+NorthSouth_bray <- scores(vegdist(data.frame(NorthSouth_cities_object@otu_table@.Data), method = "bray"))
 
 
+# get sample names of N (minus Alaksa) and S cities
+South_city_smps <- as.character(subset(Cities_info, City %in% south_cities)$Sample_name)
+North_city_smps <- as.character(subset(Cities_info, City %in% north_cities[-6])$Sample_name)
+
+
+# get sample names
+# N cities in aug
+Aug_Ncity_smps <- as.character(subset(Axes, Sample_name %in% North_city_smps & Period == "August")$Sample_name)
+
+# N cities in jan/may
+JanMay_Ncity_smps <- as.character(subset(Axes, Sample_name %in% North_city_smps & Period != "August")$Sample_name)
+
+# time series around aug
+Aug_ts_smps <- as.character(subset(Axes, Source == "Milwaukee time series" & Period == "August")$Sample_name)
+
+# time series around jan/may
+JanMay_ts_smps <- as.character(subset(Axes, Source == "Milwaukee time series" & Period != "August")$Sample_name)
+
+# S cities in aug
+Aug_Scity_smps <- as.character(subset(Axes, Sample_name %in% South_city_smps & Period == "August")$Sample_name)
+
+# S cities in jan/may
+JanMay_Scity_smps <- as.character(subset(Axes, Sample_name %in% South_city_smps & Period != "August")$Sample_name)
+
+
+# compare mke + N cities in aug ~ S cities in jan/may
+warmN_coldS_bray <- NorthSouth_bray[rownames(NorthSouth_bray) %in% c(Aug_Ncity_smps, Aug_ts_smps), 
+                             colnames(NorthSouth_bray) %in% JanMay_Scity_smps]
+warmN_coldS_bray.m <- melt(warmN_coldS_bray)
+warmN_coldS_bray.m$Compare <- "warmN ~ coldS"
+
+
+# compare mke + N cities in jan/may ~ S cities in jan/may
+coldN_coldS_bray <- NorthSouth_bray[rownames(NorthSouth_bray) %in% c(JanMay_Ncity_smps, JanMay_ts_smps), 
+                                    colnames(NorthSouth_bray) %in% JanMay_Scity_smps]
+coldN_coldS_bray.m <- melt(coldN_coldS_bray)
+coldN_coldS_bray.m$Compare <- "coldN ~ coldS"
+
+
+# compare mke + N cities in jan/may ~ S cities in aug
+coldN_warmS_bray <- NorthSouth_bray[rownames(NorthSouth_bray) %in% c(JanMay_Ncity_smps, JanMay_ts_smps), 
+                                    colnames(NorthSouth_bray) %in% Aug_Scity_smps]
+coldN_warmS_bray.m <- melt(coldN_warmS_bray)
+coldN_warmS_bray.m$Compare <- "coldN ~ warmS"
+
+
+# compare mke + N cities in aug ~ S cities in aug
+warmN_warmS_bray <- NorthSouth_bray[rownames(NorthSouth_bray) %in% c(Aug_Ncity_smps, Aug_ts_smps), 
+                                    colnames(NorthSouth_bray) %in% Aug_Scity_smps]
+warmN_warmS_bray.m <- melt(warmN_warmS_bray)
+warmN_warmS_bray.m$Compare <- "warmN ~ warmS"
+
+
+# compare mke + N cities in aug ~ S cities
+warmN_S_bray <- NorthSouth_bray[rownames(NorthSouth_bray) %in% c(Aug_Ncity_smps, Aug_ts_smps), 
+                                colnames(NorthSouth_bray) %in% c(Aug_Scity_smps, JanMay_Scity_smps)]
+warmN_S_bray.m <- melt(warmN_S_bray)
+warmN_S_bray.m$Compare <- "warmN ~ S"
+
+
+# compare mke + N cities in jan/may ~ S cities
+coldN_S_bray <- NorthSouth_bray[rownames(NorthSouth_bray) %in% c(JanMay_Ncity_smps, JanMay_ts_smps), 
+                                colnames(NorthSouth_bray) %in% c(Aug_Scity_smps, JanMay_Scity_smps)]
+coldN_S_bray.m <- melt(coldN_S_bray)
+coldN_S_bray.m$Compare <- "coldN ~ S"
+
+
+# combine
+Comparisons <- rbind(warmN_coldS_bray.m, coldN_coldS_bray.m, warmN_warmS_bray.m, 
+                     coldN_warmS_bray.m, warmN_S_bray.m, coldN_S_bray.m)
+
+
+# get means and sd
+cbind(aggregate(. ~ Compare, mean, data = Comparisons[-c(1:2)]),
+      sd = aggregate(. ~ Compare, sd, data = Comparisons[-c(1:2)])[,2])
+#         Compare     value         sd
+# 1 coldN ~ coldS 0.7742024 0.06657254
+# 2     coldN ~ S 0.7951893 0.06361020
+# 3 coldN ~ warmS 0.8238078 0.04587437
+# 4 warmN ~ coldS 0.6736832 0.08135912
+# 5     warmN ~ S 0.6997202 0.08056616
+# 6 warmN ~ warmS 0.7352253 0.06439686
+
+
+### figure S3 ###
+coldwarmbox <- 
+  ggplot(Comparisons, aes(x = Compare, y = value)) +
+  geom_boxplot(width = 0.5, outlier.size = 0.5, size = 0.3, outlier.shape = 1, color = "black", fill = "grey90") +
+  scale_x_discrete(limits = c("warmN ~ coldS", "warmN ~ S", "warmN ~ warmS", 
+                              "coldN ~ coldS", "coldN ~ S", "coldN ~ warmS")) +
+  theme_classic() +
+  theme(axis.text.x = element_text(size = 6, color = "black"),
+        axis.text.y = element_text(size = 6, color = "black"),
+        axis.title.y = element_text(size = 6, color = "black", face = "bold"),
+        axis.title.x = element_text(size = 6, color = "black", face = "bold"),
+        axis.line = element_line(size = 0.25),
+        axis.ticks = element_line(size = 0.25),
+        panel.border = element_rect(color = "grey80", fill = NA, size = 0.25)) +
+  labs(y = "Bray-Curtis dissimilarity", x = "Sample comparisons")
+coldwarmbox
+
+#ggsave("./Plots/coldwarmbox.pdf", plot = coldwarmbox, device = "pdf", width = 5, height = 3.2, units = "in")
+
+
+# test for normality
+shapiro.test(coldN_coldS_bray.m$value) # p-value = 1.823e-08
+shapiro.test(warmN_warmS_bray.m$value) # p-value = 8.94e-08
+shapiro.test(coldN_warmS_bray.m$value) # p-value = 9.984e-11
+shapiro.test(warmN_coldS_bray.m$value) # p-value = 0.001416
+# none are normally distributed, need to do mann whitney
+
+
+# which is more dissimilar?
+wilcox.test(x = coldN_coldS_bray.m$value,
+            y = warmN_warmS_bray.m$value,
+            paired = FALSE, alternative = "greater")
+# p-value < 2.2e-16
+# coldN ~ coldS > warmN ~ warmS
+
+
+# are august samples in the north more similar to the south 
+# than jan/may samples?
+wilcox.test(x = coldN_S_bray.m$value,
+            y = warmN_S_bray.m$value,
+            paired = FALSE, alternative = "greater")
+# p-value < 2.2e-16
+# coldN ~ S > warmN ~ S
+
+
+
+                                                 
 #######################################
 ### which dataset is more variable? ###
 #######################################
@@ -256,6 +394,8 @@ TS_comparisons$type <- "mke"
 # combine for boxplot
 comparisons <- rbind(south_comparisons, north_comparisons, TS_comparisons)
 
+                                                 
+### figure S4 ###                                                 
 clust <-
   ggplot(comparisons, aes(x = type, y = height)) +
   geom_boxplot(width = 0.5, outlier.size = 0.5, size = 0.3, outlier.shape = 1, color = "black", fill = "grey90") +

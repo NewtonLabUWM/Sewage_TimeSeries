@@ -178,7 +178,23 @@ cbind(aggregate(. ~ Source, mean, data = All_bray), aggregate(. ~ Source, sd, da
 # 6         Year 0.3688066 0.09263566
 
 
+# is beta diversity btwn neighborhoods and time series different?
+wilcox.test(x = subset(All_bray, Source == "Neighborhood")$Score,
+            y = subset(All_bray, Source == "JI_SS")$Score,
+            paired = FALSE)
+# p-value = 0.116
+# nope
 
+
+# does the time series have greater beta diversity than neighborhoods?
+wilcox.test(x = subset(All_bray, Source == "Cities")$Score,
+            y = subset(All_bray, Source == "Neighborhood")$Score,
+            paired = FALSE, alternative = "greater")
+# p-value < 2.2e-16
+# yes
+
+
+                                                       
 
 ###########################
 ### alpha and beta plot ###

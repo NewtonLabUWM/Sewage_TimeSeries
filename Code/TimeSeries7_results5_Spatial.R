@@ -77,7 +77,7 @@ points$label <- seq(1:nrow(points))
 points <- usmap_transform(points)
 
 
-### figure 6A ###
+### figure S3A ###
 map <- 
   plot_usmap("states", size = 0.1, fill = "azure3", color = "white") +
   scale_color_manual(values = c("#FEE08B", "#3288BD", "#D53E4F"),
@@ -138,16 +138,17 @@ Axes <- Axes[which(is.na(Axes$Period) == FALSE),]
 Axes <- merge(Axes, points[c("City", "label")], by = "City")
 
 
-### figure 6B ###
+### figure 6 / figure S3B ###
 northsouth <- 
-  ggplot(Axes, aes(x = Axis.1, y = Axis.2, color = Source, shape = Period)) +
+  ggplot(Axes, aes(x = Axis.1, y = Axis.2)) +
   geom_hline(yintercept = 0, linetype = "dashed", color = "grey80", size = 0.2) +
   geom_vline(xintercept = 0, linetype = "dashed", color = "grey80", size = 0.2) +
-  geom_point(size = 2, alpha = 0.8) +
+  geom_point(size = 1.2, alpha = 0.8, aes(color = Source, shape = Period)) +
+  stat_ellipse(aes(color = Source), alpha = 0.3, size = 0.25) +
   theme_classic() +
-  geom_text_repel(data = rbind(subset(Axes, Source == "Northern city" & Month == "August"),
-                               subset(Axes, Source == "Southern city" & Month == "January")), 
-                  aes(x = Axis.1, y = Axis.2, label = label), size = 2) +
+  # geom_text_repel(data = rbind(subset(Axes, Source == "Northern city" & Month == "August"),
+  #                              subset(Axes, Source == "Southern city" & Month == "January")), 
+  #                 aes(x = Axis.1, y = Axis.2, label = label), size = 2) +
   scale_color_manual(values = c("#FEE08B", "#3288BD", "#D53E4F"),
                      labels = c("Milwaukee", "Northern U.S.", "Southern U.S.")) +
   scale_shape_manual(values = c(20, 17, 15)) +
@@ -263,7 +264,7 @@ cbind(aggregate(. ~ Compare, mean, data = Comparisons[-c(1:2)]),
 # 6 warmN ~ warmS 0.7352253 0.06439686
 
 
-### figure S3 ###
+### figure S5 ###
 coldwarmbox <- 
   ggplot(Comparisons, aes(x = Compare, y = value)) +
   geom_boxplot(width = 0.5, outlier.size = 0.5, size = 0.3, outlier.shape = 1, color = "black", fill = "grey90") +

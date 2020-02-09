@@ -180,7 +180,7 @@ names(plot_colors) <- sort(top_genera)
 bars <- 
   ggplot(Top_genera.df, aes(x = Source, y = Rel_avg, stratum = Genus, alluvium = Genus, label = Genus, fill = Genus)) +
   geom_flow(stat = "alluvium", lode.guidance = "rightleft", alpha = 0.3) +
-  geom_stratum(color = NA, width = 0.5) +
+  geom_stratum(color = NA) +
   theme_classic() +
   scale_x_discrete(limits = c("HMP", "Neighborhoods", "TimeSeries", "Cities"),
                    labels = c("Human\nstool", "Residential\nsewers", "Milwaukee\ninfluent", "Average\nU.S. influent")) +

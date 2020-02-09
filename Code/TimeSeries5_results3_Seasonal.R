@@ -311,6 +311,44 @@ JI_aov.df$variable[JI_aov.df$p <= 0.05]
 # [1] "Air_temp_F"  "Flow_MGD"    "Ammonia_mgL"
 
 
+# get lower/upper limits of 95% confidence for significant variables
+JI_aov_pred.ls <- list()
+for(i in JI_aov.df$variable[JI_aov.df$p <= 0.05]){
+  JI_aov_pred.ls[[i]] <- predict(aov(JI_metadata.z[[i]] ~ 
+                                       subset(JI_info, Sample_name %in% rownames(JI_metadata.z))$Month),
+                                 interval = "confidence")
+}
+
+
+# extract to data frames
+JI_aov_pred_air <- data.frame(unlist(JI_aov_pred.ls[["Air_temp_F"]]), Sample_name = rownames(JI_metadata.z),
+                          Month = subset(JI_info, Sample_name %in% rownames(JI_metadata.z))$Month)
+JI_aov_pred_air$Variable <- "Airtemp"
+
+JI_aov_pred_flow <- data.frame(unlist(JI_aov_pred.ls[["Flow_MGD"]]), Sample_name = rownames(JI_metadata.z),
+                              Month = subset(JI_info, Sample_name %in% rownames(JI_metadata.z))$Month)
+JI_aov_pred_flow$Variable <- "Flow"
+
+JI_aov_pred_NH3 <- data.frame(unlist(JI_aov_pred.ls[["Ammonia_mgL"]]), Sample_name = rownames(JI_metadata.z),
+                              Month = subset(JI_info, Sample_name %in% rownames(JI_metadata.z))$Month)
+JI_aov_pred_NH3$Variable <- "NH3"
+
+JI_aov_pred <- rbind(JI_aov_pred_air, JI_aov_pred_flow, JI_aov_pred_NH3)
+
+JI_aov_pred.m <- melt(JI_aov_pred)
+
+
+# plot fitted values with lower/upper limits
+ggplot(JI_aov_pred.m, aes(x = Month, y = value, group = Month)) +
+  geom_point() + geom_line() +
+  theme_classic() +
+  facet_grid(Variable ~ .) +
+  scale_x_discrete(limits = c("January", "February", "March", "April",
+                              "May", "June", "July", "August", 
+                              "September", "October", "November", "December")) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+
 
 ###############
 ### South Shore
@@ -354,4 +392,28 @@ SS_aov.df <- SS_aov.df[complete.cases(SS_aov.df),]
 SS_aov.df$variable <- colnames(SS_metadata.z)
 SS_aov.df$variable[SS_aov.df$p <= 0.05]
 # [1] "Air_temp_F"
+
+
+# get lower/upper limits of 95% confidence for significant variables
+SS_aov_pred.ls <- list()
+for(i in SS_aov.df$variable[SS_aov.df$p <= 0.05]){
+  SS_aov_pred.ls[[i]] <- predict(aov(SS_metadata.z[[i]] ~ 
+                                  subset(SS_info, Sample_name %in% rownames(SS_metadata.z))$Month),
+                                 interval = "confidence")
+}
+
+                                             
+# extract to data frame                                             
+SS_aov_pred <- data.frame(Fit = unlist(SS_aov_pred.ls), Sample_name = rownames(SS_metadata.z),
+                          Month = subset(SS_info, Sample_name %in% rownames(SS_metadata.z))$Month)
+
+
+# plot fitted values with lower/upper limits
+ggplot(SS_aov_pred, aes(x = Month, y = Fit, group = Month)) +
+  geom_point() + geom_line() +
+  theme_classic() +
+  scale_x_discrete(limits = c("January", "February", "March", "April",
+                              "May", "June", "July", "August", 
+                              "September", "October", "November", "December")) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 

@@ -111,7 +111,7 @@ JI_ASV_dist <- vegdist(t(JI_sewer.z), method = "euclidian")
 
 
 # cluster ASVs based on euclidian distances
-JI_ASV_clus <- hclust(JI_ASV_dist, "aver")
+JI_ASV_clus <- hclust(JI_ASV_dist, method = "average")
 
 
 # add taxa info
@@ -230,7 +230,7 @@ JI_ASV_dist <- vegdist(t(JI_human.z), method = "euclidian")
 
 
 # cluster ASVs based on euclidian distances
-JI_ASV_clus <- hclust(JI_ASV_dist, "aver")
+JI_ASV_clus <- hclust(JI_ASV_dist, method = "average")
 
 
 # add taxa info
@@ -328,7 +328,7 @@ Sequence_data$Sample_name <- rownames(Sequence_data)
 
 # add month point to abundance data
 ddPCR_data <- merge(ddPCR_data, TimeSeries_info[c(1,6)], by = "Sample_name")
-Sequence_data <- merge(Sequence_data, TimeSeries_info[c(1,2,6)], by = "Sample_name")
+Sequence_data <- merge(Sequence_data, TimeSeries_info[c(1,3,8)], by = "Sample_name")
 
 
 # get significance level - this is the default line that appears

@@ -11,18 +11,20 @@ library(ggplot2)
 library(OTUtable)
 library(RColorBrewer)
 library(indicspecies)
+library(ape)
 
 
 # load data (refer to TimeSeries1_DataPrep.R)
 TimeSeries_object <- readRDS("./RData/TimeSeries_phyloseq_object.RData")
 TimeSeries_info <- read.csv("./RData/TimeSeries_sample_info.csv")
-TimeSeries_info$Collection_date <- as.Date(TimeSeries_info$Collection_date, format = "%m/%d/%y")
+TimeSeries_info$Collection_date <- as.Date(TimeSeries_info$Collection_date, format = "%Y-%m-%d")
 rownames(TimeSeries_info) <- TimeSeries_info$Sample_name
 Taxonomy_all <- read.csv("./RData/Taxonomy_all.csv")
 
 
 # human ASVs (refer to TimeSeries2_Threshold.R)
 Final_human_ASVs <- readRDS("./RData/Final_human_ASVs.RData")
+
 
 # subset the two treatment plants
 JI_object <- subset_samples(TimeSeries_object, Treatment_plant == "Jones_Island")
@@ -75,16 +77,16 @@ dim(JI_human_filt)
 ##################
 
 # stat
-TimeSeries_ord <- ordinate(TimeSeries_relabun_object, method = "PCoA")
+TimeSeries_PCoA <- pcoa(vegdist(TimeSeries_relabun, method = "bray"))
 
 
 # extract values
-TimeSeries_PCoA.df <- data.frame(TimeSeries_ord$vectors[,1:2])
+TimeSeries_PCoA.df <- data.frame(TimeSeries_PCoA$vectors[,1:2])
 
 
 # add info
 TimeSeries_PCoA.df$Sample_name <- rownames(TimeSeries_PCoA.df)
-TimeSeries_PCoA.df <- merge(TimeSeries_PCoA.df, TimeSeries_info[1:9], by = "Sample_name")
+TimeSeries_PCoA.df <- merge(TimeSeries_PCoA.df, TimeSeries_info[c(1:4,8,10)], by = "Sample_name")
 
 
 ### figure 3A ###
@@ -264,8 +266,8 @@ summary(JI_human_3mo, indvalcomp = TRUE)
 ### Jones Island
 
 # stats to test: only variables with enough data
-variables <- colnames(JI_info)[c(2:5, 7, 10:11, 24:25)]
-
+variables <- c("Year", "Air_temp_F", "Precip_48hrs_in", "Flow_MGD", "Month",
+                                 "Ammonia_mgL", "BOD5_mgL", "Phosphorus_mgL", "TSS_mgL")
 
 # CCA and environmental fit
 identical(rownames(JI_relabun), rownames(JI_info))
@@ -286,28 +288,81 @@ JI.fit
 # Month 0.5633  0.001 ***
 
 
+# separately look at sewer temp (data is only 2 years long)
+sewertemp.cca <- cca(JI_relabun ~ JI_info$Sewer_temp_F, na.action = na.exclude)
+sewertemp.fit <- envfit(sewertemp.cca ~ JI_info$Sewer_temp_F, permu = 999, na.rm = TRUE)
+sewertemp.fit
+# p = 0.001 ***
+
+
 # is the metadata itself seasonal?
-# omit NA's because zscore can't handle them
-JI_metadata <- na.omit(as.matrix(JI_info[, c(4, 5, 7, 10:11, 24:25)]))
-
-
-# normalize to z score
-JI_metadata.z <- data.frame(t(zscore(t(JI_metadata))))
+JI_metadata <- JI_info[, c(5, 6, 7, 9, 11:12, 25:26)]
 
 
 # ANOVA to check if environmental metadata is predicted by months
 JI_aov.ls <- list()
-for(i in colnames(JI_metadata.z)){
-  JI_aov.ls[[i]] <- summary(aov(JI_metadata.z[[i]] ~ 
-                                  subset(JI_info, Sample_name %in% rownames(JI_metadata.z))$Month))[[1]][["Pr(>F)"]]
+for(i in colnames(JI_metadata)){
+  JI_aov.ls[[i]] <- summary(aov(JI_metadata[[i]] ~ 
+                                  JI_info$Month))[[1]][["Pr(>F)"]]
 }
+ 
+# separately check precip
 
 JI_aov.df <- data.frame(p = unlist(JI_aov.ls))
 JI_aov.df$variable <- "na"
 JI_aov.df <- JI_aov.df[complete.cases(JI_aov.df),]
-JI_aov.df$variable <- colnames(JI_metadata.z)
+JI_aov.df$variable <- colnames(JI_metadata)
 JI_aov.df$variable[JI_aov.df$p <= 0.05]
-# [1] "Air_temp_F"  "Flow_MGD"    "Ammonia_mgL"
+# [1] "Air_temp_F"   "Sewer_temp_F" "Flow_MGD"     "Ammonia_mgL" 
+
+
+# get lower/upper limits of 95% confidence for significant variables
+JI_aov_pred.ls <- list()
+for(i in JI_aov.df$variable[JI_aov.df$p <= 0.05]){
+  JI_aov_pred.ls[[i]] <- predict(aov(JI_metadata[[i]] ~ 
+                                       subset(JI_info, Sample_name %in% rownames(JI_metadata))$Month),
+                                 interval = "confidence")
+}
+
+
+# extract to data frames
+JI_aov_pred_air <- data.frame(unlist(JI_aov_pred.ls[["Air_temp_F"]]), 
+                              Sample_name = rownames(JI_info),
+                              Month = as.character(subset(JI_info, Sample_name %in% rownames(JI_info))$Month))
+JI_aov_pred_air$Variable <- "Airtemp"
+
+temp <- JI_metadata[rownames(JI_metadata) %in% rownames(JI_metadata[-which(is.na(JI_metadata$Flow_MGD)),]),]
+JI_aov_pred_flow <- data.frame(unlist(JI_aov_pred.ls[["Flow_MGD"]]), 
+                              Sample_name = rownames(temp),
+                              Month = as.character(subset(JI_info, Sample_name %in% rownames(temp))$Month))
+JI_aov_pred_flow$Variable <- "Flow"
+
+temp <- JI_metadata[rownames(JI_metadata) %in% rownames(JI_metadata[-which(is.na(JI_metadata$Ammonia_mgL)),]),]
+JI_aov_pred_NH3 <- data.frame(unlist(JI_aov_pred.ls[["Ammonia_mgL"]]), 
+                               Sample_name = rownames(temp),
+                               Month = as.character(subset(JI_info, Sample_name %in% rownames(temp))$Month))
+JI_aov_pred_NH3$Variable <- "NH3"
+
+temp <- JI_metadata[rownames(JI_metadata) %in% rownames(JI_metadata[-which(is.na(JI_metadata$Sewer_temp_F)),]),]
+JI_aov_pred_sewer <- data.frame(unlist(JI_aov_pred.ls[["Sewer_temp_F"]]), 
+                               Sample_name = rownames(temp),
+                               Month = as.character(subset(JI_info, Sample_name %in% rownames(temp))$Month))
+JI_aov_pred_sewer$Variable <- "Sewer"
+
+JI_aov_pred <- rbind(JI_aov_pred_air, JI_aov_pred_flow, JI_aov_pred_NH3, JI_aov_pred_sewer)
+
+JI_aov_pred.m <- melt(JI_aov_pred)
+
+
+# plot fitted values with lower/upper limits
+ggplot(JI_aov_pred.m, aes(x = Month, y = value, group = Month)) +
+  geom_point() + geom_line() +
+  theme_classic() +
+  facet_grid(Variable ~ .) +
+  scale_x_discrete(limits = c("January", "February", "March", "April",
+                              "May", "June", "July", "August", 
+                              "September", "October", "November", "December")) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 
 
@@ -333,24 +388,58 @@ SS.fit
 
 
 # omit NA's because zscore can't handle them
-SS_metadata <- na.omit(as.matrix(SS_info[, c(4, 5, 7, 10:11, 24:25)]))
-
-
-# normalize to z score
-SS_metadata.z <- data.frame(t(zscore(t(SS_metadata))))
+SS_metadata <- SS_info[, c(5, 7, 9, 11:12, 25:26)]
 
 
 # ANOVA to check if environmental metadata is predicted by months
 SS_aov.ls <- list()
-for(i in colnames(SS_metadata.z)){
-  SS_aov.ls[[i]] <- summary(aov(SS_metadata.z[[i]] ~ 
-                                  subset(SS_info, Sample_name %in% rownames(SS_metadata.z))$Month))[[1]][["Pr(>F)"]]
+for(i in colnames(SS_metadata)){
+  SS_aov.ls[[i]] <- summary(aov(SS_metadata[[i]] ~ 
+                                  subset(SS_info, Sample_name %in% rownames(SS_metadata))$Month))[[1]][["Pr(>F)"]]
 }
 
 SS_aov.df <- data.frame(p = unlist(SS_aov.ls))
 SS_aov.df$variable <- "na"
 SS_aov.df <- SS_aov.df[complete.cases(SS_aov.df),]
-SS_aov.df$variable <- colnames(SS_metadata.z)
+SS_aov.df$variable <- colnames(SS_metadata)
 SS_aov.df$variable[SS_aov.df$p <= 0.05]
-# [1] "Air_temp_F"
+# [1] "Air_temp_F"      "Precip_48hrs_in"
+
+
+# get lower/upper limits of 95% confidence for significant variables
+SS_aov_pred.ls <- list()
+for(i in SS_aov.df$variable[SS_aov.df$p <= 0.05]){
+  SS_aov_pred.ls[[i]] <- predict(aov(SS_metadata[[i]] ~ 
+                                  subset(SS_info, Sample_name %in% rownames(SS_metadata))$Month),
+                                 interval = "confidence")
+}
+
+                                             
+# extract to data frame                                             
+SS_aov_pred_air <- data.frame(unlist(SS_aov_pred.ls[["Air_temp_F"]]), 
+                                Sample_name = rownames(SS_metadata),
+                                Month = as.character(subset(SS_info, Sample_name %in% rownames(SS_metadata))$Month))
+SS_aov_pred_air$Variable <- "Airtemp"
+
+temp <- SS_metadata[rownames(SS_metadata) %in% rownames(SS_metadata[-which(is.na(SS_metadata$Precip_48hrs_in)),]),]
+SS_aov_pred_precip <- data.frame(unlist(SS_aov_pred.ls[["Precip_48hrs_in"]]), 
+                              Sample_name = rownames(temp),
+                              Month = as.character(subset(SS_info, Sample_name %in% rownames(temp))$Month))
+SS_aov_pred_precip$Variable <- "Precip"
+
+
+SS_aov_pred <- rbind(SS_aov_pred_air, SS_aov_pred_precip)
+
+SS_aov_pred.m <- melt(SS_aov_pred)
+
+
+# plot fitted values with lower/upper limits
+ggplot(SS_aov_pred.m, aes(x = Month, y = value, group = Month)) +
+  geom_point() + geom_line() +
+  theme_classic() +
+  facet_grid(Variable ~ .) +
+  scale_x_discrete(limits = c("January", "February", "March", "April",
+                              "May", "June", "July", "August", 
+                              "September", "October", "November", "December")) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 

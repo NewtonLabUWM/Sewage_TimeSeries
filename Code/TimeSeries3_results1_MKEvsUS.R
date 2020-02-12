@@ -127,9 +127,9 @@ Cities.bray$Source <- "Cities"
 
 # bray curtis in same months at jones island
 colnames(JI.bray)[1:2] <- c("Sample_name", "Sample_name2")
-JI.bray <- merge(JI.bray, JI_info[1:2], by = "Sample_name")
+JI.bray <- merge(JI.bray, JI_info[c(1,3)], by = "Sample_name")
 JI_info$Sample_name2 <- JI_info$Sample_name
-JI.bray <- merge(JI.bray, JI_info[c(2,28)], by = "Sample_name2")
+JI.bray <- merge(JI.bray, JI_info[c(3,29)], by = "Sample_name2")
 
 
 # loop through and extract values that compared samples in the same months
@@ -148,9 +148,9 @@ JI.bray <- melt(JI.bray)
 JI.bray <- JI.bray[JI.bray$value > 0, ]
 JI.bray$Source <- "Jones_Island"
 colnames(JI.bray)[1:2] <- c("Sample_name", "Sample_name2")
-JI.bray <- merge(JI.bray, JI_info[c(1,3)], by = "Sample_name")
+JI.bray <- merge(JI.bray, JI_info[c(1,4)], by = "Sample_name")
 JI_info$Sample_name2 <- JI_info$Sample_name
-JI.bray <- merge(JI.bray, JI_info[c(3,28)], by = "Sample_name2")
+JI.bray <- merge(JI.bray, JI_info[c(4,29)], by = "Sample_name2")
 
 
 # loop through and extract values that compared samples in the same months
@@ -178,7 +178,23 @@ cbind(aggregate(. ~ Source, mean, data = All_bray), aggregate(. ~ Source, sd, da
 # 6         Year 0.3688066 0.09263566
 
 
+# is beta diversity btwn neighborhoods and time series different?
+wilcox.test(x = subset(All_bray, Source == "Neighborhood")$Score,
+            y = subset(All_bray, Source == "JI_SS")$Score,
+            paired = FALSE)
+# p-value = 0.116
+# nope
 
+
+# does the time series have greater beta diversity than neighborhoods?
+wilcox.test(x = subset(All_bray, Source == "Cities")$Score,
+            y = subset(All_bray, Source == "Neighborhood")$Score,
+            paired = FALSE, alternative = "greater")
+# p-value < 2.2e-16
+# yes
+
+
+                                                       
 
 ###########################
 ### alpha and beta plot ###

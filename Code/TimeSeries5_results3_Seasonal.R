@@ -329,8 +329,6 @@ for(i in colnames(JI_metadata)){
   JI_aov.ls[[i]] <- summary(aov(JI_metadata[[i]] ~ 
                                   JI_info$Month))[[1]][["Pr(>F)"]]
 }
- 
-# separately check precip
 
 JI_aov.df <- data.frame(p = unlist(JI_aov.ls))
 JI_aov.df$variable <- "na"

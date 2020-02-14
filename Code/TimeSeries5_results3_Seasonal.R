@@ -464,4 +464,3 @@ ggplot(SS_aov_pred.m, aes(x = Month, y = value, group = Month)) +
                               "May", "June", "July", "August", 
                               "September", "October", "November", "December")) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
-

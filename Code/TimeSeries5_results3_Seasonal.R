@@ -12,6 +12,7 @@ library(OTUtable)
 library(RColorBrewer)
 library(indicspecies)
 library(ape)
+library(reshape2)
 
 
 # load data (refer to TimeSeries1_DataPrep.R)
@@ -86,7 +87,7 @@ TimeSeries_PCoA.df <- data.frame(TimeSeries_PCoA$vectors[,1:2])
 
 # add info
 TimeSeries_PCoA.df$Sample_name <- rownames(TimeSeries_PCoA.df)
-TimeSeries_PCoA.df <- merge(TimeSeries_PCoA.df, TimeSeries_info[c(1:4,8,10)], by = "Sample_name")
+TimeSeries_PCoA.df <- merge(TimeSeries_PCoA.df, TimeSeries_info[c(1:10)], by = "Sample_name")
 
 
 ### figure 3A ###
@@ -105,8 +106,8 @@ months <-
   scale_shape_discrete(labels = c("Jones Island", "South Shore")) +
   theme(axis.text.x = element_text(size = 6, color = "black"),
         axis.text.y = element_text(size = 6, color = "black"),
-        axis.title.y = element_text(size = 6, color = "black"),
-        axis.title.x = element_text(size = 6, color = "black"),
+        axis.title.y = element_text(size = 6, color = "black", face = "bold"),
+        axis.title.x = element_text(size = 6, color = "black", face = "bold"),
         legend.text = element_text(size = 5, color = "black"),
         legend.title = element_text(size = 6, color = "black", face = "bold"),
         legend.position = "left",
@@ -119,23 +120,42 @@ months <-
        shape = "Treatment\nplant")
 months
 
-#ggsave("./Plots/months.pdf", plot = months, device = "pdf", width = 3, height = 2.8, units = "in")
+#ggsave("./Plots/months.pdf", plot = months, device = "pdf", width = 3.2, height = 2.8, units = "in")
 
+
+# new data for plotting axis 1 scores with water temp - need to normalize them
+TimeSeries_PCoA.df$Sewer_temp_F.z <- (TimeSeries_PCoA.df$Sewer_temp_F - min(TimeSeries_PCoA.df$Sewer_temp_F, na.rm = TRUE)) /
+  (max(TimeSeries_PCoA.df$Sewer_temp_F, na.rm = TRUE) - min(TimeSeries_PCoA.df$Sewer_temp_F, na.rm = TRUE))
+
+TimeSeries_PCoA.df$Axis.1.z <- (TimeSeries_PCoA.df$Axis.1 - min(TimeSeries_PCoA.df$Axis.1, na.rm = TRUE)) /
+  (max(TimeSeries_PCoA.df$Axis.1, na.rm = TRUE) - min(TimeSeries_PCoA.df$Axis.1, na.rm = TRUE))
+
+
+# convert to celcius
+TimeSeries_PCoA.df$Sewer_temp_C <- (TimeSeries_PCoA.df$Sewer_temp_F - 32) * (5/9)
 
 
 ### figure 3B ###
 line <- 
-  ggplot(TimeSeries_PCoA.df, aes(x = Collection_date, y = Axis.1)) +
-  geom_hline(yintercept = 0, linetype = "dashed", color = "grey80", size = 0.2) +
+  ggplot(TimeSeries_PCoA.df, aes(x = Collection_date, y = Axis.1.z)) +
+  geom_hline(yintercept = 0.44, linetype = "dashed", color = "grey80", size = 0.2) +
   geom_line(aes(color = Treatment_plant), size = 0.3) +
+  geom_line(data = subset(TimeSeries_PCoA.df, is.na(TimeSeries_PCoA.df$Sewer_temp_F) == FALSE),
+    aes(x = Collection_date, y = Sewer_temp_F.z), color = "#4292C6", size = 0.3, linetype = "longdash", alpha = 0.8) +
   geom_point(aes(shape = Treatment_plant, color = Treatment_plant), size = 1.5, alpha = 0.8) +
+  geom_point(aes(x = Collection_date, y = Sewer_temp_F.z), color = "#4292C6", shape = 1, alpha = 0.8) +
   theme_classic() +
   scale_color_manual(values = c("grey20", "grey60")) +
-  ylim(min(TimeSeries_PCoA.df$Axis.1), max(TimeSeries_PCoA.df$Axis.1)) +
   scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
+  scale_y_continuous(breaks = c(0.1, 0.27, 0.44, 0.62, 0.78, 0.94),
+                     labels = c(-0.2, -0.1, 0.0, 0.1, 0.2, 0.3), name = NULL,
+                     sec.axis = sec_axis(~ . * 1, name = "Wastewater temperature (°C)",
+                                         labels = round(seq(min(TimeSeries_PCoA.df$Sewer_temp_C, na.rm = TRUE), 
+                                                                    max(TimeSeries_PCoA.df$Sewer_temp_C, na.rm = TRUE), 
+                                                            length.out = 5)))) +
   theme(axis.text.x = element_text(size = 6, color = "black"),
         axis.text.y = element_text(size = 6, color = "black"),
-        axis.title.y = element_blank(),
+        axis.title.y = element_text(size = 6, color = "black", face = "bold"),
         axis.title.x = element_blank(),
         legend.position = "none",
         axis.line = element_line(size = 0.25),
@@ -143,7 +163,7 @@ line <-
         panel.border = element_rect(color = "grey80", fill = NA, size = 0.25))
 line
 
-#ggsave("./Plots/line.pdf", plot = line, device = "pdf", width = 3, height = 2.6, units = "in")
+#ggsave("./Plots/line.pdf", plot = line, device = "pdf", width = 3.5, height = 2.6, units = "in")
 
 
 # add season variable
@@ -159,7 +179,8 @@ TimeSeries_PCoA.df$Season[TimeSeries_PCoA.df$Month == "August" | TimeSeries_PCoA
 
 ### figure 3C ###
 seasons <- 
-  ggplot(na.omit(TimeSeries_PCoA.df), aes(x = Treatment_plant, y = Axis.1, color = Season, fill = Season)) +
+  ggplot(TimeSeries_PCoA.df[is.na(TimeSeries_PCoA.df$Season) == FALSE, ], 
+         aes(x = Treatment_plant, y = Axis.1, color = Season, fill = Season)) +
   geom_hline(yintercept = 0, linetype = "dashed", color = "grey80", size = 0.2) +
   geom_boxplot(width = 0.4, alpha = 0.5, outlier.size = 0.5, size = 0.3, outlier.shape = 1) +
   theme_classic() +
@@ -292,7 +313,10 @@ JI.fit
 sewertemp.cca <- cca(JI_relabun ~ JI_info$Sewer_temp_F, na.action = na.exclude)
 sewertemp.fit <- envfit(sewertemp.cca ~ JI_info$Sewer_temp_F, permu = 999, na.rm = TRUE)
 sewertemp.fit
-# p = 0.001 ***
+# ***VECTORS
+# 
+#                           CCA1       CA1     r2 Pr(>r)    
+# JI_info$Sewer_temp_F  0.997100 -0.076038 0.9579  0.001 ***
 
 
 # is the metadata itself seasonal?
@@ -350,44 +374,6 @@ JI_aov_pred_sewer <- data.frame(unlist(JI_aov_pred.ls[["Sewer_temp_F"]]),
 JI_aov_pred_sewer$Variable <- "Sewer"
 
 JI_aov_pred <- rbind(JI_aov_pred_air, JI_aov_pred_flow, JI_aov_pred_NH3, JI_aov_pred_sewer)
-
-JI_aov_pred.m <- melt(JI_aov_pred)
-
-
-# plot fitted values with lower/upper limits
-ggplot(JI_aov_pred.m, aes(x = Month, y = value, group = Month)) +
-  geom_point() + geom_line() +
-  theme_classic() +
-  facet_grid(Variable ~ .) +
-  scale_x_discrete(limits = c("January", "February", "March", "April",
-                              "May", "June", "July", "August", 
-                              "September", "October", "November", "December")) +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
-
-
-# get lower/upper limits of 95% confidence for significant variables
-JI_aov_pred.ls <- list()
-for(i in JI_aov.df$variable[JI_aov.df$p <= 0.05]){
-  JI_aov_pred.ls[[i]] <- predict(aov(JI_metadata.z[[i]] ~ 
-                                       subset(JI_info, Sample_name %in% rownames(JI_metadata.z))$Month),
-                                 interval = "confidence")
-}
-
-
-# extract to data frames
-JI_aov_pred_air <- data.frame(unlist(JI_aov_pred.ls[["Air_temp_F"]]), Sample_name = rownames(JI_metadata.z),
-                          Month = subset(JI_info, Sample_name %in% rownames(JI_metadata.z))$Month)
-JI_aov_pred_air$Variable <- "Airtemp"
-
-JI_aov_pred_flow <- data.frame(unlist(JI_aov_pred.ls[["Flow_MGD"]]), Sample_name = rownames(JI_metadata.z),
-                              Month = subset(JI_info, Sample_name %in% rownames(JI_metadata.z))$Month)
-JI_aov_pred_flow$Variable <- "Flow"
-
-JI_aov_pred_NH3 <- data.frame(unlist(JI_aov_pred.ls[["Ammonia_mgL"]]), Sample_name = rownames(JI_metadata.z),
-                              Month = subset(JI_info, Sample_name %in% rownames(JI_metadata.z))$Month)
-JI_aov_pred_NH3$Variable <- "NH3"
-
-JI_aov_pred <- rbind(JI_aov_pred_air, JI_aov_pred_flow, JI_aov_pred_NH3)
 
 JI_aov_pred.m <- melt(JI_aov_pred)
 
@@ -476,30 +462,6 @@ ggplot(SS_aov_pred.m, aes(x = Month, y = value, group = Month)) +
   geom_point() + geom_line() +
   theme_classic() +
   facet_grid(Variable ~ .) +
-  scale_x_discrete(limits = c("January", "February", "March", "April",
-                              "May", "June", "July", "August", 
-                              "September", "October", "November", "December")) +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
-
-
-# get lower/upper limits of 95% confidence for significant variables
-SS_aov_pred.ls <- list()
-for(i in SS_aov.df$variable[SS_aov.df$p <= 0.05]){
-  SS_aov_pred.ls[[i]] <- predict(aov(SS_metadata.z[[i]] ~ 
-                                  subset(SS_info, Sample_name %in% rownames(SS_metadata.z))$Month),
-                                 interval = "confidence")
-}
-
-                                             
-# extract to data frame                                             
-SS_aov_pred <- data.frame(Fit = unlist(SS_aov_pred.ls), Sample_name = rownames(SS_metadata.z),
-                          Month = subset(SS_info, Sample_name %in% rownames(SS_metadata.z))$Month)
-
-
-# plot fitted values with lower/upper limits
-ggplot(SS_aov_pred, aes(x = Month, y = Fit, group = Month)) +
-  geom_point() + geom_line() +
-  theme_classic() +
   scale_x_discrete(limits = c("January", "February", "March", "April",
                               "May", "June", "July", "August", 
                               "September", "October", "November", "December")) +

@@ -1,6 +1,8 @@
 #########################################
-### Results section analyzing seasonality
-### Lou LaMartina, finalized Feb 4, 2019
+### Results section "Wastewater bacterial 
+### communities assemble into seasonal 
+### steady states"
+### Lou LaMartina, finalized Mar 19, 2020
 #########################################
 
 
@@ -166,45 +168,6 @@ line
 #ggsave("./Plots/line.pdf", plot = line, device = "pdf", width = 3.5, height = 2.6, units = "in")
 
 
-# add season variable
-TimeSeries_PCoA.df$Season[TimeSeries_PCoA.df$Month == "February" | TimeSeries_PCoA.df$Month == "March" |
-                            TimeSeries_PCoA.df$Month == "April" | TimeSeries_PCoA.df$Month == "May" | 
-                            TimeSeries_PCoA.df$Month == "June"] <- "Spring"
-
-TimeSeries_PCoA.df$Season[TimeSeries_PCoA.df$Month == "August" | TimeSeries_PCoA.df$Month == "September" |
-                            TimeSeries_PCoA.df$Month == "October" | TimeSeries_PCoA.df$Month == "November" | 
-                            TimeSeries_PCoA.df$Month == "December"] <- "Fall"
-
-
-
-### figure 3C ###
-seasons <- 
-  ggplot(TimeSeries_PCoA.df[is.na(TimeSeries_PCoA.df$Season) == FALSE, ], 
-         aes(x = Treatment_plant, y = Axis.1, color = Season, fill = Season)) +
-  geom_hline(yintercept = 0, linetype = "dashed", color = "grey80", size = 0.2) +
-  geom_boxplot(width = 0.4, alpha = 0.5, outlier.size = 0.5, size = 0.3, outlier.shape = 1) +
-  theme_classic() +
-  scale_x_discrete(labels = c("Jones\nIsland", "South\nShore")) +
-  ylim(min(TimeSeries_PCoA.df$Axis.1), max(TimeSeries_PCoA.df$Axis.1)) +
-  scale_color_manual(values = c("#F46D43", "#66C2A5")) + 
-  scale_fill_manual(values = c("#F46D43", "#66C2A5")) +
-  theme(axis.text.x = element_text(size = 6, color = "black"),
-        axis.text.y = element_text(size = 6, color = "black"),
-        axis.title.y = element_blank(),
-        axis.title.x = element_blank(),
-        legend.text = element_text(size = 5, color = "black"),
-        legend.title = element_text(size = 6, color = "black", face = "bold"),
-        legend.position = c(0.29,0.93),
-        legend.background = element_rect(fill = NA),
-        axis.line = element_line(size = 0.25),
-        axis.ticks = element_line(size = 0.25),
-        panel.border = element_rect(color = "grey80", fill = NA, size = 0.25)) +
-  guides(color = guide_legend(keyheight = 0.3, keywidth = 0.3, units = "in", ncol = 1))
-seasons
-
-#ggsave("./Plots/seasons.pdf", plot = seasons, device = "pdf", width = 1.1, height = 2.7, units = "in")
-
-
 
 
 ##########################
@@ -329,6 +292,8 @@ for(i in colnames(JI_metadata)){
   JI_aov.ls[[i]] <- summary(aov(JI_metadata[[i]] ~ 
                                   JI_info$Month))[[1]][["Pr(>F)"]]
 }
+ 
+# separately check precip
 
 JI_aov.df <- data.frame(p = unlist(JI_aov.ls))
 JI_aov.df$variable <- "na"
@@ -348,31 +313,35 @@ for(i in JI_aov.df$variable[JI_aov.df$p <= 0.05]){
 
 
 # extract to data frames
+# air temp
 JI_aov_pred_air <- data.frame(unlist(JI_aov_pred.ls[["Air_temp_F"]]), 
                               Sample_name = rownames(JI_info),
                               Month = as.character(subset(JI_info, Sample_name %in% rownames(JI_info))$Month))
 JI_aov_pred_air$Variable <- "Airtemp"
 
+# flow
 temp <- JI_metadata[rownames(JI_metadata) %in% rownames(JI_metadata[-which(is.na(JI_metadata$Flow_MGD)),]),]
 JI_aov_pred_flow <- data.frame(unlist(JI_aov_pred.ls[["Flow_MGD"]]), 
                               Sample_name = rownames(temp),
                               Month = as.character(subset(JI_info, Sample_name %in% rownames(temp))$Month))
 JI_aov_pred_flow$Variable <- "Flow"
 
+# ammonia
 temp <- JI_metadata[rownames(JI_metadata) %in% rownames(JI_metadata[-which(is.na(JI_metadata$Ammonia_mgL)),]),]
 JI_aov_pred_NH3 <- data.frame(unlist(JI_aov_pred.ls[["Ammonia_mgL"]]), 
                                Sample_name = rownames(temp),
                                Month = as.character(subset(JI_info, Sample_name %in% rownames(temp))$Month))
 JI_aov_pred_NH3$Variable <- "NH3"
 
+# sewer temp
 temp <- JI_metadata[rownames(JI_metadata) %in% rownames(JI_metadata[-which(is.na(JI_metadata$Sewer_temp_F)),]),]
 JI_aov_pred_sewer <- data.frame(unlist(JI_aov_pred.ls[["Sewer_temp_F"]]), 
                                Sample_name = rownames(temp),
                                Month = as.character(subset(JI_info, Sample_name %in% rownames(temp))$Month))
 JI_aov_pred_sewer$Variable <- "Sewer"
 
+# combine
 JI_aov_pred <- rbind(JI_aov_pred_air, JI_aov_pred_flow, JI_aov_pred_NH3, JI_aov_pred_sewer)
-
 JI_aov_pred.m <- melt(JI_aov_pred)
 
 
@@ -437,21 +406,22 @@ for(i in SS_aov.df$variable[SS_aov.df$p <= 0.05]){
 }
 
                                              
-# extract to data frame                                             
+# extract to data frame   s
+# air temp
 SS_aov_pred_air <- data.frame(unlist(SS_aov_pred.ls[["Air_temp_F"]]), 
                                 Sample_name = rownames(SS_metadata),
                                 Month = as.character(subset(SS_info, Sample_name %in% rownames(SS_metadata))$Month))
 SS_aov_pred_air$Variable <- "Airtemp"
 
+# precipitation
 temp <- SS_metadata[rownames(SS_metadata) %in% rownames(SS_metadata[-which(is.na(SS_metadata$Precip_48hrs_in)),]),]
 SS_aov_pred_precip <- data.frame(unlist(SS_aov_pred.ls[["Precip_48hrs_in"]]), 
                               Sample_name = rownames(temp),
                               Month = as.character(subset(SS_info, Sample_name %in% rownames(temp))$Month))
 SS_aov_pred_precip$Variable <- "Precip"
 
-
+# combine
 SS_aov_pred <- rbind(SS_aov_pred_air, SS_aov_pred_precip)
-
 SS_aov_pred.m <- melt(SS_aov_pred)
 
 
@@ -464,3 +434,4 @@ ggplot(SS_aov_pred.m, aes(x = Month, y = value, group = Month)) +
                               "May", "June", "July", "August", 
                               "September", "October", "November", "December")) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
+

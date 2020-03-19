@@ -1,8 +1,9 @@
-##########################################
-### Results section comparing MKE temporal
-### trends to US spatial trends.
-### Lou LaMartina,  finalized Feb 4, 2020
-##########################################
+#########################################
+### Results section "Milwaukee wastewater 
+### seasonality is supported spatially 
+### across the United States"
+### Lou LaMartina, finalized Mar 19, 2020
+#########################################
 
 
 setwd("~/Desktop/TimeSeries_final")
@@ -77,7 +78,7 @@ points$label <- seq(1:nrow(points))
 points <- usmap_transform(points)
 
 
-### figure S3A ###
+### figure 6 map ###
 map <- 
   plot_usmap("states", size = 0.1, fill = "azure3", color = "white") +
   scale_color_manual(values = c("#FEE08B", "#3288BD", "#D53E4F"),
@@ -144,11 +145,10 @@ northsouth <-
   geom_hline(yintercept = 0, linetype = "dashed", color = "grey80", size = 0.2) +
   geom_vline(xintercept = 0, linetype = "dashed", color = "grey80", size = 0.2) +
   geom_point(size = 1.2, alpha = 0.8, aes(color = Source, shape = Period)) +
-  stat_ellipse(aes(color = Source), alpha = 0.3, size = 0.25) +
   theme_classic() +
-  # geom_text_repel(data = rbind(subset(Axes, Source == "Northern city" & Month == "August"),
-  #                              subset(Axes, Source == "Southern city" & Month == "January")), 
-  #                 aes(x = Axis.1, y = Axis.2, label = label), size = 2) +
+  geom_text_repel(data = rbind(subset(Axes, Source == "Northern city" & Month == "August"),
+                               subset(Axes, Source == "Southern city" & Month == "January")),
+                  aes(x = Axis.1, y = Axis.2, label = label), size = 2) +
   scale_color_manual(values = c("#FEE08B", "#3288BD", "#D53E4F"),
                      labels = c("Milwaukee", "Northern U.S.", "Southern U.S.")) +
   scale_shape_manual(values = c(20, 17, 15)) +
@@ -444,12 +444,6 @@ wilcox.test(x = TS_comparisons$height,
 
 
 
-# # # # # # # # # # # # #
-#  supporting info maps #
-# # # # # # # # # # # # #
-
-
-
 ###############
 ### USA map ###
 ###############
@@ -540,7 +534,7 @@ Cities_points[22,7] = 161912.2
 
 ### figure S1 ###
 usmap <- 
-  plot_usmap("states", size = 0.1, fill = "white", color = "azure3") +
+  plot_usmap("states", size = 0.1, fill = "white", color = "azure4") +
   geom_text_repel(data = Cities_points, size = 2, fontface = "bold", segment.size = 0.3,
                   aes(label = Label, x = Longitude.1, y = Latitude.1, color = Coverage)) +
   geom_point(data = Cities_points, size = 0.5, aes(x = Longitude.1, y = Latitude.1, color = Coverage)) +
@@ -553,58 +547,5 @@ usmap <-
   guides(color = guide_legend(keyheight = 0.2, keywidth = 0.2, units = "in", ncol = 1))
 usmap
 
-#ggsave("./Plots/usmap.pdf", plot = usmap, device = "pdf", width = 4, height = 3, units = "in")
+#ggsave("./Plots/usmap.pdf", plot = usmap, device = "pdf", width = 6, height = 4, units = "in")
 #write.csv(Cities_points[c(8,1:5)], "./Manuscript/Supporting info/usmap_points.csv", row.names = FALSE)
-
-
-
-
-#########################
-### neighborhoods map ###
-#########################
-
-# keep only neighborhood name and lat/lon
-Neighborhood_points <- Neighborhood_info[6:4]
-colnames(Neighborhood_points)[3] <- "Site"
-
-
-# add WWTP coordinates
-WWTP_info <- data.frame(Longitide = c(-87.898647, -87.851993),
-                        Latitude = c(43.022104, 42.887431),
-                        Site = c("Jones_Island", "South_Shore"))
-colnames(WWTP_info) <- colnames(Neighborhood_points)
-
-
-# combine, add source variables
-Neighborhood_points <- rbind(Neighborhood_points, WWTP_info)
-Neighborhood_points$Source <- "Neighborhood"
-Neighborhood_points$Source[Neighborhood_points$Site == "Jones_Island" |
-                             Neighborhood_points$Site == "South_Shore"] <- "WWTP"
-
-
-# transform lat/long to points
-Neighborhood_points <- usmap_transform(Neighborhood_points)
-Neighborhood_points$Label <- seq(1:nrow(Neighborhood_points))
-
-
-### figure S2 ###
-mkemap <-
-  ggplot(subset(us_map(regions = "counties"), county == "Milwaukee County"), aes(x = x, y = y)) +
-  geom_polygon(fill = "white", color = "azure3") +
-  geom_text_repel(data = Neighborhood_points, size = 2, fontface = "bold", segment.size = 0.3,
-                  aes(label = Label, x = Longitude.1, y = Latitude.1, color = Site)) +
-  geom_point(data = Neighborhood_points, size = 1, aes(x = Longitude.1, y = Latitude.1, 
-                                                         color = Site, shape = Source)) +
-  theme_classic() +
-  theme(axis.line = element_blank(),
-        axis.text = element_blank(),
-        axis.ticks = element_blank(),
-        axis.title = element_blank(),
-        legend.text = element_text(size = 6, color = "black"),
-        legend.title = element_text(size = 6, color = "black", face = "bold"),
-        legend.background = element_rect(fill = NA)) +
-  guides(color = guide_legend(keyheight = 0.2, keywidth = 0.2, units = "in", ncol = 1),
-         shape = guide_legend(keyheight = 0.2, keywidth = 0.2, units = "in", ncol = 1))
-mkemap
-
-#ggsave("./Plots/mkemap.pdf", plot = mkemap, device = "pdf", width = 3, height = 3, units = "in")

@@ -1,8 +1,9 @@
-#########################################
-### Results section comparing resident
-### sewer and human fecal ASVs.
-### Lou LaMartina, finalized Feb 4, 2019
-#########################################
+#############################################
+### Results section "Resident sewer bacterial 
+### communities are distinct from the human 
+### microbiome"
+### Lou LaMartina, finalized Mar 19, 2019
+############################################
 
 
 setwd("~/Desktop/TimeSeries_final")
@@ -238,7 +239,7 @@ WWTPmeans <- aggregate(. ~ Genus, mean, data = WWTP_top_genus.m)
 ### figure 2B ###
 genus.dots <- 
   ggplot(WWTP_top_genus.m, aes(x = Genus, y = Relabun, color = Genus)) +
-  geom_jitter(size = 1, alpha = 0.5, shape = 1, width = 0.2) +
+  geom_jitter(size = 1, alpha = 0.5, shape = 1, width = 0.3) +
   theme_classic() +
   scale_x_discrete(limits = names(sort(colSums(WWTP_top_genus.df), decreasing = TRUE))) +
   scale_color_manual(values = plot_colors) +
@@ -250,7 +251,7 @@ genus.dots <-
         axis.line = element_line(size = 0.25),
         axis.ticks = element_line(size = 0.25),
         legend.position = "none") +
-  geom_crossbar(data = WWTPmeans, aes(ymin = Relabun, ymax = Relabun), size = 0.1, color = "black") +
+  geom_crossbar(data = WWTPmeans, aes(ymin = Relabun, ymax = Relabun), size = 0.1, width = 0.8, color = "black") +
   labs(y = "Proportions of top genera\nin WWTP influent", x = "Genus", fill = "Genus")
 genus.dots
 
@@ -301,7 +302,7 @@ props <-
         panel.border = element_rect(size = 0.25, color = "grey80", fill = NA),
         axis.line = element_line(size = 0.25),
         axis.ticks = element_line(size = 0.25)) +
-  geom_crossbar(data = propmeans, aes(ymin = Prop, ymax = Prop), size = 0.1, color = "black") +
+  geom_crossbar(data = propmeans, aes(ymin = Prop, ymax = Prop), size = 0.1, width = 0.5, color = "black") +
   labs(y = "Proportions of human-associated ASVs\nin raw wastewater", x = "Source",
        color = "Mean\npercents")
 props
@@ -383,7 +384,7 @@ dots <-
         panel.border = element_rect(size = 0.25, color = "grey80", fill = NA),
         axis.line = element_line(size = 0.25),
         axis.ticks = element_line(size = 0.25)) +
-  geom_crossbar(data = means, aes(ymin = Proportion, ymax = Proportion), size = 0.2, color = "black") +
+  geom_crossbar(data = means, aes(ymin = Proportion, ymax = Proportion), size = 0.1, color = "black") +
   labs(y = "Proportions of body site associations\nof WWTP influent ASVs")
 dots
 

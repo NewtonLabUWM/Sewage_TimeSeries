@@ -139,7 +139,7 @@ Axes <- Axes[which(is.na(Axes$Period) == FALSE),]
 Axes <- merge(Axes, points[c("City", "label")], by = "City")
 
 
-### figure 6 / figure S3B ###
+### figure 6 ###
 northsouth <- 
   ggplot(Axes, aes(x = Axis.1, y = Axis.2)) +
   geom_hline(yintercept = 0, linetype = "dashed", color = "grey80", size = 0.2) +

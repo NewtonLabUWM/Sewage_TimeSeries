@@ -1,7 +1,8 @@
 #########################################
-### Results section comparing time series
-### and US cities microbial communities.
-### Lou LaMartina, finalized Feb 4, 2020
+### Results section "Wastewater bacterial 
+### community diversity scales with time 
+### and space"
+### Lou LaMartina, finalized Mar 19, 2020
 #########################################
 
 
@@ -32,6 +33,7 @@ JI_relabun <- JI_relabun[, colSums(JI_relabun) > 0]
 TimeSeries_relabun <- data.frame(TimeSeries_relabun_object@otu_table@.Data)
 Cities_relabun <- data.frame(Cities_relabun_object@otu_table@.Data)
 Neighborhood_relabun <- data.frame(Neighborhood_relabun_object@otu_table@.Data)
+
 
 
 
@@ -167,6 +169,18 @@ year.bray$Source <- "Year"
 All_bray <- rbind(month.bray, year.bray, JI.bray[3:4], JI_SS.bray[3:4], 
                   Neigh.bray[3:4], Cities.bray[3:4])
 
+rownames(All_alpha) <- 1:nrow(All_alpha)
+colnames(All_alpha)[1] <- "Score"
+All_alpha$Metric <- "Alpha"
+
+All_bray <- All_bray
+rownames(All_bray) <- 1:nrow(All_bray)
+colnames(All_bray)[1] <- "Score"
+All_bray$Metric <- "Beta"
+
+All_diversity <- rbind(All_alpha, All_bray)
+
+
 # means and standard deviations
 cbind(aggregate(. ~ Source, mean, data = All_bray), aggregate(. ~ Source, sd, data = All_bray))[-3]
 #         Source     value    value.1
@@ -200,28 +214,15 @@ wilcox.test(x = subset(All_bray, Source == "Cities")$Score,
 ### alpha and beta plot ###
 ###########################
 
-# combine
-rownames(All_alpha) <- 1:nrow(All_alpha)
-colnames(All_alpha)[1] <- "Score"
-All_alpha$Metric <- "Alpha"
-
-All_bray <- All_bray
-rownames(All_bray) <- 1:nrow(All_bray)
-colnames(All_bray)[1] <- "Score"
-All_bray$Metric <- "Beta"
-
-All_diversity <- rbind(All_alpha, All_bray)
-
 
 ### figure 1 ###
 div <-
   ggplot(All_diversity, aes(x = Source, y = Score)) +
-  geom_boxplot(width = 0.5, outlier.size = 0.5, size = 0.3, outlier.shape = 1, color = "black", fill = "grey90") +
-  facet_wrap(Metric ~ ., scales = "free_y", strip.position = "top", ncol = 1,
-             labeller = labeller(Metric = c(Alpha = "Within-sample diversity", Beta = "Between-sample diversity"))) +
+  geom_boxplot(width = 0.5, outlier.size = 0.5, size = 0.3, outlier.shape = 1, color = "black", fill = "grey80") +
+  facet_wrap(Metric ~ ., scales = "free_y", strip.position = "top", ncol = 1) +
   scale_x_discrete(limits = c("Month", "Year", "Jones_Island", "JI_SS", "Cities", "Neighborhood"),
                    labels = c(Month = "Jones\nIsland\n(single\nmonth)", Year = "Jones\nIsland\n(single\nyear)",
-                              Jones_Island = "Jones\nIsland\n(all\nmonths)", 
+                              Jones_Island = "Jones\nIsland\n(all\nyears)", 
                               JI_SS = "Jones\nIsland\nand South\nShore",
                               Cities = "71 U.S.\ncities", Neighborhood = "Milwaukee\nneighborhoods")) +
   scale_y_continuous(labels = function(x) sprintf("%.1f", x)) +
@@ -232,10 +233,10 @@ div <-
         axis.title.x = element_blank(),
         axis.line = element_line(size = 0.25),
         axis.ticks = element_line(size = 0.25),
-        panel.border = element_rect(color = "grey80", fill = NA, size = 0.25),
+        panel.border = element_rect(color = "grey70", fill = NA, size = 0.25),
         panel.spacing = unit(0.1, "inches"),
-        strip.text = element_text(size = 6, color = "black", face = "bold"),
-        strip.background = element_rect(colour = "white", fill = "white"))
+        strip.text = element_blank(),
+        strip.background = element_blank())
 div
 
-#ggsave("./Plots/diversity.pdf", plot = div, device = "pdf", width = 3.1, height = 3, units = "in")
+#ggsave("./Plots/diversity.pdf", plot = div, device = "pdf", width = 3.1, height = 2.8, units = "in")

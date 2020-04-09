@@ -1,7 +1,7 @@
 ##########################################
-### Results section analyzing seasonality
-### of human vs environmental communities.
-### Lou LaMartina, finalized Feb 4, 2019
+### Results section "Sewer bacteria drive 
+### temporal trends"
+### Lou LaMartina, finalized Mar 19, 2020
 ##########################################
 
 
@@ -18,14 +18,16 @@ library(phyloseq)
 # load data (refer to TimeSeries1_DataPrep.R)
 TimeSeries_object <- readRDS("./RData/TimeSeries_phyloseq_object.RData")
 TimeSeries_info <- read.csv("./RData/TimeSeries_sample_info.csv")
-TimeSeries_info$Collection_date <- as.Date(TimeSeries_info$Collection_date, format = "%m/%d/%y")
 rownames(TimeSeries_info) <- TimeSeries_info$Sample_name
+TimeSeries_info$Collection_date <- as.Date(TimeSeries_info$Collection_date, format = "%m/%d/%y")
+Neighborhood_info <- read.csv("./RData/Neighborhood_sample_info.csv")
 Final_human_ASVs <- readRDS("./RData/Final_human_ASVs.RData")
 Taxonomy_all <- read.csv("./RData/Taxonomy_all.csv")
 
 
 # load ddPCR data
-ddPCR_data <- read.csv("./RData/Flavo_Cloaci_HF183_ddPCR.csv")
+TimeSeries_ddPCR_data <- read.csv("./RData/TimeSeries_Flavo_Cloaci_HF183_ddPCR.csv")
+Neighborhood_ddPCR_data <- read.csv("./RData/Neighborhood_Flavo_Cloaci_HF183_ddPCR.csv")
 
 
 # human ASVs (refer to TimeSeries2_Threshold.R)
@@ -75,6 +77,26 @@ JI_human_filt <- JI_human_relabun[, -which(colnames(JI_human_relabun) %in% minta
 dim(JI_human_filt)
 # [1] 60 67
 
+
+# Function to calculate the mean and the standard deviation
+# for each group
+# http://www.sthda.com/english/wiki/ggplot2-error-bars-quick-start-guide-r-software-and-data-visualization
+data_summary <- function(data, varname, groupnames){
+  require(plyr)
+  summary_func <- function(x, col){
+    c(mean = mean(x[[col]], na.rm=TRUE),
+      sd = sd(x[[col]], na.rm=TRUE))
+  }
+  data_sum<-ddply(data, groupnames, .fun=summary_func,
+                  varname)
+  data_sum <- rename(data_sum, c("mean" = varname))
+  return(data_sum)
+}
+
+
+# decimal points in ggplot
+# https://stackoverflow.com/questions/38722202/how-do-i-change-the-number-of-decimal-places-on-axis-labels-in-ggplot2/38722547
+scaleFUN <- function(x) sprintf("%.1f", x)
 
 
 
@@ -192,7 +214,7 @@ sewer_dendro <-
   labs(x = "Month", y = "Sewer-associated ASVs\nPhylum (genus)", fill = "Z score")
 sewer_dendro
 
-#ggsave("./Plots/sewer heatmap.pdf", plot = sewer_dendro, device = "pdf", width = 4.5, height = 3.5, units = "in")
+#ggsave("./Plots/sewer heatmap.pdf", plot = sewer_dendro, device = "pdf", width = 3.5, height = 3.5, units = "in")
 
 
 
@@ -311,7 +333,7 @@ human_dendro <-
   labs(x = "Month", y = "Human-associated ASVs\nPhylum (genus)", fill = "Z score")
 human_dendro
 
-#ggsave("./Plots/human heatmap.pdf", plot = human_dendro, device = "pdf", width = 4.6, height = 3.5, units = "in")
+#ggsave("./Plots/human heatmap.pdf", plot = human_dendro, device = "pdf", width = 3.6, height = 3.5, units = "in")
 
 
 
@@ -327,7 +349,6 @@ Sequence_data$Sample_name <- rownames(Sequence_data)
 
 
 # add month point to abundance data
-ddPCR_data <- merge(ddPCR_data, TimeSeries_info[c(1,6)], by = "Sample_name")
 Sequence_data <- merge(Sequence_data, TimeSeries_info[c(1,3,8)], by = "Sample_name")
 
 
@@ -357,8 +378,8 @@ ACFs <- rbind(ASV8_acf.df[-1,], ASV42_acf.df[-1,], ASV44_acf.df[-1,])
 ### figure 5A ###
 autocorr <-
   ggplot(ACFs, aes(x = lag, y = acf)) +
-  geom_hline(yintercept = significance_level, linetype = "dashed", color = "grey90", size = 0.25) +
-  geom_hline(yintercept = -significance_level, linetype = "dashed", color = "grey90", size = 0.25) +
+  geom_hline(yintercept = significance_level, linetype = "dashed", color = "grey70", size = 0.25) +
+  geom_hline(yintercept = -significance_level, linetype = "dashed", color = "grey70", size = 0.25) +
   geom_segment(aes(xend = lag, yend = 0), size = 0.6, color = "black") +
   facet_wrap(. ~ Genus, ncol = 3) +
   theme_classic() +
@@ -369,99 +390,203 @@ autocorr <-
         axis.title.y = element_text(size = 6, color = "black", face = "bold"),
         axis.title.x = element_text(size = 6, color = "black", face = "bold"),
         legend.position = "none",
-        panel.spacing = unit(1, "lines"),
-        panel.border = element_rect(color = "black", fill = NA, size = 0.5), 
+        panel.spacing = unit(1.2, "lines"),
+        panel.border = element_rect(color = "grey80", fill = NA, size = 0.5), 
         strip.text = element_text(size = 6, color = "black", face = "bold.italic"),
-        strip.background = element_rect(colour = "white", fill = "white"),
-        axis.ticks = element_line(size = 0.25)) +
+        strip.background = element_rect(colour = "grey80", fill = "grey80"),
+        axis.ticks = element_line(size = 0.25),
+        axis.line = element_line(size = 0.25)) +
   geom_hline(aes(yintercept = 0), size = 0.25) +
   labs(y = "Autocorrelation", x = "Time lag (months)")
 autocorr
 
-#ggsave("./Plots/autocorr.pdf", plot = autocorr, device = "pdf", width = 5.1, height = 1.5, units = "in")
+#ggsave("./Plots/autocorr.pdf", plot = autocorr, device = "pdf", width = 5.2, height = 1.5, units = "in")
 
 
 
 
-#############
-### ddPCR ###
-#############
+#########################
+### time series ddPCR ###
+#########################
 
 # change order (to match facets from acf plot), change column names
-ddPCR_data <- ddPCR_data[c(1,3,4,2,5:7)]
-colnames(ddPCR_data)[2:4] <- c("Bacteroides", "Cloacibacterium", "Flavobacterium")
+TimeSeries_ddPCR_data <- TimeSeries_ddPCR_data[c(1,3,4,2,5:7)]
+colnames(TimeSeries_ddPCR_data)[2:4]
+# [1] "HF183_permL"    "cloaci08_permL" "flavo42_permL" 
+colnames(TimeSeries_ddPCR_data)[2:4] <- c("Bacteroides", "Cloacibacterium", "Flavobacterium")
 
 
 # melt
-ddPCR.m <- melt(ddPCR_data, variable.name = "Genus", value.name = "Concentration", 
+TS_ddPCR.m <- melt(TimeSeries_ddPCR_data, variable.name = "Genus", value.name = "Concentration", 
                 id.vars = c("Collection_date", "Month", "Year", "Sample_name"))
 
 
 # divide concentrations by 1 million, for simpler y axis in plot
-ddPCR.m$Concentration <- ddPCR.m$Concentration / 1000000
+TS_ddPCR.m$Concentration <- TS_ddPCR.m$Concentration / 1000000
+
+
+# summarize
+TS_summary <- data_summary(TS_ddPCR.m, groupnames = c("Genus", "Month"), varname = "Concentration")
+
 
 
 ### figure 5B ###
-ddPCR <-
-  ggplot(ddPCR.m, aes(x = Month, y = Concentration)) +
-  geom_boxplot(width = 0.5, outlier.size = 0.5, size = 0.3, color = "black", fill = "grey90") +
+TSddPCR <-
+  ggplot(TS_summary, aes(x = Month, y = Concentration, group = 1)) +
+  geom_point(size = 0.8) +
+  stat_summary(geom = "line", fun.y = "mean", size = 0.25) +
+  geom_errorbar(aes(ymin = Concentration - sd, ymax = Concentration + sd), width = 0.2, size = 0.25) +
   facet_wrap(. ~ Genus, ncol = 3, scales = "free") +
   theme_classic() +
   scale_x_discrete(limits = c("January", "February", "March", "April",
                               "May", "June", "July", "August",
                               "September", "October", "November", "December"),
                    labels = c("J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D")) +
+  scale_y_continuous(labels = scaleFUN) +
   theme(axis.text.x = element_text(size = 6, color = "black"),
         axis.text.y = element_text(size = 6, color = "black"),
         axis.title.y = element_text(size = 6, color = "black", face = "bold"),
         axis.title.x = element_text(size = 6, color = "black", face = "bold"),
         legend.position = "none",
-        panel.spacing = unit(1, "lines"),
-        panel.border = element_rect(color = "black", fill = NA, size = 0.5), 
+        panel.border = element_rect(color = "grey80", fill = NA, size = 0.5), 
         strip.text = element_text(size = 6, color = "black", face = "bold.italic"),
         strip.background = element_rect(colour = "white", fill = "white"),
-        axis.ticks = element_line(size = 0.25)) +
-  labs(y = "Counts per mL sewage\nx 1 million", x = "Month")
-ddPCR
+        axis.ticks = element_line(size = 0.25),
+        axis.line = element_line(size = 0.25)) +
+  labs(y = bquote(bold('Gene copies per mL (x 10'^6*')')), x = "Month")
+TSddPCR
 
-#ggsave("./Plots/ddPCR.pdf", plot = ddPCR, device = "pdf", width = 5, height = 1.5, units = "in")
-
-
-# means & st devs
-# HF183
-mean(Sequence_data$ASV44) # 0.002102685
-sd(Sequence_data$ASV44)   # 0.0006555036
-
-mean(ddPCR_data$Bacteroides, na.rm = TRUE) # 428324
-sd(ddPCR_data$Bacteroides, na.rm = TRUE)   # 184483
-
-# Cloaci
-mean(Sequence_data$ASV8) # 0.01124779
-sd(Sequence_data$ASV8)   # 0.006884401
-
-mean(ddPCR_data$Cloacibacterium, na.rm = TRUE) # 1546415
-sd(ddPCR_data$Cloacibacterium, na.rm = TRUE)   # 1111887
-
-# Flavo
-mean(Sequence_data$ASV42) # 0.004066128
-sd(Sequence_data$ASV42)   # 0.002467459
-
-mean(ddPCR_data$Flavobacterium, na.rm = TRUE) # 488665
-sd(ddPCR_data$Flavobacterium, na.rm = TRUE)   # 461554
+#ggsave("./Plots/TSddPCR.pdf", plot = TSddPCR, device = "pdf", width = 5.2, height = 1.5, units = "in")
 
 
 # how close are the sequence and absolute abundance data?
-summary(lm(Sequence_data$ASV8 ~ ddPCR_data$Cloacibacterium)) # R2 = 0.5776
-summary(lm(Sequence_data$ASV42 ~ ddPCR_data$Flavobacterium)) # R2 = 0.5156
-summary(lm(Sequence_data$ASV44 ~ ddPCR_data$Bacteroides)) # R2 = 0.2578
+identical(as.character(TimeSeries_ddPCR_data$Sample_name), as.character(Sequence_data$Sample_name))
+
+cor.test(Sequence_data$ASV8, TimeSeries_ddPCR_data$Cloacibacterium, method = "spearman") 
+# rho = 0.8548167, p-value < 2.2e-16
+
+cor.test(Sequence_data$ASV42, TimeSeries_ddPCR_data$Flavobacterium, method = "spearman") 
+# rho = 0.8310086, p-value < 2.2e-16
+
+cor.test(Sequence_data$ASV44, TimeSeries_ddPCR_data$Bacteroides, method = "spearman") 
+# rho = 0.4941721, p-value = 0.0005657
 
 
-# are abundances predicted by month?
-summary(aov(Sequence_data$ASV8 ~ Sequence_data$Month)) # p = 6.26e-12 ***
-summary(aov(Sequence_data$ASV42 ~ Sequence_data$Month)) # p = 1.91e-10 ***
-summary(aov(Sequence_data$ASV44 ~ Sequence_data$Month)) # p = 0.467
+# are abudances predicted by water temperatre?
+JI_info <- JI_info[order(JI_info$Sample_name),]
+identical(as.character(TimeSeries_ddPCR_data$Sample_name), as.character(JI_info$Sample_name))
 
-summary(aov(ddPCR_data$Cloacibacterium ~ ddPCR_data$Month)) # p = 4.88e-10 ***
-summary(aov(ddPCR_data$Flavobacterium ~ Sequence_data$Month)) # p = 0.0231 *
-summary(aov(ddPCR_data$Bacteroides ~ Sequence_data$Month)) # p = 0.0263 *
+cor.test(Sequence_data$ASV8, JI_info$Sewer_temp_F, method = "spearman") 
+# rho = 0.8973468, p-value = 2.84e-09
+
+cor.test(Sequence_data$ASV42, JI_info$Sewer_temp_F, method = "spearman") 
+# rho = -0.8890823, p-value = p-value = 6.396e-09
+
+cor.test(Sequence_data$ASV44, JI_info$Sewer_temp_F, method = "spearman") 
+# rho = -0.2218356, p-value = 0.2975
+
+
+
+
+##########################
+### neighborhood ddPCR ###
+##########################
+
+
+# add time series quants
+colnames(Neighborhood_ddPCR_data)[2:4]
+colnames(Neighborhood_ddPCR_data)[2:4] <- c("Bacteroides", "Cloacibacterium", "Flavobacterium")
+Neighborhood_ddPCR_data <- rbind(Neighborhood_ddPCR_data, TimeSeries_ddPCR_data[1:4])
+Neighborhood_ddPCR_data$Source <- "Neighborhood"
+Neighborhood_ddPCR_data$Source[Neighborhood_ddPCR_data$Sample_name %in% TimeSeries_info$Sample_name] <- "TimeSeries"
+
+
+# melt
+Neigh_ddPCR.m <- melt(Neighborhood_ddPCR_data, variable.name = "Genus", value.name = "Concentration", 
+                   id.vars = c("Sample_name", "Source"))
+
+
+# divide concentrations by 1 million, for simpler y axis in plot (same as time series)
+Neigh_ddPCR.m$Concentration <- Neigh_ddPCR.m$Concentration / 1000000
+
+
+# get means
+means <- aggregate(. ~ Source + Genus, mean, data = Neigh_ddPCR.m[-1])
+means
+#         Source           Genus Concentration
+# 1 Neighborhood     Bacteroides     1.6007460
+# 2   TimeSeries     Bacteroides     0.4283243
+# 3 Neighborhood Cloacibacterium     0.2190466
+# 4   TimeSeries Cloacibacterium     1.5464150
+# 5 Neighborhood  Flavobacterium     0.3713728
+# 6   TimeSeries  Flavobacterium     0.4886650
+
+
+### figure 5C ###
+neigh_ddPCR <-
+  ggplot(Neigh_ddPCR.m, aes(x = Source, y = Concentration)) +
+  geom_jitter(size = 1, alpha = 0.8, shape = 1, color = "grey60") +
+  facet_wrap(. ~ Genus, ncol = 3, scales = "free_y") +
+  scale_x_discrete(labels = c("Residential\nsewers", "Treatment\nplant influent")) +
+  scale_y_continuous(labels = scaleFUN) +
+  theme_classic() +
+  theme(axis.text.x = element_text(size = 6, color = "black"),
+        axis.text.y = element_text(size = 6, color = "black"),
+        axis.title.y = element_text(size = 6, color = "black", face = "bold"),
+        axis.title.x = element_blank(),
+        legend.position = "none",
+        panel.border = element_rect(color = "grey80", fill = NA, size = 0.5), 
+        strip.text = element_text(size = 6, color = "black", face = "bold.italic"),
+        strip.background = element_rect(colour = "white", fill = "white"),
+        axis.ticks = element_line(size = 0.25),
+        axis.line = element_line(size = 0.25)) +
+  geom_crossbar(data = means, aes(ymin = Concentration, ymax = Concentration), size = 0.1, width = 0.8, color = "black") +
+  labs(y = bquote(bold('Gene copies per mL (x 10'^6*')')))
+neigh_ddPCR
+
+#ggsave("./Plots/neigh_ddPCR.pdf", plot = neigh_ddPCR, device = "pdf", width = 5.2, height = 1.5, units = "in")
+
+
+
+
+###################
+### quant stats ###
+###################
+
+# time series ddPCR
+TS_ddPCR_stats <- data.frame(aggregate(. ~ Genus, mean, data = TS_ddPCR.m[5:6]),
+                        aggregate(. ~ Genus, sd, data = TS_ddPCR.m[5:6])[2])
+colnames(TS_ddPCR_stats)[2:3] <- c("mean", "sd")
+TS_ddPCR_stats
+#             Genus      mean        sd
+# 1     Bacteroides 0.4283243 0.1844833
+# 2 Cloacibacterium 1.5464150 1.1118871
+# 3  Flavobacterium 0.4886650 0.4615540
+
+
+# increase Flavo neighborhoods to WWTP
+means[6,3] / means[5,3]
+# [1] 1.315834
+
+
+# increase Cloaci neighborhoods to WWTP
+means[4,3] / means[3,3]
+# [1] 7.059754
+
+
+# decrease Bacteroides neighborhoods to WWTP
+means[1,3] / means[2,3]
+# [1] 7.059754
+
+
+# sequencing
+TS_seq_stats <- data.frame(Genus = TS_ddPCR_stats$Genus, 
+                           mean = c(mean(Sequence_data$ASV44), mean(Sequence_data$ASV8), mean(Sequence_data$ASV42)),
+                           sd = c(sd(Sequence_data$ASV44), sd(Sequence_data$ASV8), sd(Sequence_data$ASV42)))
+cbind(TS_seq_stats[1], TS_seq_stats[2:3] * 100)
+#             Genus      mean         sd
+# 1     Bacteroides 0.2103109 0.06555714
+# 2 Cloacibacterium 1.1249916 0.68851254
+# 3  Flavobacterium 0.4067064 0.24681467
+
 

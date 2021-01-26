@@ -15,4 +15,4 @@
 
 
 ## FASTQ files
-* [NCBI Short Read Archive](https://dataview.ncbi.nlm.nih.gov/object/PRJNA597057?reviewer=ese28bvsdbj8hpbrdgi2nipk7f)
+* [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA597057)

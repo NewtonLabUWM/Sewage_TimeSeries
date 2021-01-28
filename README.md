@@ -1,5 +1,5 @@
 # Urban wastewater bacterial communities assemble into seasonal steady states
-### Lou LaMartina, Aurash A. Mohaimani, Ryan J. Newton
+### Emily Lou LaMartina, Aurash A. Mohaimani, Ryan J. Newton
 
 <b>Background:</b> Microorganisms in urban sanitary sewers exhibit community properties that suggest sewers are a novel ecosystem. Sewer microorganisms present both an opportunity as a control point for wastewater treatment and a risk to human health. If treatment processes are to be improved and health risks quantified, then it is necessary to understand microbial distributions and dynamics within this community. Here, we use 16S rRNA gene sequencing to characterize raw wastewater bacterial communities in a five-year time series of wastewater treatment plants in Milwaukee, WI; 77 wastewater treatment plants across the United States (US); and in Milwaukee residential sewers. 
 
@@ -15,4 +15,7 @@
 
 
 ## FASTQ files
-* [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA597057)
+
+### NCBI Sequence Read Archive
+
+[PRJNA597057](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA597057): Wastewater temporal and spatial meta-analysis
